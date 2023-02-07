@@ -65,6 +65,13 @@ a {
     width: 200px;
 }
 
-p {
-    position: absolute;
+.main-logo{
+    position: relative;
+    left: 22%;
+    top: -8%;
+}
+
+.main-logo img{
+    width: 50%;
+    height: 50%;
 }
