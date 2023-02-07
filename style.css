@@ -11,11 +11,16 @@ ul li {
     display: inline-block;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .sec-one {
     position: relative;
     height: 100vh;
     background-size: cover;
     overflow: hidden;
+
 }
 
 a {
@@ -68,7 +73,7 @@ a {
 .main-logo {
     position: relative;
     left: 4%;
-    top: 22%;
+    top: 23%;
 }
 
 .main-logo img {
@@ -97,9 +102,29 @@ a {
     font-family: 'Syne';
 
 }
-.text p{
+
+.text p {
     color: #fff455;
 }
+
 .text span {
     color: #f5d41d;
+}
+
+/* ----------  section two --------------- */
+
+.sec-two {
+    background: linear-gradient(135deg, #193064, #b81cab);
+    color: white;
+    height: 700px;
+}
+
+#gallery {
+    margin: 1rem;
+}
+
+#gallery img {
+    margin: 1rem;
+    width: 200px;
+    height: 200px;
 }
