@@ -65,21 +65,41 @@ a {
     width: 200px;
 }
 
-.main-logo{
+.main-logo {
     position: relative;
     left: 4%;
     top: 22%;
 }
 
-.main-logo img{
+.main-logo img {
     width: 45%;
     height: 45%;
 }
-.gripking-text{
-    position: absolute;
-    top: 10%;
-    left:45%;
-    /* width: 45%; */
-    /* height: 45%; */
 
+.text {
+    position: absolute;
+    width: 50%;
+    left: 45%;
+    text-align: center;
+}
+
+.text p {
+    margin: 15px 0;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Syne';
+
+}
+
+.text h4 {
+    font-size: 80px;
+    color: #d8d8d8;
+    font-family: 'Syne';
+
+}
+.text p{
+    color: #2b2b2b;
+}
+.text span {
+    color: #f5d41d;
 }
