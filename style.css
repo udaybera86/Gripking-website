@@ -67,11 +67,19 @@ a {
 
 .main-logo{
     position: relative;
-    left: 5%;
-    top: 8%;
+    left: 4%;
+    top: 22%;
 }
 
 .main-logo img{
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: 45%;
+}
+.gripking-text{
+    position: absolute;
+    top: 10%;
+    left:45%;
+    /* width: 45%; */
+    /* height: 45%; */
+
 }
