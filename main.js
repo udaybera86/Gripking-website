@@ -15,7 +15,7 @@ function carousel() {
   let x2 = width;
 
   function clone() {
-    list2 = list.cloneNode(true);
+    list2 = list.cloneNode(false);
     carouselSlider.appendChild(list2);
     list2.style.left = `${width}px`;
   }
