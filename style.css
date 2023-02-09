@@ -40,7 +40,9 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-
+.col-25{
+    width: 25%;
+}
 .jsc {
     justify-content: space-between;
 }
@@ -113,3 +115,42 @@ a {
 
 /* ----------  section two --------------- */
 
+
+
+/* *************** section three *******************  */
+.sec-three{
+    /* background-color: #9eb3af; */
+    background: linear-gradient(180deg,#193064,#b81cab);
+
+}
+.title{
+    font-size: 50px;
+    color: #cabc41;
+    font-family: 'Syne';
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin: 0 0 50px 0;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 0 100px 0;
+}
+
+.image p{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: rgb(220, 231, 66);
+    font-family: 'Syne';
+}
+.image{
+    margin: 50px 0;
+}
+.image img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+} 
