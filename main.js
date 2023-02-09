@@ -33,7 +33,7 @@ function carousel() {
   function moveSecond() {
     x2 -= speed;
 
-    if (list2.offsetWidth >= Math.abs(x2)) {
+    if (list2.offsetWidth <= Math.abs(x2)) {
       list2.style.left = `${x2}px`;
     } else {
       x2 = width;
@@ -46,14 +46,14 @@ function carousel() {
   }
 
   function unhover() {
-    a = setInterval(moveFirst, 10);
+    a = setInterval(moveFirst,5);
     b = setInterval(moveSecond, 10);
   }
 
   clone();
 
-  let a = setInterval(moveFirst, 10);
-  let b = setInterval(moveSecond, 10);
+  let a = setInterval(moveFirst,10);
+  let b = setInterval(moveSecond, );
 
   carouselSlider.addEventListener("mouseenter", hover);
   carouselSlider.addEventListener("mouseleave", unhover);
