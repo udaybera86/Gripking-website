@@ -1,6 +1,7 @@
 "use strict";
 
 document.querySelector('video').playbackRate = .95 ;
+"use strict";
 
 function carousel() {
   let carouselSlider = document.querySelector(".carousel__slider");
@@ -15,7 +16,7 @@ function carousel() {
   let x2 = width;
 
   function clone() {
-    list2 = list.cloneNode(false);
+    list2 = list.cloneNode(true);
     carouselSlider.appendChild(list2);
     list2.style.left = `${width}px`;
   }
@@ -33,7 +34,7 @@ function carousel() {
   function moveSecond() {
     x2 -= speed;
 
-    if (list2.offsetWidth <= Math.abs(x2)) {
+    if (list2.offsetWidth >= Math.abs(x2)) {
       list2.style.left = `${x2}px`;
     } else {
       x2 = width;
@@ -46,18 +47,17 @@ function carousel() {
   }
 
   function unhover() {
-    a = setInterval(moveFirst,5);
-    b = setInterval(moveSecond, 10);
+    a = setInterval(moveFirst, 6);
+    b = setInterval(moveSecond, 6);
   }
 
   clone();
 
-  let a = setInterval(moveFirst,10);
-  let b = setInterval(moveSecond, );
+  let a = setInterval(moveFirst, 12);
+  let b = setInterval(moveSecond, 12);
 
   carouselSlider.addEventListener("mouseenter", hover);
   carouselSlider.addEventListener("mouseleave", unhover);
 }
 
 carousel();
-
