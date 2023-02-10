@@ -47,17 +47,30 @@ function carousel() {
   }
 
   function unhover() {
-    a = setInterval(moveFirst, 6);
-    b = setInterval(moveSecond, 6);
+    a = setInterval(moveFirst, 5);
+    b = setInterval(moveSecond, 5);
   }
 
   clone();
 
-  let a = setInterval(moveFirst, 12);
-  let b = setInterval(moveSecond, 12);
+  let a = setInterval(moveFirst, 10);
+  let b = setInterval(moveSecond, 10);
 
   carouselSlider.addEventListener("mouseenter", hover);
   carouselSlider.addEventListener("mouseleave", unhover);
 }
 
 carousel();
+
+$(document).ready(function(){
+  $("#testimonial-slider").owlCarousel({
+      items:2,
+      itemsDesktop:[1000,2],
+      itemsDesktopSmall:[980,1],
+      itemsTablet:[768,1],
+      pagination:true,
+      navigation:true,
+      navigationText:["<",">"],
+      autoPlay:true
+  });
+});
