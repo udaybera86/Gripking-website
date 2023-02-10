@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -268,4 +269,80 @@ ul {
 i.fa.fa-quote-left {
     padding: 0px 10px;
     color: #999;
+}
+
+/* 
+ */
+/* ----------------------SECTION INFO------------------------- */
+/* 
+ */
+ .info {
+    background: linear-gradient(180deg,#193064,#b81cab);
+    /* background-color: #303030; */
+}
+
+
+.col-40 {
+    width: 40%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-40 p {
+    width: 400px;
+    padding: 50px 0 20px 0;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.col-40 h5 {
+    padding: 60px 0 0 0;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+.col-20 h5 {
+    padding: 60px 0 0 0;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+.contact-us ul {
+    list-style: none;
+}
+
+.contact-us ul li a i {
+    font-size: 20px;
+    color: white;
+    margin: 0 5px;
+    border-radius: 40%;
+    padding: 0 0 50px 0;
+}
+
+.col-20 ul {
+    list-style: none;
+    padding: 50px 0 20px 0;
+}
+
+.col-20 ul li {
+    padding: 5px 0;
+    display: block;
+}
+
+.col-20 ul li a {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 200;
+    font-family: "Montserrat";
+    text-decoration: none;
 }
