@@ -69,8 +69,8 @@ $(document).ready(function(){
       itemsDesktopSmall:[980,1],
       itemsTablet:[768,1],
       pagination:true,
-      navigation:true,
-      navigationText:["<",">"],
+      // navigation:true,
+      // navigationText:["<",">"],
       autoPlay:true
   });
 });
