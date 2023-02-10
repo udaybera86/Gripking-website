@@ -60,3 +60,4 @@ function carousel() {
 }
 
 carousel();
+
