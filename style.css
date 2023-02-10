@@ -115,7 +115,10 @@ a {
 
 /* ----------  section two --------------- */
 
-
+.sec-two{
+    background: linear-gradient(360deg,#193064,#b81cab);
+    height: 80vh;
+}
 
 /* *************** section three *******************  */
 .sec-three{
@@ -123,7 +126,9 @@ a {
     background: linear-gradient(180deg,#193064,#b81cab);
 
 }
+
 .title{
+    /* this class also works in section four same class added in section four */
     font-size: 50px;
     color: #cabc41;
     font-family: 'Syne';
@@ -134,8 +139,8 @@ a {
 .card{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0 0 100px 0;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
 }
 
 .image p{
@@ -154,3 +159,11 @@ a {
     width: 110px;
     height: 110px;
 } 
+
+/* *************** Section Four *******************  */
+
+.sec-four{
+    /* background-color: #9eb3af; */
+    background: linear-gradient(360deg,#193064,#b81cab);
+    height: 80vh;
+}
