@@ -120,13 +120,10 @@ a {
     height: 80vh;
 }
 
-/* *************** section three *******************  */
-.sec-three{
-    /* background-color: #9eb3af; */
-    background: linear-gradient(180deg,#193064,#b81cab);
-
+.carousel__item img{
+    width: 300px;
+    height: 200px;
 }
-
 
 ul {
     margin: 0;
@@ -148,7 +145,7 @@ ul {
     position: relative;
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 160vw;
     /* border: 2px solid #333; */
     height: 300px;
   }
@@ -168,11 +165,11 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    /* height: 300px; */
     margin: 0 20px 0 0;
-    border: 2px solid #333;
-    border-radius: 50px;
+    /* border: 2px solid #333; */
+    /* border-radius: 50px; */
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
@@ -184,6 +181,13 @@ ul {
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0.7);
   }
+
+/* *************** section three *******************  */
+.sec-three{
+    /* background-color: #9eb3af; */
+    background: linear-gradient(180deg,#193064,#b81cab);
+
+}
 
 .title{
     /* this class also works in section four same class added in section four */
