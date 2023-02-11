@@ -1,6 +1,6 @@
 "use strict";
 
-document.querySelector('video').playbackRate = .95 ;
+document.querySelector('video').playbackRate = .95;
 "use strict";
 
 function carousel() {
@@ -47,8 +47,8 @@ function carousel() {
   }
 
   function unhover() {
-    a = setInterval(moveFirst, 5);
-    b = setInterval(moveSecond, 5);
+    a = setInterval(moveFirst, 1);
+    b = setInterval(moveSecond, 1);
   }
 
   clone();
@@ -62,15 +62,15 @@ function carousel() {
 
 carousel();
 
-$(document).ready(function(){
+$(document).ready(function () {
   $("#testimonial-slider").owlCarousel({
-      items:2,
-      itemsDesktop:[1000,2],
-      itemsDesktopSmall:[980,1],
-      itemsTablet:[768,1],
-      pagination:true,
-      // navigation:true,
-      // navigationText:["<",">"],
-      autoPlay:true
+    items: 2,
+    itemsDesktop: [1000, 2],
+    itemsDesktopSmall: [980, 1],
+    itemsTablet: [768, 1],
+    pagination: true,
+    // navigation:true,
+    // navigationText:["<",">"],
+    autoPlay: true
   });
 });

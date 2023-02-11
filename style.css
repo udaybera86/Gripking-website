@@ -152,9 +152,11 @@ ul {
     position: relative;
     display: flex;
     align-items: center;
-    width: 160vw;
+    width: 170vw;
+    /* width: clamp(500px,170vw,900px); */
     /* border: 2px solid #333; */
     height: 300px;
+    /* margin-right:30px ; */
   }
   
   .carousel__list {
@@ -199,6 +201,7 @@ ul {
 .title{
     /* this class also works in section four same class added in section four */
     font-size: 50px;
+    /* font-size: clamp(1rem,60vw,6rem); */
     color: #cabc41;
     font-family: 'Syne';
     text-align: center;
