@@ -59,12 +59,18 @@ a {
     justify-content: space-between;
     line-height: 80px;
 }
+/* navbar hover effact */
 
+.navbar a:hover{
+    color: rgb(255, 166, 0);
+
+}
 .navbar a {
     color: #fff;
     font-size: 20px;
     margin: 5px;
     font-family: "syne";
+    transition: all .9s ease-in-out;
 }
 
 .logo img {
