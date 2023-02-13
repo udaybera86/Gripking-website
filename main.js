@@ -53,8 +53,8 @@ function carousel() {
 
   clone();
 
-  let a = setInterval(moveFirst, 2);
-  let b = setInterval(moveSecond, 2 );
+  let a = setInterval(moveFirst, 1);
+  let b = setInterval(moveSecond, 1);
 
   carouselSlider.addEventListener("mouseenter", hover);
   carouselSlider.addEventListener("mouseleave", unhover);
