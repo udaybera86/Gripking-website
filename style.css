@@ -67,6 +67,8 @@ a {
 
 .navbar a:hover {
     color: rgb(255, 166, 0);
+    text-shadow: 0 0 5px #ffee10;
+
 
 }
 
@@ -75,7 +77,7 @@ a {
     font-size: 20px;
     margin: 5px;
     font-family: "syne";
-    transition: all .9s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .logo img {
@@ -359,7 +361,7 @@ i.fa.fa-quote-left {
 }
 
 .contact-us ul li a i {
-    font-size: 25px;
+    font-size: 35px;
     color: white;
     margin: 0 5px;
     border-radius: 40%;
@@ -389,4 +391,6 @@ i.fa.fa-quote-left {
 .info a i:hover {
     color: rgb(255, 166, 0);
     /* transform: scale(2); */
+    /* box-shadow: 0 0 5px #ffee10; */
+    text-shadow: 0 0 5px #ffee10;
 }
