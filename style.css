@@ -131,7 +131,7 @@ a {
 
 .sec-two {
     background: linear-gradient(360deg, #193064, #b81cab);
-    height: 80vh;
+    height: 60vh;
 }
 
 .carousel__item img {
@@ -148,7 +148,7 @@ ul {
 .carousel {
     position: relative;
     overflow: hidden;
-    top: 30%;
+    top:15%;
     /* background-color: rgb(212, 251, 0); */
     /* background: linear-gradient(10deg, rgba(212, 251, 0, 0.5) 0%, rgba(255, 0, 245, 0.5) 100%); */
     /* box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15); */
@@ -419,7 +419,7 @@ i.fa.fa-quote-left {
   }
 
   .abc .a {
-    background-color: rgba(19, 30, 33, 0.4);
+    /* background-color: rgba(19, 30, 33, 0.4); */
     position: absolute;
     z-index: 1000;
     top: 0;
