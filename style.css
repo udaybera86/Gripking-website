@@ -148,7 +148,7 @@ ul {
 .carousel {
     position: relative;
     overflow: hidden;
-    top:15%;
+    top: 15%;
     /* background-color: rgb(212, 251, 0); */
     /* background: linear-gradient(10deg, rgba(212, 251, 0, 0.5) 0%, rgba(255, 0, 245, 0.5) 100%); */
     /* box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.15); */
@@ -399,26 +399,18 @@ i.fa.fa-quote-left {
 /* testing code */
 
 
-.fond {
-    position: absolute;
-    padding-top: 85px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #65C6BB;
-  }
 
-  .abc {
+
+.abc {
     display: table-cell;
     width: 250px;
     height: 250px;
     background-size: cover;
     overflow: hidden;
     position: relative;
-  }
+}
 
-  .abc .a {
+.abc .a {
     /* background-color: rgba(19, 30, 33, 0.4); */
     position: absolute;
     z-index: 1000;
@@ -427,13 +419,13 @@ i.fa.fa-quote-left {
     right: 0;
     bottom: 0;
 
-  }
+}
 
-  .abc:hover .a {
-    background-color: rgba(16, 23, 41, 0);
-  }
+.abc:hover .a {
+    /* background-color: rgba(16, 23, 41, 0); */
+}
 
-  .abc .b {
+.abc .b {
     position: absolute;
     text-transform: uppercase;
     font-family: 'Roboto';
@@ -441,7 +433,7 @@ i.fa.fa-quote-left {
     z-index: 1000;
     top: 60%;
     left: -80%;
-    color: #ffffff;
+    /* color: #ffffff; */
     font-weight: 300;
     font-size: 13px;
     width: 80%;
@@ -450,15 +442,15 @@ i.fa.fa-quote-left {
     -ms-transition: all 0.7s;
     transition: all 0.7s;
 
-  }
+}
 
-  .abc:hover .b {
-    background-color: #1e4944;
+.abc:hover .b {
+    /* background-color: #1e4944; */
     left: 20px;
 
-  }
+}
 
-  .abc .c {
+.abc .c {
     position: absolute;
     font-family: 'Roboto';
     padding: 5px;
@@ -474,9 +466,9 @@ i.fa.fa-quote-left {
     -moz-transition: all 0.7s;
     -ms-transition: all 0.7s;
     transition: all 0.7s;
-  }
+}
 
-  .abc:hover .c {
-    background-color: #417c74;
+.abc:hover .c {
+    /* background-color: #417c74; */
     right: 18px;
-  }
+}
