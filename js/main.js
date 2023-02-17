@@ -1,7 +1,7 @@
 "use strict";
 
 document.querySelector('video').playbackRate = .95;
-<<<<<<< Updated upstream
+// <<<<<<< Updated upstream
 // "use strict";
 
 // function carousel() {
