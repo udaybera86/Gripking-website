@@ -1,6 +1,7 @@
 "use strict";
 
 document.querySelector('video').playbackRate = .95;
+<<<<<<< Updated upstream
 // "use strict";
 
 // function carousel() {
@@ -61,6 +62,8 @@ document.querySelector('video').playbackRate = .95;
 // }
 
 // carousel();
+=======
+>>>>>>> Stashed changes
 
 $(document).ready(function () {
   $("#testimonial-slider").owlCarousel({
