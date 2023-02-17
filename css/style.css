@@ -63,74 +63,10 @@ a {
     line-height: 80px;
 }
 
-/* Drop-down Menu */
-
-.dropdown-container{
-    display: flex;
-    justify-content: center;
-}
-
-.drop-down{
-    height: 250px;
-    width: 900px;
-    background-color: rgb(56, 50, 50);
-    position: absolute;
-    z-index: 1;
-    margin-right: 80px;
-}
-
-.horizontal-line{
-    height: 4px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0), #ff7425, #ff7425,#ff7425, rgba(255, 255, 255, 0));
-}
-
-.dropdown-items{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 25px;
-    line-height: 40px;
-    color:#fff;
-    font-family: "syne";
-    
-}
-
-.dropdown-items a{
-    color: #fff;
-}
-
-.borderline{
-    width: 2px;
-    height: 190px;
-    background-color: #fff;
-    border-radius: 5px;
-}
-
-.dropdown-items p:hover a{
-    color: #ff7425;
-    transition: all 0.4s ease-in-out;
-}
-
-.dropdown-container{
-    /* visibility: hidden;
-    opacity: 0; */
-    /* display: none; */
-}
-
-#product:hover .dropdown-container{
-    /* visibility: visible;
-    opacity: 1; */
-    /* display: block; */
-}
-
-/* <--- navbar hover effact ---> */
+/* navbar hover effact */
 
 .navbar a:hover {
-<<<<<<< Updated upstream
-    color: #ff7425;
-=======
     color: rgb(255, 166, 0);
->>>>>>> Stashed changes
 }
 
 .navbar a {
@@ -138,7 +74,7 @@ a {
     font-size: 20px;
     margin: 5px;
     font-family: "syne";
-    transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .logo img {
@@ -190,9 +126,6 @@ a {
 
 /* ----------  section two --------------- */
 
-<<<<<<< Updated upstream
-
-=======
 .carousel__item img {
     width: 300px;
     height: 200px;
@@ -246,7 +179,6 @@ ul {
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0.7);
 }
->>>>>>> Stashed changes
 
 /* *************** section three *******************  */
 .sec-three {
