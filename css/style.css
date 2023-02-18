@@ -17,13 +17,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.sec-one {
-    position: relative;
-    height: 100vh;
-    background-size: cover;
-    overflow: hidden;
-
-}
 
 a {
     text-decoration: none;
@@ -51,6 +44,16 @@ a {
     justify-content: space-between;
 }
 
+/* ////////////////////// setion one //////////////// */
+
+.sec-one {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
 .nav-links {
     width: 50%;
 }
@@ -61,6 +64,7 @@ a {
     display: flex;
     justify-content: space-between;
     line-height: 80px;
+    top: 0;
 }
 
 /* Drop-down Menu */
@@ -112,14 +116,14 @@ a {
 }
 
 .dropdown-container {
-    /* visibility: hidden;
-    opacity: 0; */
+    /* visibility: hidden; */
+    /* opacity: 0;  */
     /* display: none; */
 }
 
 #product:hover .dropdown-container {
-    /* visibility: visible;
-    opacity: 1; */
+    /* visibility: visible; */
+    /* opacity: 1;  */
     /* display: block; */
 }
 
@@ -185,7 +189,7 @@ a {
     color: #f5d41d;
 }
 
-/* ----------  section two --------------- */
+/* ---------------  section two --------------------- */
 
 .carousel__item img {
     width: 300px;
