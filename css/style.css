@@ -72,8 +72,8 @@ a {
 .dropdown-container {
     display: flex;
     justify-content: center;
-    position: relative;
-    min-height: 250px;
+    /* position: relative; */
+    /* min-height: 250px; */
 }
 
 .drop-down {
