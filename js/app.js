@@ -2,24 +2,25 @@
 
 document.querySelector('video').playbackRate = .95;
 
-// $(document).ready(function () {
-//   $("#testimonial-slider").owlCarousel({
-//     items: 2,
-//     itemsDesktop: [1000, 2],
-//     itemsDesktopSmall: [980, 1],
-//     itemsTablet: [768, 1],
-//     pagination: true,
-//     // navigation:true,
-//     // navigationText:["<",">"],
-//     autoPlay: true
-//   });
-// });
+$(document).ready(function () {
+  $("#testimonial-slider").owlCarousel({
+    items: 2,
+    itemsDesktop: [1000, 2],
+    itemsDesktopSmall: [980, 1],
+    itemsTablet: [768, 1],
+    pagination: true,
+    // navigation:true,
+    // navigationText:["<",">"],
+    autoPlay: true
+  });
+});
 
 
 // <--- Dropdown menu hover --->
 
 $("#product").mouseover(function () {
   $(".dropdown-container").slideDown();
+  // $(".dropdown-container").css("display", "block");
 });
 
 $(".dropdown-container").mouseover(function () {
@@ -32,6 +33,7 @@ $(".dropdown-container").mouseleave(function () {
 
 $("#product").mouseleave(function () {
   $(".dropdown-container").slideUp();
+  // $(".dropdown-container").css("display", "none");
 });
 
 

@@ -72,14 +72,17 @@ a {
 .dropdown-container {
     display: flex;
     justify-content: center;
+    position: relative;
+    min-height: 250px;
 }
 
 .drop-down {
-    height: 250px;
-    width: 900px;
-    background-color: rgb(56, 50, 50);
     position: absolute;
     z-index: 1;
+    width: 900px;
+    min-height: 250px;
+    background-color: rgb(56, 50, 50);
+    /* min-height: 500px; */
     margin-right: 80px;
 }
 
