@@ -16,6 +16,27 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
     <title>Gripking</title>
+    <style>
+        #demo li{
+      display: none;
+      position: absolute;
+      top: 50px;
+
+        }
+        #A1{
+          top: 10px;
+          left: 400px;
+        }
+        #A2{
+          top: 20px;
+        }
+        #A3{
+          top: 30px;
+        }
+        #A4{
+          top: 40px;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,6 +47,7 @@
         <!-- background video -->
 
         <div class="video">
+            
             <video loop muted autoplay width="100%" height="10%"
                 src="../img/pexels-rostislav-uzunov-10613973.mp4"></video>
         </div>
@@ -48,7 +70,14 @@
                 <ul class="row jsc">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li id="product"><a class="product" href="#">Products <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li id="product"><a class="product" href="#">Products <i class="fa-solid fa-angle-down"></i>
+                        <ul  id="demo">
+                            <li id="A1"><a href="">nav</a></li>
+                            <li id="A2"><a href="">nav</a></li>
+                            <li id="A3"><a href="">nav</a></li>
+                            <li id="A4"><a href="">nav</a></li>
+                        </ul>
+                    </a></li>
                     <li><a href="#">Code of Conduct</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Contact</a></li>
@@ -66,7 +95,7 @@
 
         <!-- drop down menu -->
 
-        <div class="dropdown-container">
+        <div class="dropdown-container" >
             <div class="drop-down">
                 <div class="horizontal-line">
 
