@@ -183,7 +183,7 @@ a {
 }
 
 .dropdown-items p:hover a {
-    color: #ff7425;
+    color: #fffb00;
     transition: all 0.4s ease-in-out;
 }
 
