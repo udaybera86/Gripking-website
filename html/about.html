@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/about.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Syne&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -16,154 +17,7 @@
 
     <title>About</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #131313;
-        }
-
-        .about {
-            position: relative;
-            width: 60%;
-            margin: 0 auto;
-            z-index: -1;
-        }
-        .wrapper{
-            position: relative;
-        }
-        .about h5 {
-            color: #fffb00;
-            font-size: 35px;
-            font-family: "Oswald";
-        }
-
-        .about p {
-            color: #bebaba;
-            font-size: 22px;
-            font-family: "syne";
-        }
-
-        .navbar {
-            position: relative;
-            z-index: 10;
-            width: 90%;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            line-height: 80px;
-        }
-        .nav-links ul li{
-            margin: 0 10px;
-        }
-        .navbar a {
-            color: #fffb00;
-            font-size: 20px;
-            margin: 5px;
-            font-family: "syne";
-            transition: all .5s ease-in-out;
-        }
-        .dropdown-items p:hover a {
-            color: #fffb00;
-            transition: all 0.4s ease-in-out;
-        }
         
-        .nav-links ul li,
-        .social-links ul li {
-            list-style: none;
-        }
-
-        .nav-links {
-            position: relative;
-        }
-
-        a {
-            text-decoration: none;
-            /* color: brown; */
-
-        }
-
-        .logo img {
-            vertical-align: middle;
-            height: 40px;
-            width: 200px;
-        }
-
-        .nav-links ul,
-        .social-links ul {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .dropdown-container {
-
-            /* display: flex;
-            justify-content: center;.0 */
-            position: absolute;
-            left: 20%;
-            /* z-index: 1; */
-        }
-
-        .drop-down {
-            height: 250px;
-            width: 900px;
-            background-color: rgb(56, 50, 50);
-            /* position: absolute; */
-            margin-right: 80px;
-        }
-
-        .horizontal-line {
-            height: 4px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0), #fffb00,#fffb00,#fffb00, rgba(255, 255, 255, 0));
-        }
-
-        .dropdown-items {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin-top: 25px;
-            line-height: 40px;
-            color: #fff;
-            font-family: "syne";
-
-        }
-
-        .dropdown-items a {
-            color: #fff;
-        }
-
-        .borderline {
-            width: 2px;
-            height: 190px;
-            background-color: #fff;
-            border-radius: 5px;
-        }
-
-        .dropdown-items p:hover a {
-            color: #fffb00;
-            transition: all 0.4s ease-in-out;
-        }
-
-        .dropdown-container {
-            /* visibility: hidden;
-            opacity: 0; */
-            display: none;
-            /* display: flex;
-               justify-content: center; */
-        }
-
-        #product:hover .dropdown-container {
-            /* visibility: visible;
-            opacity: 1; */
-            /* display: block; */
-        }
     </style>
 </head>
 
@@ -295,25 +149,7 @@
                 defects.</p>
         </div>
     </section>
-    <script>
-        $("#product").mouseover(function () {
-            $(".dropdown-container").slideDown(2000);
-        });
-
-        // $(".dropdown-container").mouseover(function () {
-        //   // $(".dropdown-container").slideDown();
-        //   // $(".dropdown-container").
-        // });
-
-        $(".dropdown-container").mouseleave(function () {
-            $(".dropdown-container").slideUp(10);
-        });
-
-          // $("#product").mouseleave(function () {
-          //   $(".dropdown-container").slideUp(10);
-          // });
-
-    </script>
+ <script src="../js/about.js"></script>
 </body>
 
 </html>

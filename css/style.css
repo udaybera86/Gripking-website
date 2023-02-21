@@ -192,17 +192,7 @@ a {
 }
 
 .dropdown-container {
-    /* visibility: hidden;
-    opacity: 0; */
     display: none;
-    /* display: flex;
-       justify-content: center; */
-}
-
-#product:hover .dropdown-container {
-    /* visibility: visible;
-    opacity: 1; */
-    /* display: block; */
 }
 
 .text {
