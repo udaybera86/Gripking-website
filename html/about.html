@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Syne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+
+    <title>About</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #131313;
+        }
+
+        .about {
+            position: relative;
+            width: 60%;
+            margin: 0 auto;
+            z-index: -1;
+        }
+        .wrapper{
+            position: relative;
+        }
+        .about h5 {
+            color: #ff7425;
+            font-size: 35px;
+            font-family: "Oswald";
+        }
+
+        .about p {
+            color: #bebaba;
+            font-size: 22px;
+            font-family: "syne";
+        }
+
+        .navbar {
+            position: relative;
+            z-index: 10;
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            line-height: 80px;
+        }
+
+        .navbar a {
+            color: #fffb00;
+            font-size: 20px;
+            margin: 5px;
+            font-family: "syne";
+            transition: all .5s ease-in-out;
+        }
+
+        .nav-links ul li,
+        .social-links ul li {
+            list-style: none;
+        }
+
+        .nav-links {
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            /* color: brown; */
+
+        }
+
+        .logo img {
+            vertical-align: middle;
+            height: 40px;
+            width: 200px;
+        }
+
+        .nav-links ul,
+        .social-links ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .dropdown-container {
+
+            /* display: flex;
+            justify-content: center;.0 */
+            position: absolute;
+            left: 20%;
+            /* z-index: 1; */
+        }
+
+        .drop-down {
+            height: 250px;
+            width: 900px;
+            background-color: rgb(56, 50, 50);
+            /* position: absolute; */
+            margin-right: 80px;
+        }
+
+        .horizontal-line {
+            height: 4px;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0), #ff7425, #ff7425, #ff7425, rgba(255, 255, 255, 0));
+        }
+
+        .dropdown-items {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 25px;
+            line-height: 40px;
+            color: #fff;
+            font-family: "syne";
+
+        }
+
+        .dropdown-items a {
+            color: #fff;
+        }
+
+        .borderline {
+            width: 2px;
+            height: 190px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .dropdown-items p:hover a {
+            color: #ff7425;
+            transition: all 0.4s ease-in-out;
+        }
+
+        .dropdown-container {
+            /* visibility: hidden;
+            opacity: 0; */
+            display: none;
+            /* display: flex;
+               justify-content: center; */
+        }
+
+        #product:hover .dropdown-container {
+            /* visibility: visible;
+            opacity: 1; */
+            /* display: block; */
+        }
+    </style>
+</head>
+
+<body>
+    <section class="wrapper">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#"><img src="../img/Gripking side logo.png" alt=""></a>
+            </div>
+            <div class="nav-links">
+                <ul class="row jsc">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li id="product"><a class="product" href="#">Products <i class="fa-solid fa-angle-down"></i></a>
+                    </li>
+                    <li><a href="#">Code of Conduct</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <ul>
+                    <li><a href="https://www.facebook.com/gripkingindia/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/gripkingindia/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="section-one" style="background-image: url(../img/01.png);">
+     <div class="nav-links">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a id="product" href="#">Product</a></li>
+            <li><a href="#">Code of Conduct</a></li>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div> -->
+        <div id="dropdown-container" class="dropdown-container">
+            <div class="drop-down">
+                <div class="horizontal-line">
+
+                </div>
+                <div class="dropdown-items">
+                    <div class="product-type-one">
+                        <p><a href="">Masking Tape</a></p>
+                        <p><a href="">Duct Tape</a></p>
+                        <p><a href="">Aluminum Foil Tape</a></p>
+                        <p><a href="">Double Side Tissue Tape</a></p>
+                        <p><a href="">Self Adhesive Bopp Tape</a></p>
+                    </div>
+                    <div class="borderline">
+
+                    </div>
+                    <div class="product-type-two">
+                        <p><a href="">PE Foam Tape</a></p>
+                        <p><a href="">Floor Marking Tape</a></p>
+                        <p><a href="">Cross Filament Tape</a></p>
+                        <p><a href="">P.T.F.E Thread Seal Tape</a></p>
+                        <p><a href="">Double Side Acrylic Tape</a></p>
+                    </div>
+                    <div class="borderline">
+
+                    </div>
+                    <div class="product-type-two">
+                        <p><a href="">Craft Paper Tape</a></p>
+                        <p><a href="">Red Polyester Tape</a></p>
+                        <p><a href="">Single Sided Foam Tape</a></p>
+                        <p><a href="">Double Sided Foam Tape</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="image">
+                <img src="../img/about_page_logo.png" alt="">
+            </div>
+            <h5>About Us</h5>
+            <p>Incepted in 2011, GRIPKING TAPES INDIA PVT. LTD. is one of the leading self Adhesive tape Manufacturer
+                Company located in Ahmedabad, which is a top business hub of Gujarat. Being the top industrial tap
+                manufacturer, we adopt high technology and skilled personnel to make our company truly & fully domestic.
+            </p>
+            <p>We’ve always aimed at becoming a strategic partner to our customers whose role goes beyond supplying
+                products.
+                We offer the best services and facilities for building long-term business relations based on mutual
+                understanding and benefits.</p>
+            <p> GRIPKING TAPES has a widespread network of seasoned dealers and distributors for both retail and
+                corporate
+                sales. We have a distributor presence in almost all large Indian cities. We work rigorously by a set of
+                values
+                and ethical standards. We also expect our distributors to adhere to the highest standards of ethics.</p>
+            <p>We have clear as crystal rules for everything we do, and every member of the GRIPKING TAPES family
+                adheres
+                to
+                them. Additionally, we endeavour to create a healthy and competitive working environment at all levels.
+                If
+                we
+                have more than one dealer or distributor in metropolises, we ensure there are no disputes between them.
+            </p>
+            <h5>Vision</h5>
+            <p> To be one of the top adhesive tape manufacturers in India & offer excellent quality of products
+                to the customers
+                that suits their needs in the sector of Adhesive Technology of Adhesive Tapes by relentless Innovations.
+            </p>
+
+            <h5>Mission</h5>
+            <p>To be the “manufacturer of choice” for our customers and to deliver the strongest type of tape following
+                our
+                customer requirements.</p>
+
+            <h5>Infrastructure</h5>
+            <p>Our state-of-the-art infrastructure is backed with technologically advanced tools and machinery that
+                assist
+                in
+                the quality and quantity production of the Packaging Products. The robust infrastructural base has
+                played a
+                vital role in strengthening the market position of the company.</p>
+
+            <h5>Quality Assurance</h5>
+            <p>Owing to the priority to serve quality products, various stringent quality tests are conducted at various
+                levels
+                of production to the final stage of packaging. For fuller assurance of the quality, the tests are made
+                under
+                the
+                supervision of our quality control executives on various quality parameters ensuring zero manufacturing
+                defects.</p>
+        </div>
+    </section>
+    <script>
+        $("#product").mouseover(function () {
+            $(".dropdown-container").slideDown(2000);
+        });
+
+        // $(".dropdown-container").mouseover(function () {
+        //   // $(".dropdown-container").slideDown();
+        //   // $(".dropdown-container").
+        // });
+
+        $(".dropdown-container").mouseleave(function () {
+            $(".dropdown-container").slideUp(10);
+        });
+
+          // $("#product").mouseleave(function () {
+          //   $(".dropdown-container").slideUp(10);
+          // });
+
+    </script>
+</body>
+
+</html>
