@@ -1,5 +1,5 @@
 $("#product").mouseover(function () {
-    $(".dropdown-container").slideDown(2000);
+    $(".dropdown-container").slideDown(1500);
   });
   
   // $(".dropdown-container").mouseover(function () {
@@ -8,7 +8,7 @@ $("#product").mouseover(function () {
   // });
   
   $(".dropdown-container").mouseleave(function () {
-    $(".dropdown-container").slideUp(10);
+    $(".dropdown-container").fadeOut(800);
   });
   
   // $("#product").mouseleave(function () {

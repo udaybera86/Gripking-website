@@ -240,7 +240,9 @@ a {
     width: 45%;
     height: 45%;
 }
-
+.social-links ul li{
+    margin: 0 0 0 10px;
+}
 /* ---------------  section two --------------------- */
 
 .carousel__item img {
