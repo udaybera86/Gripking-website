@@ -302,6 +302,7 @@ ul {
     padding: 0 0 50px 0;
 }
 
+
 .image p {
     font-size: 30px;
     text-align: center;
@@ -320,6 +321,29 @@ ul {
     width: 110px;
     height: 110px;
 }
+
+/* *************** Section Why-Us *******************  */
+.why-us{
+    background-color: #131313;
+
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 0 50px 0;
+    font-size: 35px;
+    color: #84f700;
+    font-family: 'Oswald';
+}
+
+.cards span{
+    color:#d8d8d8;
+    font-weight: 900;
+    font-family: "syne";
+}
+
 
 /* *************** Section Four *******************  */
 

@@ -4,12 +4,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/navbar.css">
+    <!-- <link rel="stylesheet" href="../css/navbar.css"> -->
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Navbar</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+}
+
+.navbar a {
+    color: #fffb00;
+    font-size: 20px;
+    margin: 5px;
+    font-family: "syne";
+    transition: all .5s ease-in-out;
+}
+
+.nav-links ul li,
+.social-links ul li {
+    list-style: none;
+}
+
+.nav-links {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    /* color: brown; */
+
+}
+
+.logo img {
+    vertical-align: middle;
+    height: 40px;
+    width: 200px;
+}
+
+
+.section-one {
+    position: relative;
+    min-height: 500px;
+}
+
+.nav-links ul,
+.social-links ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown-container {
+
+    /* display: flex;
+    justify-content: center;.0 */
+    position: relative;
+    left: 20%;
+    /* z-index: 1; */
+}
+
+.drop-down {
+    height: 250px;
+    width: 900px;
+    background-color: rgb(56, 50, 50);
+    /* position: absolute; */
+    margin-right: 80px;
+}
+
+.horizontal-line {
+    height: 4px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), #ff7425, #ff7425, #ff7425, rgba(255, 255, 255, 0));
+}
+
+.dropdown-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    line-height: 40px;
+    color: #fff;
+    font-family: "syne";
+
+}
+
+.dropdown-items a {
+    color: #fff;
+}
+
+.borderline {
+    width: 2px;
+    height: 190px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.dropdown-items p:hover a {
+    color: #ff7425;
+    transition: all 0.4s ease-in-out;
+}
+
+.dropdown-container {
+    /* visibility: hidden;
+    opacity: 0; */
+    display: none;
+    /* display: flex;
+       justify-content: center; */
+}
+
+#product:hover .dropdown-container {
+    /* visibility: visible;
+    opacity: 1; */
+    /* display: block; */
+}
+    </style>
 </head>
 <body>
-   <div class="section-one" style="background-image: url(../img/01.png);">
+    <div class="navbar">
+        <div class="logo">
+            <a href="#"><img src="../img/Gripking side logo.png" alt=""></a>
+        </div>
+        <div class="nav-links">
+            <ul class="row jsc">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li id="product"><a class="product" href="#">Products <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#">Code of Conduct</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <ul>
+                <li><a href="https://www.facebook.com/gripkingindia/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/gripkingindia/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </div>
+   <!-- <div class="section-one" style="background-image: url(../img/01.png);">
      <div class="nav-links">
         <ul>
             <li><a href="#">Home</a></li>
@@ -19,7 +167,7 @@
             <li><a href="#">FAQS</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-    </div>
+    </div> -->
     <div id="dropdown-container" class="dropdown-container">
         <div class="drop-down">
             <div class="horizontal-line">
@@ -56,6 +204,24 @@
         </div>
     </div>
    </div>
-    <script src="../js/navbar.js"></script>
+    <script>
+        $("#product").mouseover(function () {
+            $(".dropdown-container").slideDown(2000);
+          });
+          
+          // $(".dropdown-container").mouseover(function () {
+          //   // $(".dropdown-container").slideDown();
+          //   // $(".dropdown-container").
+          // });
+          
+          $(".dropdown-container").mouseleave(function () {
+            $(".dropdown-container").slideUp(10);
+          });
+          
+          // $("#product").mouseleave(function () {
+          //   $(".dropdown-container").slideUp(10);
+          // });
+          
+    </script>
 </body>
 </html>

@@ -22,14 +22,20 @@ $("#product").mouseover(function () {
   $(".dropdown-container").slideDown(2000);
 });
 
-// $(".dropdown-container").mouseover(function () {
-//   $(".dropdown-container").slideDown();
-// });
+$(".dropdown-container").mouseover(function () {
+  $(".dropdown-container").slideDown();
+});
 
-// $(".dropdown-container").mouseleave(function () {
-//   $(".dropdown-container").slideUp(10);
-// });
+$(".dropdown-container").mouseleave(function () {
+  $(".dropdown-container").slideUp(10);
+});
 
 $("#product").mouseleave(function () {
   $(".dropdown-container").slideUp(10);
 });
+
+
+const nav = document.querySelector('.navbar');
+fetch('/navbar.html').then(res=>res.text()).then(data=>{
+  nav.innerHTML=data;
+})
