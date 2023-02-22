@@ -26,9 +26,9 @@ $("#product").mouseover(function () {
 //   // $(".dropdown-container").
 // });
 
-// $(".dropdown-container").mouseleave(function () {
-//   $(".dropdown-container").fadeOut(1500);
-// });
+$(".dropdown-container").mouseleave(function () {
+  $(".dropdown-container").fadeOut(800);
+});
 
 // $("#product").mouseleave(function () {
 //   $(".dropdown-container").slideUp(10);
