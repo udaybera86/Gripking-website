@@ -22,13 +22,13 @@ $("#product").mouseover(function () {
 });
 
 // $(".dropdown-container").mouseover(function () {
-//   // $(".dropdown-container").slideDown();
+//   $(".dropdown-container").slideDown(1000);
 //   // $(".dropdown-container").
 // });
 
-$(".dropdown-container").mouseleave(function () {
-  $(".dropdown-container").fadeOut(800);
-});
+// $(".dropdown-container").mouseleave(function () {
+//   $(".dropdown-container").fadeOut(1500);
+// });
 
 // $("#product").mouseleave(function () {
 //   $(".dropdown-container").slideUp(10);
