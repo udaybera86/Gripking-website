@@ -473,6 +473,7 @@ a {
     border: none;
     border-radius: 15px;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .CTA button:hover{
