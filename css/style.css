@@ -425,6 +425,7 @@ a {
 .brands img{
     width: 230px;
     transition: transform 0.5s;
+    filter: grayscale(100);
 }
 
 .brands{
@@ -433,6 +434,7 @@ a {
 
 .brand-image:hover img{
     transform: scale(1.2);
+    filter: grayscale(0);
 }
 
 /* *************** Section Six *******************  */
