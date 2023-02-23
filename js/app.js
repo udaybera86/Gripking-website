@@ -1,6 +1,10 @@
-// "use strict";
+"use strict";
+
+// <--- Home Section --->
 
 document.querySelector('video').playbackRate = .95;
+
+// <--- Section Four --->
 
 $(document).ready(function () {
   $("#testimonial-slider").owlCarousel({
@@ -17,19 +21,19 @@ $(document).ready(function () {
 
 
 // <--- Dropdown menu hover --->
+
 $("#product").mouseover(function () {
-  $(".dropdown-container").slideDown(1500);
+  $(".dropdown-container").slideDown(800);
 });
 
 // $(".dropdown-container").mouseover(function () {
-//   $(".dropdown-container").slideDown(1000);
-//   // $(".dropdown-container").
+//   $(".dropdown-container").slideDown();
 // });
 
 $(".dropdown-container").mouseleave(function () {
-  $(".dropdown-container").fadeOut(800);
+  $(".dropdown-container").slideUp(800);
 });
 
 // $("#product").mouseleave(function () {
-//   $(".dropdown-container").slideUp(10);
+//   $(".dropdown-container").slideUp(800);
 // });
