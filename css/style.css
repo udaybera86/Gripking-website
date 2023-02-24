@@ -203,7 +203,8 @@ a {
 /* ---------------  Section Two --------------------- */
 
 .sec-two {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background: radial-gradient(#e9dcdc,#e9dcdc, #f8f668);
     padding: 50px 0;
 }
 
@@ -379,7 +380,8 @@ a {
 /* *************** Section Four *******************  */
 
 .why-us {
-    background-color: #fff;
+    background: radial-gradient(#e9dcdc,#e9dcdc, #f8f668);
+    /* background-color: #fff; */
     padding: 0 0 40px 0;
 }
 
@@ -440,7 +442,8 @@ a {
 /* *************** Section Six *******************  */
 
 .sec-six{
-    background-color: #fff;
+    background: radial-gradient(#e9dcdc,#e9dcdc, #f8f668);
+    /* background-color: #fff; */
     height: 200px;
 }
 
@@ -546,7 +549,8 @@ i.fa.fa-quote-left {
 /* ----------------------Section Footer------------------------- */
 
 .info {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background: radial-gradient(#e9dcdc,#e9dcdc, #f8f668);
 }
 
 .img_logo img{
