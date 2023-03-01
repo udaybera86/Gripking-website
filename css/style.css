@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +29,12 @@ a {
     width: 1200px;
     margin: 0 auto;
 }
-
+.col-60{
+    width: 60%;
+}
+.col-40{
+    width: 40%;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -218,6 +223,17 @@ a {
     line-height: 100px;
     vertical-align: middle;
     color: #FED51B;
+}
+
+
+/* ------------------ About section ------------------- */
+
+.sec-two{
+    background-image: url(../img/graph.JPG);
+}
+.sec-two span{
+    font-family:"Cedarville Cursive";
+    font-size: 60px;
 }
 
 /* --------------- Footer Section --------------------- */
