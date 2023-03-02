@@ -226,12 +226,12 @@ a {
 }
 
 
-/* ------------------ About section ------------------- */
+/* ------------------ Section Five ------------------- */
 
-.sec-two{
+.sec-five{
     background-image: url(../img/graph.JPG);
 }
-.sec-two span{
+.sec-five span{
     font-family:"Cedarville Cursive";
     font-size: 60px;
 }
