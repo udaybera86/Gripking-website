@@ -88,3 +88,4 @@ $(window).scroll(function () {
         counted = 1;
     }
 });
+
