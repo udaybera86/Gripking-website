@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -29,12 +30,15 @@ a {
     width: 1200px;
     margin: 0 auto;
 }
-.col-60{
+
+.col-60 {
     width: 60%;
 }
-.col-40{
+
+.col-40 {
     width: 40%;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -225,14 +229,64 @@ a {
     color: #FED51B;
 }
 
+/* ------------------ Section Two ------------------- */
 
+#about-heading {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FED51B;
+    margin-top: 100px;
+}
+
+.about-content h4 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #101010;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #101010;
+    line-height: 26px;
+}
+
+#about-content-two {
+    margin: 20px 0 30px 0;
+}
+
+.about-content button {
+    background: #FED51B;
+    mix-blend-mode: normal;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 100px;
+    padding: 11px 25px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about-content button a{
+    color: #101010;
+}
 /* ------------------ Section Five ------------------- */
 
-.sec-five{
+.sec-five {
     background-image: url(../img/graph.JPG);
 }
-.sec-five span{
-    font-family:"Cedarville Cursive";
+
+.sec-five span {
+    font-family: "Cedarville Cursive";
     font-size: 60px;
 }
 
@@ -278,7 +332,7 @@ a {
     margin-top: 100px;
 }
 
-.footer-location p{
+.footer-location p {
     line-height: 26px;
 }
 
@@ -290,7 +344,7 @@ a {
     margin-top: 100px;
 }
 
-.footer-contact p{
+.footer-contact p {
     line-height: 26px;
 }
 
