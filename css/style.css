@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -29,12 +31,15 @@ a {
     width: 1200px;
     margin: 0 auto;
 }
-.col-60{
-    width: 60%;
+
+.col-70 {
+    width: 70%;
 }
-.col-40{
-    width: 40%;
+
+.col-30 {
+    width: 30%;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -228,14 +233,58 @@ a {
 
 /* ------------------ Section Five ------------------- */
 
-.sec-five{
-    background-image: url(../img/graph.JPG);
+.sec-five {
+    min-height: 350px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)), url(../img/yellow-blur.jpg);
+    /* background-position: -50% 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
 }
-.sec-five span{
-    font-family:"Cedarville Cursive";
+
+.tag-line {
+    font-family: "Oswald";
+    font-size: 32px;
+}
+
+.tag-line span {
+    font-family: "Cedarville Cursive";
     font-size: 60px;
 }
 
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    /* color: #FECC00; */
+    background-color: #101010;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn button a {
+    color: #fff;
+}
+.btn button:hover a{
+    color: #FECC00;
+}
+
+.trust{
+    margin: 30px 0 0 0;
+    font-size: 60px;
+    font-family: "Shantell Sans";
+    text-align: center;
+    color: #272727;
+}
+.trust span{
+    color: #000000;
+}
 /* --------------- Footer Section --------------------- */
 
 .footer {
@@ -278,7 +327,7 @@ a {
     margin-top: 100px;
 }
 
-.footer-location p{
+.footer-location p {
     line-height: 26px;
 }
 
@@ -290,7 +339,7 @@ a {
     margin-top: 100px;
 }
 
-.footer-contact p{
+.footer-contact p {
     line-height: 26px;
 }
 
