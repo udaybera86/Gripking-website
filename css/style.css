@@ -38,8 +38,8 @@ a {
 
 .col-30 {
     width: 30%;
-}
 
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -230,7 +230,56 @@ a {
     color: #FED51B;
 }
 
+/* ------------------ Section Two ------------------- */
 
+#about-heading {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FED51B;
+    margin-top: 100px;
+}
+
+.about-content h4 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #101010;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #101010;
+    line-height: 26px;
+}
+
+#about-content-two {
+    margin: 20px 0 30px 0;
+}
+
+.about-content button {
+    background: #FED51B;
+    mix-blend-mode: normal;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 100px;
+    padding: 11px 25px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about-content button a{
+    color: #101010;
+}
 /* ------------------ Section Five ------------------- */
 
 .sec-five {
@@ -249,6 +298,7 @@ a {
 }
 
 .tag-line span {
+
     font-family: "Cedarville Cursive";
     font-size: 60px;
 }
