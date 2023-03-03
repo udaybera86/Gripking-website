@@ -40,6 +40,7 @@ a {
     width: 30%;
 
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -119,7 +120,7 @@ a {
 
 .dropdown-container {
     position: relative;
-    left: 30%;
+    left: 34%;
     top: 36px;
     display: none;
 }
@@ -176,13 +177,13 @@ a {
 
 .text p {
     margin: 15px 0;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     font-family: 'Syne';
 }
 
 .text h4 {
-    font-size: 85px;
+    font-size: 95px;
     color: #d8d8d8;
     font-family: 'Syne';
 }
@@ -203,8 +204,8 @@ a {
 .down-arrow {
     position: absolute;
     z-index: 999;
-    left: 47%;
-    bottom: 2%;
+    left: 49%;
+    bottom: 7%;
     width: 100px;
     height: 100px;
     background: linear-gradient(90.37deg, rgba(239, 244, 253, 0.4) 0%, rgba(239, 244, 253, 0.2) 100%);
@@ -275,21 +276,114 @@ a {
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-.about-content button a{
+.about-content button a {
     color: #101010;
 }
+
+.about-content button:hover {
+    background-color: #fed41bab;
+}
+
+/* ------------------ Section Three ------------------- */
+
+.sec-three {
+    position: relative;
+    min-height: 700px;
+    background: linear-gradient(to right, #FED51B 60%, #fff 40%);
+}
+
+#product-detail-two {
+    width: 460px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.home-product-details {
+    position: absolute;
+    top: 250px;
+}
+
+.home-product-details p {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.home-product-details h4 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.home-product-img{
+    position: absolute;
+    top: 100px;
+    left: 48%;
+    width: 422px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: rgba(100, 100, 111, 0.366) 0px 7px 29px 0px;
+}
+.home-product-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.slide-btn #up-btn{
+    position: absolute;
+    /* left: 1452px; */
+    top: 38%;
+    right: 21%;
+    width: 60px;
+    height: 60px;
+    background-color: #FED51B;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.slide-btn #down-btn {
+    position: absolute;
+    /* left: 1452px; */
+    top: 50%;
+    right: 21%;
+    width: 60px;
+    height: 60px;
+    background-color: #101010;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slide-btn i{
+    font-size: 37px;
+}
+.slide-btn button a {
+    text-decoration: none;
+    /* color: white; */
+}
+
 /* ------------------ Section Five ------------------- */
 
 .sec-five {
     min-height: 350px;
-    background-image:linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)), url(../img/yellow-blur.jpg);
-    /* background-position: -50% 20%; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../img/yellow-blur.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .tag-line {
@@ -311,30 +405,38 @@ a {
 }
 
 .btn button {
-    /* color: #FECC00; */
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
     background-color: #101010;
-    padding: 10px;
+    padding: 11px 25px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 .btn button a {
     color: #fff;
+    transition: all 0.3s ease-in-out;
 }
-.btn button:hover a{
+
+.btn button:hover a {
     color: #FECC00;
 }
 
-.trust{
+.trust {
     margin: 30px 0 0 0;
     font-size: 60px;
     font-family: "Shantell Sans";
     text-align: center;
     color: #272727;
 }
-.trust span{
+
+.trust span {
     color: #000000;
 }
+
 /* --------------- Footer Section --------------------- */
 
 .footer {
