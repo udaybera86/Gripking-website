@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 * {
     margin: 0;
@@ -380,10 +381,12 @@ a {
 
 .sec-five {
     min-height: 350px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../img/yellow-blur.jpg);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)), url(../img/yellow-blur.jpg);
+    /* background-position: -50% 20%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
 }
 
 .tag-line {
@@ -392,7 +395,7 @@ a {
 }
 
 .tag-line span {
-
+    color: #e4405f;
     font-family: "Cedarville Cursive";
     font-size: 60px;
 }
@@ -428,7 +431,7 @@ a {
 .trust {
     margin: 30px 0 0 0;
     font-size: 60px;
-    font-family: "Shantell Sans";
+    font-family: "Jost";
     text-align: center;
     color: #272727;
 }
