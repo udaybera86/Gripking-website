@@ -381,6 +381,82 @@ a {
     color: #fff;
 }
 
+
+/* ------------------ section Four ------------- */
+
+
+.sec-four {
+    background-color: #fff;
+    height: 80vh;
+}
+
+.title {
+    font-size: 50px;
+    color: #3a3401;
+    font-family: 'Joto';
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin: 0 0 50px 0;
+}
+
+/* sldier for review */
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 17%;
+    float: left;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    margin-left: 54px;
+    margin-right: 35px;
+    margin-top: 15px;
+
+}
+
+.testimonial-item.equal-height.style-6 {
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Syne';
+    color: #f5d41d;
+}
+
+.cell-right {
+    text-align: center;
+    margin-right: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.testimonial-name {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.testimonial-job {
+    font-size: 20px;
+}
+
+.testimonial-content.quote {
+    padding: 17px 55px;
+    font-size: 20px;
+    text-align: center;
+    color: #020202;
+
+}
+
+.et_right_sidebar #main-content .container:before {
+    display: none;
+}
+
+#main-content .container {
+    padding-top: 10px;
+}
+
+i.fa.fa-quote-left {
+    padding: 0px 10px;
+    color: #999;
+}
+
 /* ------------------ Section Five ------------------- */
 
 .sec-five {
@@ -399,7 +475,7 @@ a {
 }
 
 .tag-line span {
-    color: #e4405f;
+    color: #000000;
     font-family: "Cedarville Cursive";
     font-size: 60px;
 }
