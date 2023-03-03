@@ -387,15 +387,14 @@ a {
 
 .sec-four {
     background-color: #fff;
-    height: 80vh;
+    padding: 70px 0;
 }
 
 .title {
     font-size: 50px;
-    color: #3a3401;
+    color: #101010;
     font-family: 'Joto';
     text-align: center;
-    padding: 50px 0 0 0;
     margin: 0 0 50px 0;
 }
 
