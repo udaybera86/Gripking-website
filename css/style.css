@@ -372,9 +372,13 @@ a {
 .slide-btn i{
     font-size: 37px;
 }
-.slide-btn button a {
-    text-decoration: none;
-    /* color: white; */
+
+.slide-btn #up-btn a{
+    color: #101010;
+}
+
+.slide-btn #down-btn a{
+    color: #fff;
 }
 
 /* ------------------ Section Five ------------------- */
