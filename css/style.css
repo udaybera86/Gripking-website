@@ -130,6 +130,7 @@ a {
     width: 900px;
     background-color: rgb(56, 50, 50);
     padding-bottom: 30px;
+    border-radius: 0 0 10px 10px;
 }
 
 .horizontal-line {
