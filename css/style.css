@@ -359,9 +359,9 @@ a {
 .slide-btn #up-btn{
     position: absolute;
     /* left: 1452px; */
-    left: 85%;
+    /* left: 85%; */
     top: 38%;
-    /* right: 21%; */
+    right: 21%;
     width: 60px;
     height: 60px;
     background-color: #FED51B;
@@ -374,8 +374,8 @@ a {
     position: absolute;
     /* left: 1452px; */
     top: 50%;
-    left: 85%;
-    /* right: 21%; */
+    /* left: 85%; */
+    right: 21%;
     width: 60px;
     height: 60px;
     background-color: #101010;
