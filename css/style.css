@@ -335,6 +335,8 @@ a {
     background-color: #fff;
     border-radius: 8px;
     padding: 40px;
+    animation-name: fade;
+    animation-duration: 2.5s;
     box-shadow: rgba(100, 100, 111, 0.366) 0px 7px 29px 0px;
 }
 .home-product-img img{
@@ -343,11 +345,18 @@ a {
     object-fit: contain;
 }
 
+
+@keyframes fade {
+    from {opacity: 0.1}
+    to {opacity: 1}
+}
+
 .slide-btn #up-btn{
     position: absolute;
     /* left: 1452px; */
+    left: 85%;
     top: 38%;
-    right: 21%;
+    /* right: 21%; */
     width: 60px;
     height: 60px;
     background-color: #FED51B;
@@ -360,7 +369,8 @@ a {
     position: absolute;
     /* left: 1452px; */
     top: 50%;
-    right: 21%;
+    left: 85%;
+    /* right: 21%; */
     width: 60px;
     height: 60px;
     background-color: #101010;
