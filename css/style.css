@@ -311,7 +311,12 @@ a {
     position: absolute;
     top: 250px;
 }
-
+.product-details{
+    position: absolute;
+    background-color: #FED51B;
+    /* animation: fade;
+    animation-duration: 2.5s; */
+}
 .home-product-details p {
     font-family: 'Sora';
     font-style: normal;
