@@ -1,5 +1,17 @@
 "use strict";
 
+// <------------------- Smooth Scroll ---------------------->
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
 // <------------------- Home Section ---------------------->
 
 document.querySelector('video').playbackRate = .95;
@@ -109,7 +121,6 @@ function showImage(n) { // for Display the first Image
 showImage(slideIndex);
 
 function plusIndex(n) { // for Next & Prev Actions
-
     'use strict';
 
     showImage(slideIndex += n);
