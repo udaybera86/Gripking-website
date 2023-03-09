@@ -23,9 +23,11 @@ ul li {
 body::-webkit-scrollbar {
     display: none;
 }
-body{
+
+body {
     scroll-behavior: smooth;
 }
+
 a {
     text-decoration: none;
 }
