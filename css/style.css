@@ -30,6 +30,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 .container {
@@ -87,11 +88,10 @@ a {
 }
 
 .navbar a {
-    color: #fff;
     font-size: 20px;
     margin: 5px;
     font-family: "syne";
-    transition: all .5s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 #home {
@@ -150,10 +150,6 @@ a {
     line-height: 40px;
     color: #fff;
     font-family: "syne";
-}
-
-.dropdown-items a {
-    color: #fff;
 }
 
 .borderline {
@@ -421,14 +417,6 @@ a {
     transition: all 0.6s;
 }
 
-.slide-btn #up-btn a {
-    color: #fff;
-}
-
-.slide-btn #down-btn a {
-    color: #fff;
-}
-
 .slide-btn button:hover i {
     color: #a19999;
 }
@@ -443,7 +431,7 @@ a {
 
 .slider {
     width: 600px;
-    height: 300px;
+    height: 350px;
 }
 
 .slide {
@@ -572,8 +560,7 @@ i.fa.fa-quote-left {
 }
 
 .btn button a {
-    color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .btn button:hover a {
@@ -602,6 +589,8 @@ i.fa.fa-quote-left {
 
 .footer-content {
     height: 437px;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 
 .footer-content p {
@@ -630,28 +619,58 @@ i.fa.fa-quote-left {
 }
 
 .footer-location {
-    width: 358px;
-    margin-top: 100px;
+    width: 480px;
 }
 
 .footer-location p {
     line-height: 26px;
 }
 
-#address {
+.corporate-address{
+    display: flex;
+    align-items: center;
+}
+
+#vertical-line-one{
+    height: 80px;
+    border: 1px solid #FFFFFF;
+    margin: 20px 15px 20px 47px;
+}
+
+#address-one {
     margin: 20px 0;
 }
 
-.footer-contact {
-    margin-top: 100px;
+#factory-address{
+    display: flex;
+    align-items: center;
+}
+
+#vertical-line-two{
+    height: 55px;
+    border: 1px solid #FFFFFF;
+    margin: 20px 15px;
 }
 
 .footer-contact p {
     line-height: 26px;
 }
 
+.footer-contact a {
+    transition: all 0.4s ease-in-out;
+}
+
+.footer-contact p:hover a {
+    color: #FED51B;
+}
+
 #footer-num {
     margin-top: 20px;
+    margin-right: 10px;
+}
+
+.footer-num {
+    display: flex;
 }
 
 #footer-mail {
@@ -667,12 +686,19 @@ i.fa.fa-quote-left {
     background-color: #060606;
 }
 
-.footer-social p {
-    color: #fff;
+.footersocial-content p {
     font-family: 'sora';
     font-style: normal;
     font-size: 16px;
     font-weight: 100;
+}
+
+.footersocial-content a{
+    transition: all 0.4s;
+}
+
+.footersocial-content p:hover a{
+    color: #FED51B;
 }
 
 .footersocial-content {
@@ -680,6 +706,10 @@ i.fa.fa-quote-left {
     justify-content: space-between;
     line-height: 126px;
     vertical-align: middle;
+}
+
+.footersocial-content span{
+    color: #d2d2d5;
 }
 
 .footersocial-content ul {
