@@ -82,11 +82,13 @@ $(window).scroll(function () {
 
 // <-------------------- Home Product Slider -------------->
 
-var slideIndex = 1;
+    // --------------(For Product Images)-----------------
+    
+    var slideIndex = 1;
 
-function showImage(n) { // for Display the first Image
-    'use strict';
-    var slide = document.getElementsByClassName('slide-image'),
+    function showImage(n) { // for Display the first Image
+        'use strict';
+        var slide = document.getElementsByClassName('slide-image'),
         // dots = document.getElementsByClassName('dots'),
         i;
     if (n > slide.length) { // to prevent larger values than the slide length
@@ -112,8 +114,7 @@ function currentSlide(n) { // for Slide Bullets Selection
     showImage(slideIndex = n);
 }
 
-/* ------------------- product slider -----------------------------*/
-
+// --------------(For Product Content)-----------------
 
 const slides = document.getElementsByClassName("slide"); // this selection is a live collection; any changes in DOM is updated in the variable unlike querySelectors
 const btnLeft = document.querySelector(`#up-btn`);
