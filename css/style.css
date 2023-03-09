@@ -360,7 +360,7 @@ a {
 
 @keyframes fade {
     from {
-        margin-left: 50%;
+        margin-left: 100%;
     }
 
     to {
