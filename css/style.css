@@ -310,13 +310,16 @@ a {
 .home-product-details {
     position: absolute;
     top: 250px;
+    overflow: hidden;
 }
-.product-details{
+
+.product-details {
     position: absolute;
     background-color: #FED51B;
     /* animation: fade;
     animation-duration: 2.5s; */
 }
+
 .home-product-details p {
     font-family: 'Sora';
     font-style: normal;
@@ -331,7 +334,7 @@ a {
     font-size: 42px;
 }
 
-.home-product-img{
+.home-product-img {
     position: absolute;
     overflow: hidden;
     top: 100px;
@@ -343,38 +346,43 @@ a {
     padding: 40px;
     box-shadow: rgba(100, 100, 111, 0.366) 0px 7px 29px 0px;
 }
-.home-product-img img{
+
+.home-product-img img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
 
-.slide-image{
-    animation: 1.3s fade;
+.slide-image {
+    animation: 1.5s fade;
 }
+
 @keyframes fade {
     from {
-    margin-left: 50%;
+        margin-left: 50%;
     }
+
     to {
-    margin-left: 0%;
+        margin-left: 0%;
     }
 }
 
-.home-product-details{
-    animation: 1.3s slideUp;
+.home-product-details {
+    animation: 1.5s slideUp;
 }
+
 @keyframes slideUp {
-    from{
+    from {
         margin-top: 15%;
     }
-    to{
+
+    to {
         margin-top: 0%;
     }
 }
 
-.slide-btn #up-btn{
+.slide-btn #up-btn {
     position: absolute;
     /* left: 1452px; */
     /* left: 85%; */
@@ -404,31 +412,44 @@ a {
     transition: all 0.6s;
 }
 
-.slide-btn i{
+.slide-btn i {
     font-size: 37px;
     transition: all 0.6s;
 }
 
-.slide-btn #up-btn a{
+.slide-btn #up-btn a {
     color: #fff;
 }
 
-.slide-btn #down-btn a{
+.slide-btn #down-btn a {
     color: #fff;
 }
 
-.slide-btn button:hover i{
-    color: #101010;
+.slide-btn button:hover i {
+    color: #a19999;
 }
 
-.slide-btn #up-btn:hover{
+.slide-btn #up-btn:hover {
     background-color: #FED51B;
 }
 
-.slide-btn #down-btn:hover{
+.slide-btn #down-btn:hover {
     background-color: #FED51B;
 }
 
+.slider {
+    width: 600px;
+    height: 300px;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.5s;
+}
+
+/*   
 
 /* ------------------ section Four ------------- */
 
@@ -508,7 +529,7 @@ i.fa.fa-quote-left {
 
 .sec-five {
     min-height: 350px;
-    background-image:linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)), url(../img/yellow-blur.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../img/yellow-blur.jpg);
     /* background-position: -50% 20%; */
     display: flex;
     flex-direction: column;
