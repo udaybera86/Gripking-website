@@ -16,21 +16,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 document.querySelector('video').playbackRate = .95;
 
-// <------------------- Section Four ---------------------->
-
-$(document).ready(function () {
-    $("#testimonial-slider").owlCarousel({
-        items: 2,
-        itemsDesktop: [1000, 2],
-        itemsDesktopSmall: [980, 1],
-        itemsTablet: [768, 1],
-        pagination: true,
-        // navigation:true,
-        // navigationText:["<",">"],
-        autoPlay: true
-    });
-});
-
 
 // <-------------------- Dropdown menu hover -------------->
 
@@ -48,6 +33,21 @@ $("#codeofconduct").mouseover(function () {
 
 $("#about").mouseover(function () {
     $(".dropdown-container").slideUp(800);
+});
+
+// <------------------- Section Four ---------------------->
+
+$(document).ready(function () {
+    $("#testimonial-slider").owlCarousel({
+        items: 2,
+        itemsDesktop: [1000, 2],
+        itemsDesktopSmall: [980, 1],
+        itemsTablet: [768, 1],
+        pagination: true,
+        // navigation:true,
+        // navigationText:["<",">"],
+        autoPlay: true
+    });
 });
 
 // <-------------------- Counting Numbers -------------->
