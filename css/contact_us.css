@@ -63,6 +63,7 @@ a {
     height: 100vh;
     background-size: cover;
     overflow: hidden;
+    background-color: blueviolet;
 }
 
 .layer {
@@ -165,9 +166,3 @@ a {
 }
 
 /* --------------- Home --------------------- */
-
-
-.video {
-    position: absolute;
-    z-index: -1;
-}
