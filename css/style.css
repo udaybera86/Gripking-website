@@ -346,35 +346,6 @@ a {
     object-fit: contain;
 }
 
-
-.slide-image {
-    animation: 1.5s fade;
-}
-
-@keyframes fade {
-    from {
-        margin-left: 100%;
-    }
-
-    to {
-        margin-left: 0%;
-    }
-}
-
-.home-product-details {
-    animation: 1.5s slideUp;
-}
-
-@keyframes slideUp {
-    from {
-        margin-top: 15%;
-    }
-
-    to {
-        margin-top: 0%;
-    }
-}
-
 .slide-btn #up-btn {
     position: absolute;
     /* left: 1452px; */
@@ -411,7 +382,7 @@ a {
 }
 
 .slide-btn button:hover i {
-    color: #a19999;
+    color: #101010;
 }
 
 .slide-btn #up-btn:hover {
@@ -582,7 +553,6 @@ i.fa.fa-quote-left {
 
 .footer-content {
     height: 437px;
-    /* justify-content: space-around; */
     align-items: center;
 }
 

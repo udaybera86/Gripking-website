@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gripking</title>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
+        <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -113,7 +112,7 @@
         <div class="about-content container">
             <p id="about-heading">ABOUT US</p>
             <h4>Packing Tapes Roll Manufacturer</h4>
-            <p>Gripking is one of the leading packing products & Adhesive Tape Manufacturers in India. We are dedicated
+            <p id="about-content-one">Gripking is one of the leading packing products & Adhesive Tape Manufacturers in India. We are dedicated
                 to offering premium-quality products at economical prices using modern technologies to practice most
                 efficiently. Our product range involves Double Sided Tape, Masking Tape, Electrical Insulation Tape, Box
                 Packing Tape, Aluminum Tape, and Self-Adhesive in India. Our erudite and skilled professionals do
@@ -346,6 +345,28 @@
         </div>
     </section>
     <script src="../js/app.js"></script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 200,
+        });
+
+        ScrollReveal().reveal('.main-logo .text', { delay: 50 });
+        ScrollReveal().reveal('.about-content #about-heading, .about-content h4', { delay: 50, origin: 'left' });
+        ScrollReveal().reveal('#about-content-one, #about-content-two, .about-content', { delay: 50, origin: 'bottom' });
+        ScrollReveal().reveal('.slider', { delay: 50, origin: 'bottom' });
+        ScrollReveal().reveal('.home-product-img img', { delay: 50, origin: 'right' });
+        ScrollReveal().reveal('.sec-four .title', { delay: 50, origin: 'top' });
+        ScrollReveal().reveal('.sec-five .tag-line', { delay: 50, origin: 'left' });
+        ScrollReveal().reveal('.sec-five .btn', { delay: 50, origin: 'right' });
+        ScrollReveal().reveal('.sec-five .trust', { delay: 50, origin: 'bottom' });
+        ScrollReveal().reveal('.footer-logo img', { delay: 50, origin: 'left' });
+        ScrollReveal().reveal('.footer-location h4, .footer-contact h4', { delay: 50, origin: 'top' });
+        ScrollReveal().reveal('.footer-location .corporate-address, .footer-location #factory-address, .footer-contact p', { delay: 50, origin: 'bottom' });
+        ScrollReveal().reveal('.footersocial-content li', { delay: 50, origin: 'left', interval: 200 });
+    </script>
 </body>
 
 </html>
