@@ -396,3 +396,7 @@ a {
     font-style: normal;
     padding-top: 10px;
 }
+
+.form-content {
+    width: 60%;
+}

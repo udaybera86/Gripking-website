@@ -150,14 +150,22 @@
                     <p>Your email address will not be published. Required fields are marked *</p>
                 </div>
                 <div class="form-content">
-                    <form action="mailto:berauday86@gmail.com">
+                    <form action="">
                         <div class="name-mail">
-                            <input type="text" placeholder="Name *" required oninvalid="this.setCustomValidity('Please Enter Your Name')"
-                            oninput="setCustomValidity('')">
-                            <input type="email" placeholder="Email address *" required oninvalid="this.setCustomValidity('Please Enter valid email')"
-                            oninput="setCustomValidity('')">
-                            <input type="submit">
+                            <input type="text" name="Name" placeholder="Name *" required
+                                oninvalid="this.setCustomValidity('Please Enter Your Name')"
+                                oninput="setCustomValidity('')">
+                            <input type="email" name="Email Address" placeholder="Email address *" required
+                                oninvalid="this.setCustomValidity('Please Enter valid email')"
+                                oninput="setCustomValidity('')">
                         </div>
+                        <div class="phone">
+                            <input type="number" name="Phone Number" placeholder="Your Phone *" required
+                                oninvalid="this.setCustomValidity('Please Enter valid phone number')"
+                                oninput="setCustomValidity('')">
+                        </div>
+                        <textarea name="Message" id="textarea" cols="45" rows="5" placeholder="Your Message"></textarea>
+                        <input type="submit" id="submit-btn">
                     </form>
                 </div>
             </div>
