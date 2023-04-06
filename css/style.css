@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-/* ---------------  Common CSS --------------------- */
+/* ---------------  Common CSS Start --------------------- */
 
 ul li {
     list-style: none;
@@ -44,7 +44,7 @@ a {
 
 .col-30 {
     width: 30%;
-
+    
 }
 
 .row {
@@ -55,6 +55,52 @@ a {
 .jsc {
     justify-content: space-between;
 }
+
+/* ---------button CSS Start---------- */
+
+.button {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 15px;
+    color: #101010;
+    outline: 2px solid #FED51B;
+    padding: 13px 18px;
+    overflow: hidden;
+    transition: color 0.7s;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    z-index: -1;
+    width: 150%;
+    height: 100%;
+    background-color: #FED51B;
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    transition: transform 1s;
+}
+
+.button:hover::before {
+    transform: scaleX(1) skewX(35deg);
+}
+
+/* ---------button CSS End---------- */
+
+/* ---------------  Common CSS --------------------- */
+
 
 /* --------------- Navbar --------------------- */
 
@@ -67,7 +113,6 @@ a {
 
 .layer {
     position: absolute;
-    min-height: 100vh;
     min-width: 100vw;
     z-index: 100;
 }
@@ -203,7 +248,7 @@ a {
     top: 35%;
 }
 
-.down-arrow {
+/* .down-arrow {
     position: absolute;
     z-index: 999;
     left: 49%;
@@ -231,6 +276,47 @@ a {
     line-height: 100px;
     vertical-align: middle;
     color: #FED51B;
+} */
+
+.down-wheel {
+    position: absolute;
+    z-index: 999;
+    left: 49%;
+    bottom: 7%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.mouse {
+    width: 40px;
+    height: 80px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    display: inline-flex;
+}
+
+.mouse-wheel {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: auto;
+    animation: moveWheel 1.25s linear infinite;
+}
+
+@keyframes moveWheel {
+    0% {
+        opacity: 0;
+        translate: 0 25px;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 -18px;
+    }
 }
 
 /* ------------------ Section Two ------------------- */
@@ -266,27 +352,8 @@ a {
     margin: 20px 0 30px 0;
 }
 
-.about-content button {
-    background: #FED51B;
-    mix-blend-mode: normal;
-    border-radius: 8px;
-    border: none;
+.about-content .button {
     margin-bottom: 100px;
-    padding: 11px 25px;
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-.about-content button a {
-    color: #101010;
-}
-
-.about-content button:hover {
-    background-color: #fed41bab;
 }
 
 /* ------------------ Section Three ------------------- */
@@ -417,7 +484,7 @@ a {
 
 .title {
     font-size: 50px;
-    color: #101010;
+    color: #101010e5;
     font-family: 'Joto';
     text-align: center;
     margin: 0 0 50px 0;
@@ -505,13 +572,27 @@ i.fa.fa-quote-left {
 }
 
 .btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    width: 150px;
+    top: 90px;
+    left: 230px;
+    cursor: pointer;
 }
 
-.btn button {
+.btn .button{
+border: none;
+}
+
+.btn .button a {
+    color: #101010;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn .button:hover a {
+    color: #fff;
+}
+
+/* .btn button {
     font-family: 'Sora';
     font-style: normal;
     font-weight: 600;
@@ -529,14 +610,14 @@ i.fa.fa-quote-left {
 
 .btn button:hover a {
     color: #FECC00;
-}
+} */
 
 .trust {
     margin: 30px 0 0 0;
     font-size: 60px;
     font-family: "Jost";
     text-align: center;
-    color: #272727;
+    color: #101010f2;
 }
 
 .trust span {
@@ -589,12 +670,12 @@ i.fa.fa-quote-left {
     line-height: 26px;
 }
 
-.corporate-address{
+.corporate-address {
     display: flex;
     align-items: center;
 }
 
-#vertical-line-one{
+#vertical-line-one {
     height: 80px;
     border: 1px solid #FFFFFF;
     margin: 20px 15px 20px 47px;
@@ -604,12 +685,12 @@ i.fa.fa-quote-left {
     margin: 20px 0;
 }
 
-#factory-address{
+#factory-address {
     display: flex;
     align-items: center;
 }
 
-#vertical-line-two{
+#vertical-line-two {
     height: 55px;
     border: 1px solid #FFFFFF;
     margin: 20px 15px;
@@ -656,11 +737,11 @@ i.fa.fa-quote-left {
     font-weight: 100;
 }
 
-.footersocial-content a{
+.footersocial-content a {
     transition: all 0.4s;
 }
 
-.footersocial-content p:hover a{
+.footersocial-content p:hover a {
     color: #FED51B;
 }
 
@@ -671,7 +752,7 @@ i.fa.fa-quote-left {
     vertical-align: middle;
 }
 
-.footersocial-content span{
+.footersocial-content span {
     color: #d2d2d5;
 }
 

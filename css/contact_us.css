@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
 
 * {
     margin: 0;
@@ -44,7 +45,14 @@ a {
 
 .col-30 {
     width: 30%;
+}
 
+.col-45 {
+    width: 45%;
+}
+
+.col-55 {
+    width: 55%;
 }
 
 .row {
@@ -56,18 +64,18 @@ a {
     justify-content: space-between;
 }
 
+/* --------------- Section One Start --------------------- */
+
 /* --------------- Navbar --------------------- */
 
 .sec-one {
     position: relative;
-    height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
 
 .layer {
     position: absolute;
-    min-height: 100vh;
     min-width: 100vw;
     z-index: 100;
 }
@@ -168,11 +176,223 @@ a {
 
 .contact-banner{
     width: 100%;
-    height: 400px;
+    height: 430px;
 }
 
 .contact-banner img{
     width: 100%;
-    height: 400px;
+    height: 430px;
     object-fit: cover;
+}
+
+.contact-path{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    /* z-index: 101; */
+}
+
+.contact-path h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    color: #FED51B;
+    line-height: 90px;
+    text-align: center;
+}
+
+.contact-path p{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 22px;
+    color: #fff;
+}
+
+.contact-path i{
+    margin: 0 10px;
+}
+
+.contact-path span:hover a{
+    color: #FED51B;
+    transition: all 0.5s;
+}
+
+/* --------------- Section One End --------------------- */
+
+/* --------------- Section Two Start --------------------- */
+
+
+.sec-two{
+    margin-top: 120px;
+}
+.contact-map {
+    height: 80vh;
+    display: flex;
+}
+
+.contact-map .col-45{
+    height: 80vh;
+}
+
+.conact-details {
+    margin-left: 280px;
+    width: 55%;
+}
+
+#our_contact{
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    letter-spacing: 3px;
+    color: #FED51B;
+}
+
+#get-touch {
+    font-size: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 10px 0;
+    letter-spacing: -1px;
+    color: rgba(0, 0, 0, 0.755);
+}
+
+#get-touch-des {
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.address-one i {
+    color: #FED51B;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.address-one span{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.address-one p{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 10px 0 10px 40px;
+    font-size: 15px;
+}
+
+.address-two i {
+    color: #FED51B;
+    padding-right: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.address-two span{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.address-two p{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 10px 0 10px 40px;
+    font-size: 15px;
+}
+
+.contact-num i {
+    color: #FED51B;
+    padding-right: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-num span{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.contact-num p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 15px;
+}
+
+#number {
+    margin: 10px 0 10px 40px;
+}
+
+#number a:hover {
+    color: #FED51B;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-num a{
+    color: black;
+}
+
+.email-details i {
+    color: #FED51B;
+    padding-right: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.email-details span{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.email-details p{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 10px 0 10px 40px;
+    font-size: 15px;
+}
+
+.email-details a{
+    color: black;
+}
+
+.email-details a:hover {
+    color: #FED51B;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-form {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.contact-form .col-45{
+    background-image: url(../img/Business_meeting.jpg);
+    background-size: cover;
+    width: 45%;
+    height: 80vh;
+}
+
+.form-details {
+    margin: 85px 0 0 80px;
+}
+
+.form-details h3{
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.802);
+    letter-spacing: -.3px;
+}
+
+.form-details p{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    padding-top: 10px;
 }
