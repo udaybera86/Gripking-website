@@ -174,25 +174,25 @@ a {
 
 /* --------------- Home --------------------- */
 
-.contact-banner{
+.contact-banner {
     width: 100%;
     height: 430px;
 }
 
-.contact-banner img{
+.contact-banner img {
     width: 100%;
     height: 430px;
     object-fit: cover;
 }
 
-.contact-path{
+.contact-path {
     position: absolute;
     top: 50%;
     right: 40%;
     /* z-index: 101; */
 }
 
-.contact-path h4{
+.contact-path h4 {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -202,18 +202,18 @@ a {
     text-align: center;
 }
 
-.contact-path p{
+.contact-path p {
     font-family: Poppins;
     font-style: normal;
     font-size: 22px;
     color: #fff;
 }
 
-.contact-path i{
+.contact-path i {
     margin: 0 10px;
 }
 
-.contact-path span:hover a{
+.contact-path span:hover a {
     color: #FED51B;
     transition: all 0.5s;
 }
@@ -223,15 +223,16 @@ a {
 /* --------------- Section Two Start --------------------- */
 
 
-.sec-two{
+.sec-two {
     margin: 120px 0;
 }
+
 .contact-map {
     height: 80vh;
     display: flex;
 }
 
-.contact-map .col-45{
+.contact-map .col-45 {
     height: 80vh;
 }
 
@@ -240,7 +241,7 @@ a {
     width: 55%;
 }
 
-#our_contact{
+#our_contact {
     font-size: 16px;
     font-family: 'Poppins';
     font-style: normal;
@@ -270,13 +271,13 @@ a {
     font-size: 18px;
 }
 
-.address-one span{
+.address-one span {
     font-size: 18px;
     font-family: 'Poppins';
     font-style: normal;
 }
 
-.address-one p{
+.address-one p {
     font-family: 'Poppins';
     font-style: normal;
     margin: 10px 0 10px 40px;
@@ -290,13 +291,13 @@ a {
     margin-top: 20px;
 }
 
-.address-two span{
+.address-two span {
     font-size: 18px;
     font-family: 'Poppins';
     font-style: normal;
 }
 
-.address-two p{
+.address-two p {
     font-family: 'Poppins';
     font-style: normal;
     margin: 10px 0 10px 40px;
@@ -310,13 +311,13 @@ a {
     margin-top: 20px;
 }
 
-.contact-num span{
+.contact-num span {
     font-size: 18px;
     font-family: 'Poppins';
     font-style: normal;
 }
 
-.contact-num p{
+.contact-num p {
     font-family: 'Poppins';
     font-style: normal;
     font-size: 15px;
@@ -331,7 +332,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-.contact-num a{
+.contact-num a {
     color: black;
 }
 
@@ -342,20 +343,20 @@ a {
     margin-top: 20px;
 }
 
-.email-details span{
+.email-details span {
     font-size: 18px;
     font-family: 'Poppins';
     font-style: normal;
 }
 
-.email-details p{
+.email-details p {
     font-family: 'Poppins';
     font-style: normal;
     margin: 10px 0 10px 40px;
     font-size: 15px;
 }
 
-.email-details a{
+.email-details a {
     color: black;
 }
 
@@ -364,13 +365,19 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
+
+/* --------------- Section Two End --------------------- */
+
+/* --------------- Section Three Start --------------------- */
+
+
 .contact-form {
     width: 100%;
     height: 80vh;
     display: flex;
 }
 
-.contact-form .col-45{
+.contact-form .col-45 {
     background-image: url(../img/Business_meeting.jpg);
     background-size: cover;
     width: 45%;
@@ -381,8 +388,8 @@ a {
     margin: 85px 0 0 80px;
 }
 
-.form-details h3{
-    font-size: 24px;
+.form-details h3 {
+    font-size: 32px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -390,17 +397,55 @@ a {
     letter-spacing: -.3px;
 }
 
-.form-details p{
-    font-size: 14px;
+.form-details p {
+    font-size: 20px;
     font-family: 'Poppins';
     font-style: normal;
     padding-top: 10px;
 }
 
 .form-content {
-    width: 60%;
+    width: 85%;
+    margin: 60px 0 0 80px;
 }
 
+.name-mail {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.name-mail input {
+    width: 48%;
+    font-size: 18px;
+    padding: 25px 22px;
+}
+
+.phone input,
+.form-message textarea {
+    margin: 10px 0;
+    width: 100%;
+    font-size: 18px;
+    padding: 25px 22px;
+    /* padding: 15px 22px; */
+}
+
+.form-content input,
+.form-content textarea {
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+.form-submit{
+    margin: 20px 0 0 0;
+}
+.form-submit button{
+    font-size: 25px;
+    color: white;
+    background-color: #262626;
+    padding: 15px 40px;
+    border-radius: 30px;
+    
+}
 
 /* --------------- Footer Section --------------------- */
 

@@ -160,12 +160,19 @@
                                 oninput="setCustomValidity('')">
                         </div>
                         <div class="phone">
-                            <input type="number" name="Phone Number" placeholder="Your Phone *" required
+                            <input type="tel" name="Phone Number" placeholder="Your Phone *" required
                                 oninvalid="this.setCustomValidity('Please Enter valid phone number')"
                                 oninput="setCustomValidity('')">
                         </div>
-                        <textarea name="Message" id="textarea" cols="45" rows="5" placeholder="Your Message"></textarea>
-                        <input type="submit" id="submit-btn">
+                        <div class="form-message">
+                            <textarea name="Message" id="textarea" cols="45" rows="5"
+                                placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" value="Submit">submit
+                            <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
