@@ -161,3 +161,12 @@ function shiftSlides(direction) {
 //button click events
 btnRight.addEventListener("click", shiftSlides.bind(null, 1));
 btnLeft.addEventListener("click", shiftSlides.bind(null, 0));
+
+
+
+
+
+// function sethovereffect(){
+//     state = document.getElementsByClassName("state")
+//     state[0].style.border ="1px solid #FED51B"
+// }

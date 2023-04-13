@@ -38,13 +38,17 @@ a {
     margin: 0 auto;
 }
 
+.col-50 {
+    width: 50%;
+}
+
 .col-70 {
     width: 70%;
 }
 
 .col-30 {
     width: 30%;
-    
+
 }
 
 .row {
@@ -99,7 +103,7 @@ a {
 
 /* ---------button CSS End---------- */
 
-/* ---------------  Common CSS --------------------- */
+/* ---------------  Common CSS End--------------------- */
 
 
 /* --------------- Navbar --------------------- */
@@ -550,14 +554,12 @@ i.fa.fa-quote-left {
 
 /* ------------------ Section Five ------------------- */
 
-.sec-five {
+/* .sec-five {
     min-height: 350px;
     background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../img/yellow-blur.jpg);
-    /* background-position: -50% 20%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .tag-line {
@@ -592,26 +594,6 @@ border: none;
     color: #fff;
 }
 
-/* .btn button {
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    background-color: #101010;
-    padding: 11px 25px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.btn button a {
-    transition: all 0.4s ease-in-out;
-}
-
-.btn button:hover a {
-    color: #FECC00;
-} */
-
 .trust {
     margin: 30px 0 0 0;
     font-size: 60px;
@@ -622,7 +604,38 @@ border: none;
 
 .trust span {
     color: #000000;
+} */
+
+.sec-five {
+    width: 100%;
+    height: 800px;
+    background-color: #101010;
+    display: flex;
+
 }
+
+.india-map{
+    height: 800px;
+    line-height: 800px;
+    /* border-right: 1px solid #fff; */
+    display: flex;
+}
+
+.india-map img {
+    vertical-align: middle;
+    /* display: block; */
+    margin-left: 200px;
+    width: 80%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.vertical-border {
+    height: 700px;
+    border-right: 1px solid #fff;
+    margin: auto 0 auto 70px;
+}
+
 
 /* --------------- Footer Section --------------------- */
 
