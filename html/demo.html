@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 500px;
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        
+    </div>
+    <button onmouseover="sethovereffect()" onmouseleave="outhovereffect()">
+        show
+    </button>
+
+    <script>
+        function sethovereffect() {
+            box = document.getElementsByClassName("box");
+            box[0].style.border = "5px solid #FED51B"
+        }
+        function outhovereffect() {
+            box = document.getElementsByClassName("box");
+            box[0].style.border = ""
+        }
+    </script>
+</body>
+</html>
