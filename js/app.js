@@ -90,13 +90,16 @@ $(window).scroll(function () {
 
 // --------------(For Product Images)-----------------
 
+
 var slideIndex = 1;
 
 function showImage(n) { // for Display the first Image
     'use strict';
     var slide = document.getElementsByClassName('slide-image'),
-    // dots = document.getElementsByClassName('dots'),
-    i;
+
+        // dots = document.getElementsByClassName('dots'),
+        i;
+
     if (n > slide.length) { // to prevent larger values than the slide length
         slideIndex = 1;
     }
@@ -187,4 +190,10 @@ function sethovereffect() {
 function outhovereffect() {
     box = document.getElementsByClassName("box").classList.remove('border');
     box[0].style.border = ""
+}
+
+
+var loader = document.getElementById("loader");
+window.onload = function () {
+    loader.style.display = 'none';
 }
