@@ -174,10 +174,10 @@ btnLeft.addEventListener("click", shiftSlides.bind(null, 0));
 
 
 function sethovereffect() {
-    box = document.getElementsByClassName("box");
+    box = document.getElementsByClassName("box").classList.add('border');
     box[0].style.clipPath = "5px solid #FED51B"
 }
 function outhovereffect() {
-    box = document.getElementsByClassName("box");
+    box = document.getElementsByClassName("box").classList.remove('border');
     box[0].style.border = ""
 }
