@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
 
 * {
     margin: 0;
@@ -41,6 +43,12 @@ a {
 .col-70 {
     width: 70%;
 }
+.col-60 {
+    width: 60%;
+}
+.col-40 {
+    width: 40%;
+}
 
 .col-30 {
     width: 30%;
@@ -60,14 +68,12 @@ a {
 
 .sec-one {
     position: relative;
-    height: 100vh;
     background-size: cover;
     overflow: hidden;
 }
 
 .layer {
     position: absolute;
-    min-height: 100vh;
     min-width: 100vw;
     z-index: 100;
 }
@@ -167,13 +173,64 @@ a {
 /* --------------- Home --------------------- */
 
 
-.video {
+.contact-banner {
+    width: 100%;
+    height: 430px;
+}
+
+.contact-banner img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+
+.contact-path {
     position: absolute;
-    z-index: -1;
+    top: 50%;
+    right: 40%;
+    /* z-index: 101; */
+}
+
+.contact-path h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    color: #FED51B;
+    line-height: 90px;
+    text-align: center;
+}
+
+.contact-path p {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 22px;
+    color: #fff;
+}
+
+.contact-path i {
+    margin: 0 10px;
+}
+
+.contact-path span:hover a {
+    color: #FED51B;
+    transition: all 0.5s;
 }
 
 
+/* --------------- Section Two --------------------- */
 
+.sec-two{
+    /* display: flex; */
+}
+.sec-two-img img{
+    width: 80%;
+    height: 80%;
+}
+
+.sec-two-content{
+    
+}
 /* --------------- Footer Section --------------------- */
 
 .footer {
