@@ -11,6 +11,17 @@
             height: 500px;
             background-color: cyan;
         }
+
+
+        .mask{
+            -webkit-mask-image: url(../img/graph.png);
+            -webkit-mask-size: contain;
+            -webkit-mask-repeat: no-repeat;
+        }
+        .mask img{
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -24,12 +35,18 @@
     <script>
         function sethovereffect() {
             box = document.getElementsByClassName("box");
-            box[0].style.border = "5px solid #FED51B"
+          //  box[0].style.border = "5px solid #FED51B"
+            box[0].style.clipPath = "polygon(96% 4%, 86% 96%, 68% 44%, 50% 77%, 10% 90%, 5% 51%, 46% 43%, 14% 38%, 2% 11%, 54% 0)"
         }
         function outhovereffect() {
             box = document.getElementsByClassName("box");
-            box[0].style.border = ""
+            box[0].style.clipPath = ""
         }
     </script>
+
+
+    <div class="mask">
+        <img src="../img/yellow-blur.jpg" alt="">
+    </div>
 </body>
 </html>
