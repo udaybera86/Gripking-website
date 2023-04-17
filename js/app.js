@@ -17,7 +17,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 document.querySelector('video').playbackRate = .95;
 
 
-// <-------------------- Dropdown menu hover -------------->
+// <-------------------- Dropdown menu hover Start -------------->
 
 $("#product").mouseover(function () {
     $(".dropdown-container").slideDown(800);
@@ -35,7 +35,9 @@ $("#about").mouseover(function () {
     $(".dropdown-container").slideUp(800);
 });
 
-// <------------------- Section Four ---------------------->
+// <-------------------- Dropdown menu hover End -------------->
+
+// <------------------- Review Slider Start ---------------------->
 
 $(document).ready(function () {
     $("#testimonial-slider").owlCarousel({
@@ -50,7 +52,9 @@ $(document).ready(function () {
     });
 });
 
-// <-------------------- Counting Numbers -------------->
+// <------------------- Review Slider End ---------------------->
+
+// <-------------------- Counting Numbers Start -------------->
 
 var counted = 0;
 $(window).scroll(function () {
@@ -64,33 +68,35 @@ $(window).scroll(function () {
             }).animate({
                 countNum: countTo
             },
-                {
-                    duration: 2000,
-                    easing: 'swing',
-                    step: function () {
-                        $this.text(Math.floor(this.countNum));
+            {
+                duration: 2000,
+                easing: 'swing',
+                step: function () {
+                    $this.text(Math.floor(this.countNum));
                     },
                     complete: function () {
                         $this.text(this.countNum);
                         //alert('finished');
                     }
                 });
-        });
-        counted = 1;
-    }
-});
+            });
+            counted = 1;
+        }
+    });
 
-// <-------------------- Home Product Slider -------------->
+    // <-------------------- Counting Numbers End -------------->
 
-    // --------------(For Product Images)-----------------
-    
-    var slideIndex = 1;
+// <-------------------- Home Product Slider Start -------------->
 
-    function showImage(n) { // for Display the first Image
-        'use strict';
-        var slide = document.getElementsByClassName('slide-image'),
-        // dots = document.getElementsByClassName('dots'),
-        i;
+// --------------(For Product Images)-----------------
+
+var slideIndex = 1;
+
+function showImage(n) { // for Display the first Image
+    'use strict';
+    var slide = document.getElementsByClassName('slide-image'),
+    // dots = document.getElementsByClassName('dots'),
+    i;
     if (n > slide.length) { // to prevent larger values than the slide length
         slideIndex = 1;
     }
@@ -162,20 +168,21 @@ function shiftSlides(direction) {
 btnRight.addEventListener("click", shiftSlides.bind(null, 1));
 btnLeft.addEventListener("click", shiftSlides.bind(null, 0));
 
+// <-------------------- Home Product Slider End -------------->
 
 
 
 
 // function sethovereffect(){
-//     state = document.getElementsByClassName("state")
-//     state[0].style.border ="1px solid #FED51B"
-//     state[0].style.border ="1px solid #FED51B"
+    //     state = document.getElementsByClassName("state")
+    //     state[0].style.border ="1px solid #FED51B"
+    //     state[0].style.border ="1px solid #FED51B"
 // }
 
 
 function sethovereffect() {
     box = document.getElementsByClassName("box").classList.add('border');
-    box[0].style.clipPath = "5px solid #FED51B"
+    box[0].style.border = "5px solid #FED51B"
 }
 function outhovereffect() {
     box = document.getElementsByClassName("box").classList.remove('border');
