@@ -43,9 +43,11 @@ a {
 .col-70 {
     width: 70%;
 }
+
 .col-60 {
     width: 60%;
 }
+
 .col-40 {
     width: 40%;
 }
@@ -220,17 +222,30 @@ a {
 
 /* --------------- Section Two --------------------- */
 
-.sec-two{
-    /* display: flex; */
-}
-.sec-two-img img{
+.sec-two-img img {
     width: 80%;
     height: 80%;
 }
 
-.sec-two-content{
-    
+.sec-two-content h4 {
+    font-size: 20px;
+    color: #FED51B;
+    font-weight: 700;
+    font-family: "Poppins";
 }
+
+.sec-two-content h5 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.sec-two-content p {
+    font-size: 25px;
+    line-height: 24px;
+    font-family: "Poppins";
+}
+
 /* --------------- Footer Section --------------------- */
 
 .footer {
