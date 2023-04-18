@@ -267,24 +267,32 @@ a {
 }
 
 /* --------------- Section One End --------------------- */
+
+/* --------------- Section Two Start --------------------- */
 .sec-two{
     display: flex;
     flex-wrap: wrap;
     height: 950px;
+    margin: 125px 0;
+}
+
+.two-img{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .two-img img {
     display: block;
-    margin: 100px 0 0 50px;
-    width: 80%;
-    height: 80%;
+    margin: 0 80px 0 0;
+    width: 60%;
+    height: 650px;
 }
 
 .container_two {
     max-width: 980px;
     margin-inline: auto;
     margin-right: 50px;
-    padding: 100px 15px;
+    margin: 0 65px 0 15px;
 }
 
 .title {
