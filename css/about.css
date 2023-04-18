@@ -221,6 +221,10 @@ a {
 
 
 /* --------------- Section Two --------------------- */
+.sec-two {
+    margin: 100px 0 0 0;
+
+}
 
 .sec-two-img img {
     width: 80%;
@@ -243,7 +247,50 @@ a {
 .sec-two-content p {
     font-size: 25px;
     line-height: 24px;
-    font-family: "Poppins";
+    font-family: "Jost";
+}
+
+.btn {
+    margin: 80px 0 0 0;
+}
+
+.button {
+    position: relative;
+    /* z-index: 10; */
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 15px;
+    color: #101010;
+    outline: 2px solid #FED51B;
+    padding: 13px 18px;
+    overflow: hidden;
+    transition: color 0.7s;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    z-index: -1;
+    width: 150%;
+    height: 100%;
+    background-color: #FED51B;
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    transition: transform 1s;
+}
+
+.button:hover::before {
+    transform: scaleX(1) skewX(35deg);
 }
 
 /* --------------- Footer Section --------------------- */

@@ -1,5 +1,14 @@
 "use strict";
 
+// <------------------- Preloader ---------------------->
+
+
+var loader = document.getElementById("loader");
+window.onload = function () {
+    loader.style.display = 'none';
+}
+
+
 // <------------------- Smooth Scroll ---------------------->
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -192,8 +201,3 @@ function outhovereffect() {
     box[0].style.border = ""
 }
 
-
-var loader = document.getElementById("loader");
-window.onload = function () {
-    loader.style.display = 'none';
-}
