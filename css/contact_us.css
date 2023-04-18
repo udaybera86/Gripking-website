@@ -226,6 +226,7 @@ a {
     width: 100%;
     height: 430px;
     object-fit: cover;
+    filter: blur(3px);
 }
 
 .contact-path {
@@ -602,7 +603,7 @@ a {
 }
 
 #vertical-line-two {
-    height: 55px;
+    height: 80px;
     border: 1px solid #FFFFFF;
     margin: 20px 15px;
 }

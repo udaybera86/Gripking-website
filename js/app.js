@@ -1,25 +1,27 @@
 "use strict";
 
-// <------------------- Preloader ---------------------->
-
+// <------------------- Pre-loader Start ---------------------->
 
 var loader = document.getElementById("loader");
 window.onload = function () {
     loader.style.display = 'none';
 }
 
+// <------------------- Pre-loader End ---------------------->
 
-// <------------------- Smooth Scroll ---------------------->
+// <------------------- Smooth Scroll Start ---------------------->
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-
+        
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
     });
 });
+
+// <------------------- Smooth Scroll End ---------------------->
 
 // <------------------- Home Section ---------------------->
 
@@ -192,12 +194,11 @@ btnLeft.addEventListener("click", shiftSlides.bind(null, 0));
 // }
 
 
-function sethovereffect() {
-    box = document.getElementsByClassName("box").classList.add('border');
-    box[0].style.border = "5px solid #FED51B"
-}
-function outhovereffect() {
-    box = document.getElementsByClassName("box").classList.remove('border');
-    box[0].style.border = ""
-}
-
+// function sethovereffect() {
+//     box = document.getElementsByClassName("box").classList.add('border');
+//     box[0].style.border = "5px solid #FED51B"
+// }
+// function outhovereffect() {
+//     box = document.getElementsByClassName("box").classList.remove('border');
+//     box[0].style.border = ""
+// }
