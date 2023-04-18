@@ -58,7 +58,7 @@
 }
 
 .loading {
-    color: #FED51B;
+    color: #FED51B !important;
     letter-spacing: 2px;
     font-family: 'Poppins', monospace;
     font-style: normal;
