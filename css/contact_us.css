@@ -183,18 +183,16 @@ a {
         justify-content: start;
         width: 90vw;
         padding: 0;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
     .nav-links ul{
         display: block;
     }
     .nav-links ul li {
         margin: 0;
-        padding: 0 10px;
+        padding: 0 5px;
     }
-    .row{
 
-    }
 }
 
 /* ---------------  Dropdown Menu --------------------- */
