@@ -249,7 +249,7 @@ a {
     width: 100%;
     height: 430px;
     object-fit: cover;
-    filter: blur(3px);
+    filter: blur(150px);
 }
 
 .contact-path {
