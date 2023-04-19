@@ -222,41 +222,57 @@ a {
 
 /* --------------- Section Two --------------------- */
 .sec-two {
-    margin: 100px 0 0 0;
+    margin: 100px 0 180px 0;
+} 
 
+.sec-two-img{
+    position: relative;
 }
 
 .sec-two-img img {
-    width: 80%;
-    height: 80%;
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+}
+
+#img_two{
+    position: absolute;
+    top: 14%;
+    left: 11%;
+}
+
+.sec-two-content{
+    margin-top: 77px;
 }
 
 .sec-two-content h4 {
-    font-size: 20px;
+    font-size: 14px;
     color: #FED51B;
     font-weight: 700;
     font-family: "Poppins";
+    letter-spacing: 3.4px;
+    margin: 0 0 20px 0;
 }
 
 .sec-two-content h5 {
     font-size: 48px;
     font-weight: 700;
     font-family: "Poppins";
+    line-height: 55px;
+    letter-spacing: -1px;
+    color: rgba(0, 0, 0, 0.755);
+    margin: 0 0 32px 0;
 }
 
 .sec-two-content p {
-    font-size: 25px;
+    font-size: 16px;
     line-height: 24px;
-    font-family: "Jost";
-}
-
-.btn {
-    margin: 80px 0 0 0;
+    font-family: "Poppins";
+    margin: 0 0 55px 0;
 }
 
 .button {
     position: relative;
-    /* z-index: 10; */
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
