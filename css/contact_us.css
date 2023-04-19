@@ -64,6 +64,12 @@ a {
     justify-content: space-between;
 }
 
+@media (900px <=width<=1200px) {
+    .container {
+        width: 800px;
+    }
+}
+
 /* ---------button CSS Start---------- */
 
 .button {
@@ -170,6 +176,25 @@ a {
 
 .nav-links ul li {
     margin: 0 18px;
+}
+
+@media (900px <=width<=1200px) {
+    .navbar {
+        justify-content: start;
+        width: 90vw;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+    .nav-links ul{
+        display: block;
+    }
+    .nav-links ul li {
+        margin: 0;
+        padding: 0 10px;
+    }
+    .row{
+
+    }
 }
 
 /* ---------------  Dropdown Menu --------------------- */
@@ -481,32 +506,35 @@ a {
     outline: none;
 }
 
-.form-content input[type=text]:focus{
-    border: 1px solid #FED51B;
-    box-shadow: 0 0 4px #FED51B;
-}
-.form-content input[type=email]:focus{
-    border: 1px solid #FED51B;
-    box-shadow: 0 0 4px #FED51B;
-}
-.form-content input[type=tel]:focus{
-    border: 1px solid #FED51B;
-    box-shadow: 0 0 4px #FED51B;
-}
-.form-content textarea:focus{
+.form-content input[type=text]:focus {
     border: 1px solid #FED51B;
     box-shadow: 0 0 4px #FED51B;
 }
 
-.form-submit{
+.form-content input[type=email]:focus {
+    border: 1px solid #FED51B;
+    box-shadow: 0 0 4px #FED51B;
+}
+
+.form-content input[type=tel]:focus {
+    border: 1px solid #FED51B;
+    box-shadow: 0 0 4px #FED51B;
+}
+
+.form-content textarea:focus {
+    border: 1px solid #FED51B;
+    box-shadow: 0 0 4px #FED51B;
+}
+
+.form-submit {
     margin: 18px 0 0 0;
 }
 
-.form-submit .button{
+.form-submit .button {
     border-radius: 50px;
 }
 
-.form-submit button{
+.form-submit button {
     cursor: pointer;
     font-size: .75rem;
     border: none;
@@ -514,7 +542,7 @@ a {
     background-color: transparent;
 }
 
-.form-submit input{
+.form-submit input {
     font-family: 'Poppins';
     font-size: .8rem;
     text-transform: uppercase;
@@ -526,7 +554,7 @@ a {
     transition: color 0.7s;
 }
 
-.form-submit i{
+.form-submit i {
     font-size: 0.9rem;
 }
 
