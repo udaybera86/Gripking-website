@@ -1,0 +1,736 @@
+body {
+    background-color: #d9cdbf;
+    font-family: Helvetica;
+    overflow: hidden;
+    cursor:grabbing;
+  }
+  
+  /* * {
+    border: 1px solid red;
+  } */
+  
+  section {
+    background-color: #d9cdbf;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    /* margin-bottom: 30vh; */
+  }
+  
+  .logo {
+    font-weight: bolder;
+  }
+  
+  .navBars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .navBar {
+    padding-inline: 1rem;
+  }
+  
+  .GS {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+  }
+  
+  .GS1 {
+    background-color: black;
+    color: white;
+  }
+  
+  .GS2 {
+    background-color: blue;
+    color: white;
+    margin-top: 3em;
+  }
+  
+  .GS2_animate {
+    animation: GS2 3.5s 1 ease-out;
+    animation-fill-mode: forwards
+  }
+  
+  @keyframes GS2 {
+    0% {
+        margin-left: 0em;
+        margin-top: 6em;
+    }
+  
+    50% {
+        margin-top: 12em;
+    }
+  
+    100% {
+        margin-top: 12em;
+    }
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 50%;
+    margin-left: auto;
+  }
+  
+  .main_animate {
+    animation: main 5
+      s 1 ease-in-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: 2s; */
+  }
+  
+  @keyframes main {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+  
+    100% {
+      transform: rotate(90deg);
+      transform-origin: 50% 50%;
+    }
+  }
+  
+  
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 50%;
+    margin-inline: auto;
+  }
+  
+  .article_animate {
+    animation: article 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: 4s; */
+  }
+  
+  @keyframes article {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+  
+    100% {
+      transform: rotate(120deg);
+      transform-origin: 50% 50%;
+        
+    }
+  }
+  
+  #mainDiv  {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 50%;
+    margin-inline: auto;
+    transform: rotate(240deg);
+  }
+  
+  .mainDiv_animate {
+    animation: mainDiv 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+  }
+  
+  @keyframes mainDiv {
+    0% {
+        transform: rotate(240deg);
+        transform-origin: 50% 50%;
+    }
+  
+    50% {
+      transform: rotate(360deg);
+      transform-origin: 50% 50%;
+        
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      transform-origin: 50% 50%;
+        
+    }
+  }
+  
+  .tas_GS2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+  }
+  
+  .GS2 {
+    position: absolute;
+    top: 87vh;
+  }
+  
+  .tas {
+    font-size: 7em;
+    color: white;
+    align-content: center;
+    margin-top: auto;
+    z-index: 9999999999999999;
+    position: absolute;
+    top: 70vh;
+    opacity: 90%;
+    fill-opacity: 90%;
+  }
+  
+  .tas_animate {
+    animation: tas 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes tas {
+    0% {
+        top: 65vh;
+        display: block;
+    }
+  
+    100% {
+      top: 130vh;
+       display: none;
+    }
+  }
+  
+  .tas_return_animate {
+    animation: tasR 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes tasR {
+    0% {
+      visibility: hidden;
+        opacity: 0;
+        fill-opacity: 0%;
+    }
+  
+    50% {
+      visibility: visible;
+      opacity: 50%;
+      fill-opacity: 50%;
+    }
+  
+    100% {
+      opacity: 90%;
+      fill-opacity: 90%;
+    }
+  }
+  
+  .tas2  {
+    font-size: 7em;
+    color: white;
+    align-content: center;
+    margin-top: auto;
+    z-index: 9999999999999999;
+    position: absolute;
+    display: block;
+    top: -100vh;
+    fill-opacity: 50%;
+    opacity: 50%;
+  }
+  
+  .tas2_animate {
+    animation: tas2 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+  }
+  
+  @keyframes tas2 {
+    0% {
+        top: -40vh;
+        display: block;
+    }
+  
+    10% {
+      top: -40vh;
+       display: block;
+    }
+  
+    100% {
+      top: 20vh;
+      display: block;
+        
+    }
+  }
+  
+  .images {
+      /* height: 60vh; */
+      position: absolute;
+      top: 50;
+  }
+  
+    .images2 {
+      /* height: 60vh; */
+      position: absolute;
+      top: 50;
+    }
+  
+  .image {
+    height: 30vh;
+    width: 15vh;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+  }
+  
+  .fash1 {
+    position: absolute;
+    top: 50;
+    z-index: 999999999999999999;
+  }
+  
+  .fash1b {
+    position: absolute;
+    top: 50;
+    z-index: 999999999999999999;
+  }
+  
+  .fash2 {
+    position: absolute;
+    top: 50;
+    transform: rotate(2.5deg);
+  }
+  
+  .fash2_animate {
+    animation: fash2 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fash2 {
+    0% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+    }
+  
+    50% {
+        margin-left: 49vh;
+        margin-top: 10vh;
+        transform: rotate(45deg);
+    }
+  
+    100% {
+        margin-left: 49vh;
+        margin-top: 10vh;
+        transform: rotate(45deg);
+    }
+  }
+  
+  .fash2b {
+    position: absolute;
+    top: 50;
+    
+    margin-left: 49vh;
+    margin-top: 10vh;
+  transform: rotate(45deg);
+  }
+  
+  .fash2b_animate {
+    animation: fash2b 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+  
+  }
+  
+  @keyframes fash2b {
+    0% {
+      
+        margin-left: 49vh;
+        margin-top: 10vh;
+      transform: rotate(45deg);
+    }
+  
+    100% {
+      margin-left: 0vh;
+      margin-top: 0vh;
+        transform: rotate(2.5deg)
+    }
+  }
+  
+  .fash3 {
+    position: absolute;
+    top: 50;
+    transform: rotate(5deg);
+  }
+  
+  .fash3_animate {
+    animation: fash3 3.5s 1 ease-out;
+    animation-fill-mode: forwards
+  }
+  
+  @keyframes fash3 {
+    0% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+    }
+  
+    50% {
+        margin-left: 70vh;
+        margin-top: 33vh;
+        transform: rotate(90deg);
+    }
+  
+    100% {
+      margin-left: 70vh;
+      margin-top: 33vh;
+      transform: rotate(90deg);
+    }
+  }
+  
+  .fash3b {
+    position: absolute;
+    top: 50;
+    margin-left: 70vh;
+    margin-top: 33vh;
+  transform: rotate(90deg);
+  }
+  
+  .fash3b_animate {
+    animation: fash3b 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+  }
+  
+  @keyframes fash3b {
+    0% {
+        margin-left: 70vh;
+        margin-top: 33vh;
+      transform: rotate(90deg);
+    }
+  
+    100% {
+      margin-left: 0vh;
+      margin-top: 0vh;
+      transform: rotate(5deg);
+    }
+  }
+  
+  .fash4 {
+    position: absolute;
+    top: 50;
+  
+    transform: rotate(7.5deg);
+  }
+  
+  .fash4_animate {
+    animation: fash4 3.5s 1 ease-out;
+    animation-fill-mode: forwards
+  }
+  
+  @keyframes fash4 {
+    0% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+    }
+  
+    50% {
+        margin-left: 52vh;
+        margin-top: 58.5vh;
+        transform: rotate(135deg);
+    }
+  
+    100% {
+        margin-left: 52vh;
+        margin-top: 58.5vh;
+        transform: rotate(135deg);
+    }
+  }
+  
+  .fash4b {
+    position: absolute;
+    top: 50;
+    margin-left: 52vh;
+    margin-top: 58.5vh;
+  transform: rotate(135deg);
+  }
+  
+  .fash4b_animate {
+    animation: fash4b 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+  }
+  
+  @keyframes fash4b {
+    0% {
+        margin-left: 52vh;
+        margin-top: 58.5vh;
+      transform: rotate(135deg);
+    }
+  
+    100% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+        transform: rotate(7.5deg);
+    }
+  }
+  
+  .fash5 {
+    position: absolute;
+    top: 50;
+  }
+  
+  .fash5_animate {
+    animation: fash5 3.5s 1 ease-out;
+    animation-fill-mode: forwards
+  }
+  
+  @keyframes fash5 {
+    0% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+        transform: rotate(180deg);
+    }
+  
+    50% {
+        margin-left: 0vh;
+        margin-top: 69.8vh;
+        transform: rotate(180deg);
+    }
+  
+    100% {
+        margin-left: 0vh;
+        margin-top: 69.8vh;
+        transform: rotate(180deg);
+    }
+  }
+  
+  .fash5b {
+    position: absolute;
+    top: 50;
+    margin-left: 0vh;
+    margin-top: 69.8vh;
+  transform: rotate(180deg);
+  }
+  
+  .fash5b_animate {
+    animation: fash5b 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+  }
+  
+  @keyframes fash5b {
+    0% {
+        margin-left: 0vh;
+        margin-top: 69.8vh;
+      transform: rotate(180deg);
+    }
+  
+    100% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+        transform: rotate(0deg);
+    }
+  }
+  
+  .fash6 {
+    position: absolute;
+    top: 50;
+  
+    transform: rotate(-2.5deg);
+  }
+  
+  .fash6_animate {
+    animation: fash6 3.5s 1 ease-out;
+    animation-fill-mode: forwards
+  }
+  
+  @keyframes fash6 {
+    0% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+    }
+  
+    50% {
+        margin-left: -49vh;
+        margin-top: 10vh;
+        transform: rotate(-45deg);
+    }
+  
+    100% {
+        margin-left: -49vh;
+        margin-top: 10vh;
+        transform: rotate(-45deg);
+    }
+  }
+  
+  .fash6b {
+    position: absolute;
+    top: 50;
+    margin-left: -49vh;
+    margin-top: 10vh;
+  transform: rotate(-45deg);
+  }
+  
+  .fash6b_animate {
+    animation: fash6b 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+  }
+  
+  @keyframes fash6b {
+    0% {
+        margin-left: -49vh;
+        margin-top: 10vh;
+      transform: rotate(-45deg);
+    }
+  
+    100% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+        transform: rotate(-2.5deg);
+    }
+  }
+  
+  .fash7 {
+    position: absolute;
+    top: 50;
+    transform: rotate(-5deg);
+  }
+  
+  .fash7_animate {
+    animation: fash7 3.5s 1 ease-out;
+    animation-fill-mode: forwards
+  }
+  
+  @keyframes fash7 {
+    0% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+    }
+  
+    50% {
+        margin-left: -70vh;
+        margin-top: 33vh;
+        transform: rotate(-90deg);
+    }
+  
+    100% {
+        margin-left: -70vh;
+        margin-top: 33vh;
+        transform: rotate(-90deg);
+    }
+  }
+  
+  .fash7b {
+    position: absolute;
+    top: 50;
+    margin-left: -70vh;
+    margin-top: 33vh;
+  transform: rotate(-90deg);
+  }
+  
+  .fash7b_animate {
+    animation: fash7b 3.5s 1 ease-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+  }
+  
+  @keyframes fash7b {
+    0% {
+        margin-left: -70vh;
+        margin-top: 33vh;
+      transform: rotate(-90deg);
+    }
+  
+    100% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+        transform: rotate(-5deg);
+    }
+  }
+  
+  .fash8 {
+    position: absolute;
+    top: 50;
+  
+    transform: rotate(-7.5deg);
+  }
+  
+  .fash8_animate {
+    animation: fash8 3.5s 1 ease-out;
+    animation-fill-mode: forwards
+  }
+  
+  @keyframes fash8 {
+    0% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+    }
+  
+    50% {
+        margin-left: -52vh;
+        margin-top: 58.5vh;
+        transform: rotate(-135deg);
+    }
+  
+    100% {
+        margin-left: -52vh;
+        margin-top: 58.5vh;
+        transform: rotate(-135deg);
+    }
+  }
+  
+  .fash8b {
+    position: absolute;
+    top: 50;
+    margin-left: -52vh;
+    margin-top: 58.5vh;
+  transform: rotate(-135deg);
+  }
+  
+  .fash8b_animate {
+    animation: fash8b 3.5s 1 ease-in-out;
+    animation-fill-mode: forwards;
+    /* animation-delay: .5s; */
+  }
+  
+  @keyframes fash8b {
+    0% {
+        margin-left: -52vh;
+        margin-top: 58.5vh;
+      transform: rotate(-135deg);
+    }
+  
+    100% {
+        margin-left: 0vh;
+        margin-top: 0vh;
+        transform: rotate(-7.5deg);
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .GS1 {
+      display: none;
+    }
+  
+    .navBars {
+      display: none;
+    }
+  
+    .tas {
+      top: 80vh;
+    }
+  }
