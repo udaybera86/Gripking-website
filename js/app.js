@@ -1,8 +1,41 @@
 "use strict";
 
+// <-------------------- Counting Numbers Start -------------->
+
+let counted = 0;
+$(window).scroll(function () {
+    let oTop = $('.counting_num').offset().top - window.innerHeight;
+    if (counted == 0 && $(window).scrollTop() > oTop) {
+        $('.count').each(function () {
+            let $this = $(this),
+                countTo = $this.attr('data-count');
+            $({
+                countNum: $this.text()
+            }).animate({
+                countNum: countTo
+            },
+                {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function () {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function () {
+                        $this.text(this.countNum);
+                        // alert('finished');
+                    }
+                });
+        });
+        counted = 1;
+    }
+});
+
+// <-------------------- Counting Numbers End -------------->
+
+
 // <------------------- Pre-loader Start ---------------------->
 
-var loader = document.getElementById("loader");
+let loader = document.getElementById("loader");
 window.onload = function () {
     loader.style.display = 'none';
 }
@@ -14,7 +47,7 @@ window.onload = function () {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        
+
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
@@ -65,48 +98,17 @@ $(document).ready(function () {
 
 // <------------------- Review Slider End ---------------------->
 
-// <-------------------- Counting Numbers Start -------------->
-
-var counted = 0;
-$(window).scroll(function () {
-    var oTop = $('.trust').offset().top - window.innerHeight;
-    if (counted == 0 && $(window).scrollTop() > oTop) {
-        $('.count').each(function () {
-            var $this = $(this),
-                countTo = $this.attr('data-count');
-            $({
-                countNum: $this.text()
-            }).animate({
-                countNum: countTo
-            },
-            {
-                duration: 2000,
-                easing: 'swing',
-                step: function () {
-                    $this.text(Math.floor(this.countNum));
-                    },
-                    complete: function () {
-                        $this.text(this.countNum);
-                        //alert('finished');
-                    }
-                });
-            });
-            counted = 1;
-        }
-    });
-
-    // <-------------------- Counting Numbers End -------------->
 
 // <-------------------- Home Product Slider Start -------------->
 
 // --------------(For Product Images)-----------------
 
 
-var slideIndex = 1;
+let slideIndex = 1;
 
 function showImage(n) { // for Display the first Image
     'use strict';
-    var slide = document.getElementsByClassName('slide-image'),
+    let slide = document.getElementsByClassName('slide-image'),
 
         // dots = document.getElementsByClassName('dots'),
         i;

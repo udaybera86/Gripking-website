@@ -222,26 +222,26 @@ a {
 
 /* --------------- Home --------------------- */
 
-.contact-banner {
+.FAQ-banner {
     width: 100%;
     height: 430px;
 }
 
-.contact-banner img {
+.FAQ-banner img {
     width: 100%;
     /* height: 430px; */
     object-fit: cover;
     filter: blur(150px);
 }
 
-.contact-path {
+.FAQ-path {
     position: absolute;
     top: 50%;
     right: 40%;
     /* z-index: 101; */
 }
 
-.contact-path h4 {
+.FAQ-path h4 {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -251,18 +251,18 @@ a {
     text-align: center;
 }
 
-.contact-path p {
+.FAQ-path p {
     font-family: Poppins;
     font-style: normal;
     font-size: 22px;
     color: #fff;
 }
 
-.contact-path i {
+.FAQ-path i {
     margin: 0 10px;
 }
 
-.contact-path span:hover a {
+.FAQ-path span:hover a {
     color: #FED51B;
     transition: all 0.5s;
 }

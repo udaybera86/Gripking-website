@@ -50,7 +50,7 @@ $("#section").mouseup(function() {
         setTimeout (() => {
             mainDiv.style.display = 'flex';
             main.style.display = 'none';
-           }, 4000);
+           }, 1600);
     } else if (timesClicked === 4 ||  ((timesClicked - 4) % 5 === 0)) {
         mainDiv.classList.add('mainDiv_animate');
         fash2b.classList.add('fash2b_animate');
