@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/validation.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="form-content">
+        <form onsubmit="return validateForm()">
+            <div class="name-mail">
+                <input id="name" type="text" name="Name" placeholder="Name *">
+                <p id="nameerror"></p>
+                
+                <input id="email" type="email" name="Email Address" placeholder="Email address *">
+                <p id="emailerror"></p>
+            </div>
+            <div class="phone">
+                <input id="phonenum" type="tel" name="Phone Number" placeholder="Your Phone *">
+                <p id="phoneerror"></p>
+            </div>
+            <div class="form-message">
+                <textarea name="Message" id="textarea" cols="45" rows="8"
+                    placeholder="Your Message"></textarea>
+            </div>
+            <div class="form-submit">
+                <button class="button"><input type="submit"><i
+                        class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </form>
+
+<script src="../js/validation.js"></script>
+
+</body>
+</html>

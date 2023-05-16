@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
@@ -133,6 +134,7 @@ a {
     position: relative;
     top: 36px;
     z-index: 10;
+    width: 1000px;
     padding: 0 20px 0 40px;
     display: flex;
     justify-content: space-between;
@@ -199,7 +201,7 @@ a {
 
 .dropdown-container {
     position: relative;
-    left: 34%;
+    left: 29%;
     top: 36px;
     display: none;
 }
@@ -671,14 +673,17 @@ a {
     font-style: normal;
     font-size: 16px;
     font-weight: 100;
+    color: #d2d2d5;
+}
+
+.footersocial-content span{
+    letter-spacing: 1.7px;
+    color: #FED51B;
+    cursor:default;
 }
 
 .footersocial-content a {
     transition: all 0.4s;
-}
-
-.footersocial-content p:hover a {
-    color: #FED51B;
 }
 
 .footersocial-content {
@@ -686,10 +691,6 @@ a {
     justify-content: space-between;
     line-height: 126px;
     vertical-align: middle;
-}
-
-.footersocial-content span {
-    color: #d2d2d5;
 }
 
 .footersocial-content ul {

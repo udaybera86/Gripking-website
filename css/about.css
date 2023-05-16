@@ -6,8 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -86,6 +85,7 @@ a {
     position: relative;
     top: 36px;
     z-index: 10;
+    width: 1000px;
     padding: 0 20px 0 40px;
     display: flex;
     justify-content: space-between;
@@ -135,7 +135,7 @@ a {
 
 .dropdown-container {
     position: relative;
-    left: 34%;
+    left: 29%;
     top: 36px;
     display: none;
 }
@@ -270,14 +270,17 @@ a {
     margin: 0 0 55px 0;
 }
 
-.button {
+.services .service-items {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.item-inner .btn {
     position: relative;
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: 'Sora';
-    font-style: normal;
     font-size: 15px;
     color: #101010;
     outline: 2px solid #FED51B;
@@ -286,11 +289,19 @@ a {
     transition: color 0.7s;
 }
 
-.button:hover {
+.services .service-items .item-inner .btn {
+    font-family: 'Sora' sans-serif;
+    font-style: normal;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}   
+
+.item-inner button:hover {
     color: #fff;
 }
 
-.button::before {
+.item-inner .btn::before {
     content: '';
     position: absolute;
     top: 0;
@@ -304,9 +315,144 @@ a {
     transition: transform 1s;
 }
 
-.button:hover::before {
+.item-inner .btn:hover::before {
     transform: scaleX(1) skewX(35deg);
 }
+
+.services .service-items .read-more-cont {
+    display: none;
+}
+
+.services .service-items .item-inner h3 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.services .service-items .item-inner h3::before {
+    content: '';
+    height: 1px;
+    width: 80px;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+
+.services .service-items .item-inner p {
+    color: #555555;
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+
+.popup-box {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 500;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.popup-box.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup-box .popup-content {
+    background-color: #ffffff;
+    width: 900px !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+
+.popup-box .popup-header {
+    padding: 15px 40px 15px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.popup-box .popup-header h3 {
+    margin: 0;
+    color: #FED51B !important;
+    font-family: 'Poppins' !important;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+}
+
+.popup-box .popup-header .popup-close-icon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #555555;
+    font-size: 28px;
+    line-height: 30px;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.popup-box .popup-body {
+    padding: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.popup-box .popup-body p {
+    font-size: 16px;
+    color: #555555;
+    margin: 0 0 15px;
+}
+
+.popup-box .popup-body h4 {
+    font-size: 18px;
+    color: #FED51B;
+    margin: 0 0 15px;
+    letter-spacing: 1.3px;
+}
+
+.popup-box .popup-footer {
+    padding: 15px;
+    border-top: 1px solid #dddddd;
+    text-align: right;
+}
+
+.popup-box .popup-footer .btn {
+    padding: 8px 15px;
+    border: 1px solid #555555;
+    color: #555555;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.popup-box .popup-footer .btn:focus {
+    outline: none;
+}
+
+
+/*Responsive Popup Box Start*/
+
+@media(max-width: 767px) {
+    .services .service-items .item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .popup-box .popup-content {
+        width: calc(100% - 30px);
+    }
+}
+/*Responsive Popup Box End*/
 
 .cards{
     margin-top: 160px;
@@ -350,7 +496,6 @@ a {
 /* --------------- Section Three Start --------------------- */
 
 .sec-three{
-    height: 450px;
     background-image: radial-gradient(circle, rgba(11,8,71,0.6278886554621849) 0%, rgba(16,16,17,0.8631827731092436) 100%), url(../img/residential-electrician-2.jpg);
     background-repeat: no-repeat;
     margin-bottom: 100px;
@@ -462,6 +607,57 @@ a {
 
 /* --------------- Section Three End --------------------- */
 
+/* --------------- Section Four Start --------------------- */
+
+.sec-four {
+    margin-bottom: 100px;
+}
+
+.content_one #img_one {
+    width: 550px;
+    height: 300px;
+}
+
+.content_one p{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: #FED51B;
+    letter-spacing: 3.4px;
+    margin: 38px 0 20px 0;
+}
+
+.content_one h4{
+    width: 580px;
+    color: rgba(0, 0, 0, 0.755);
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -.7px;
+    margin-bottom: 40px;
+}
+
+.content_two img{
+    width: 600px;
+    height: 550px;
+    margin: 0 0 0 30px;
+}
+
+.content_two p {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.755);
+    line-height: 28px;
+    margin: 50px 0 0 30px;
+    padding-bottom: 28px;
+    border-bottom: 2px solid #FED51B;
+}
+
 /* --------------- Footer Section --------------------- */
 
 .footer {
@@ -531,7 +727,7 @@ a {
 }
 
 #vertical-line-two {
-    height: 55px;
+    height: 80px;
     border: 1px solid #FFFFFF;
     margin: 20px 15px;
 }
@@ -577,14 +773,17 @@ a {
     font-style: normal;
     font-size: 16px;
     font-weight: 100;
+    color: #d2d2d5;
+}
+
+.footersocial-content span{
+    letter-spacing: 1.7px;
+    color: #FED51B;
+    cursor:default;
 }
 
 .footersocial-content a {
     transition: all 0.4s;
-}
-
-.footersocial-content p:hover a {
-    color: #FED51B;
 }
 
 .footersocial-content {
@@ -592,10 +791,6 @@ a {
     justify-content: space-between;
     line-height: 126px;
     vertical-align: middle;
-}
-
-.footersocial-content span {
-    color: #d2d2d5;
 }
 
 .footersocial-content ul {
@@ -657,6 +852,164 @@ a {
 
 .footersocial-content ul li:nth-child(4) a:hover .fab {
     color: #e4405f;
+}
+
+/* ------------------------------------------------------------ */
+
+.service-items {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* .service-items .item {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+} */
+
+/* .service-items .item-inner {
+    border: 1px solid #dddddd;
+    padding: 30px;
+} */
+
+.service-items .read-more-cont {
+    display: none;
+}
+
+.service-items .item-inner h3 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.service-items .item-inner h3::before {
+    content: '';
+    height: 1px;
+    width: 80px;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+
+.service-items .item-inner p {
+    color: #555555;
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+
+/* .services .service-items .item-inner .btn {
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #555555;
+    color: #555555;
+    padding: 8px 15px;
+    cursor: pointer;
+} */
+
+.popup-box {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 500;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.popup-box.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup-box .popup-content {
+    background-color: #ffffff;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+
+.popup-box .popup-header {
+    padding: 15px 40px 15px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.popup-box .popup-header h3 {
+    margin: 0;
+    color: #E91E63;
+    font-size: 20px;
+}
+
+.popup-box .popup-header .popup-close-icon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #555555;
+    font-size: 28px;
+    line-height: 30px;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.popup-box .popup-body {
+    padding: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.popup-box .popup-body img {
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+}
+
+.popup-box .popup-body p {
+    font-size: 16px;
+    color: #555555;
+    margin: 0 0 15px;
+}
+
+.popup-box .popup-footer {
+    padding: 15px;
+    border-top: 1px solid #dddddd;
+    text-align: right;
+}
+
+.popup-box .popup-footer .btn {
+    padding: 8px 15px;
+    border: 1px solid #555555;
+    color: #555555;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.popup-box .popup-footer .btn:focus {
+    outline: none;
+}
+
+
+/*responsive*/
+
+@media(max-width: 767px) {
+    .services .service-items .item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .popup-box .popup-content {
+        width: calc(100% - 30px);
+    }
 }
 
 

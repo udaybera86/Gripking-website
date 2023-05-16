@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+/* ---------------  Common CSS --------------------- */
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-45 {
+    width: 45%;
+}
+
+.col-55 {
+    width: 55%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jsc {
+    justify-content: space-between;
+}
+
+@media (900px <=width<=1200px) {
+    .container {
+        width: 800px;
+    }
+}
+
+/* ---------button CSS Start---------- */
+
+.button {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 15px;
+    color: #101010;
+    outline: 1px solid #FED51B;
+    padding: 13px 18px;
+    overflow: hidden;
+    transition: color 0.7s;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -34px;
+    z-index: -1;
+    width: 150%;
+    height: 100%;
+    background-color: #FED51B;
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    transition: transform 1s;
+}
+
+.button:hover::before {
+    transform: scaleX(1) skewX(35deg);
+}
+
+
+
+
+
+
+
+
+.contact-form {
+    width: 100%;
+    height: 72vh;
+    display: flex;
+}
+
+.contact-form .col-45 {
+    background-image: url(../img/Business_meeting.jpg);
+    background-size: cover;
+    width: 45%;
+    height: 72vh;
+}
+
+.form-details {
+    margin: 85px 0 0 80px;
+}
+
+.form-details h3 {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.802);
+    letter-spacing: -.3px;
+}
+
+.form-details p {
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    padding-top: 10px;
+}
+
+.form-content {
+    width: 60%;
+    margin: 40px 0 0 80px;
+}
+
+.name-mail {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.name-mail input {
+    width: 48%;
+    font-size: .875rem;
+    padding: 15px 22px;
+}
+
+.phone input,
+.form-message textarea {
+    margin: 15px 0;
+    width: 100%;
+    font-size: .875rem;
+    padding: 15px 22px;
+    /* padding: 15px 22px; */
+}
+
+.form-content input,
+.form-content textarea {
+    border: 1px solid rgba(206, 206, 206, 0.676);
+    border-radius: 3px;
+    outline: none;
+}
+
+.form-content input[type=text]:focus {
+    border: 1px solid #FED51B;
+    box-shadow: 0 0 4px #FED51B;
+}
+
+.form-content input[type=email]:focus {
+    border: 1px solid #FED51B;
+    box-shadow: 0 0 4px #FED51B;
+}
+
+.form-content input[type=tel]:focus {
+    border: 1px solid #FED51B;
+    box-shadow: 0 0 4px #FED51B;
+}
+
+.form-content textarea:focus {
+    border: 1px solid #FED51B;
+    box-shadow: 0 0 4px #FED51B;
+}
+
+.form-submit {
+    margin: 18px 0 0 0;
+}
+
+.form-submit .button {
+    border-radius: 50px;
+}
+
+.form-submit button {
+    cursor: pointer;
+    font-size: .75rem;
+    border: none;
+    padding: 1.283em 3.4em;
+    background-color: transparent;
+}
+
+.form-submit input {
+    font-family: 'Poppins';
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: transparent;
+    padding-right: 6px;
+    border: none;
+    transition: color 0.7s;
+}
+
+.form-submit i {
+    font-size: 0.9rem;
+}
+
+.button:hover input {
+    color: #fff;
+}

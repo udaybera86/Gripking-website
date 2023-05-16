@@ -32,7 +32,6 @@
                         <li id="about"><a href="../html/about.html">About</a></li>
                         <li id="product"><a class="product" href="product.html">Products</a>
                         </li>
-                        <li id="codeofconduct"><a href="code_of_conduct.html">Code of Conduct</a></li>
                         <li id="FAQS"><a href="../html/FAQS.html">FAQs</a></li>
                         <li id="contactus"><a href="../html/contact_us.html">Contact</a></li>
                     </ul>
@@ -149,19 +148,13 @@
                     <p>Your email address will not be published. Required fields are marked *</p>
                 </div>
                 <div class="form-content">
-                    <form action="https://formspree.io/f/xknapjdz" method="post">
+                    <form action="" method="post">
                         <div class="name-mail">
-                            <input type="text" name="Name" placeholder="Name *" required
-                                oninvalid="this.setCustomValidity('Please Enter Your Name')"
-                                oninput="setCustomValidity('')">
-                            <input type="email" name="Email Address" placeholder="Email address *" required
-                                oninvalid="this.setCustomValidity('Please Enter valid email')"
-                                oninput="setCustomValidity('')">
+                            <input id="name" type="text" name="Name" placeholder="Name *" required>                            
+                            <input id="email" type="email" name="Email Address" placeholder="Email address *" required>
                         </div>
                         <div class="phone">
-                            <input type="tel" name="Phone Number" placeholder="Your Phone *" required
-                                oninvalid="this.setCustomValidity('Please Enter valid phone number')"
-                                oninput="setCustomValidity('')">
+                            <input id="phonenum" type="tel" name="Phone Number" placeholder="Your Phone *" required>
                         </div>
                         <div class="form-message">
                             <textarea name="Message" id="textarea" cols="45" rows="8"
@@ -221,7 +214,7 @@
         </div>
         <div class="footer-social">
             <div class="footersocial-content container">
-                <p><span>&copy; 2020 All rights reserved.</span><a href="#"> Privacy Policy</a></p>
+                <p>&copy; 2020 All rights reserved.<span> Gripkingindia</span></p>
                 <ul>
                     <li><a target="_blank" href="https://www.facebook.com/gripkingindia/"><i class="fab fa-facebook"
                                 aria-hidden="true"></i></a></li>
