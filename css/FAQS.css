@@ -226,12 +226,9 @@ a {
 .FAQ-banner {
     width: 100%;
     height: 430px;
-}
-
-.FAQ-banner img {
-    width: 100%;
-    /* height: 430px; */
-    object-fit: cover;
+    background-image: url(../img/Tape\ Wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: blur(150px);
 }
 
