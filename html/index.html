@@ -10,6 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sml_navbar.css">
+    <link rel="stylesheet" href="../css/navbar_media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -43,15 +45,37 @@
 
     <!-- *********************** Section One **************** -->
 
-
     <section class="sec-one">
 
-        <!-- *********************** Navbar **************** -->
+
+        <!-- *********************** Navbar Start For Small Screen **************** -->
+        <div class="sml_navbar">
+            <div class="sml_logo">
+                <a href="../html/index.html"><img src="../img/Gripking side logo.png" alt="Gripking Logo"></a>
+            </div>
+            <div class="hamburger-menu">
+                <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
+                <label for="menu-icon"></label>
+                <nav class="nav">
+                    <ul class="pt-5">
+                        <li><a href="../html/index.html">Home</a></li>
+                        <li><a href="../html/about.html">About</a></li>
+                        <li><a href="../html/product.html">Products</a></li>
+                        <li><a href="../html/FAQS.html">FAQs</a></li>
+                        <li><a href="../html/contact_us.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- *********************** Navbar End For Small Screen **************** -->
+
+        <!-- *********************** Navbar Start For Large Screen **************** -->
 
         <div class="layer">
             <div class="navbar container">
                 <div class="logo">
-                    <a href="../html/index.html"><img src="../img/Gripking side logo.png" alt=""></a>
+                    <a href="../html/index.html"><img src="../img/Gripking side logo.png" alt="Gripking Logo"></a>
                 </div>
                 <div class="nav-links">
                     <ul class="row jsc">
@@ -65,6 +89,8 @@
                     </ul>
                 </div>
             </div>
+
+
 
             <!-- *********************** Dropdown Menu **************** -->
 
@@ -104,6 +130,11 @@
                 </div>
             </div>
         </div>
+
+        <!-- *********************** Navbar End For Large Screen **************** -->
+
+
+
 
         <!-- *********************** Home **************** -->
 

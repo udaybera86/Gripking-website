@@ -189,7 +189,7 @@ a {
 /* ---------------  Common CSS End--------------------- */
 
 
-/* --------------- Navbar --------------------- */
+/* --------------- Navbar Start For Large Screen --------------------- */
 
 .sec-one {
     position: relative;
@@ -297,6 +297,8 @@ a {
     transition: all 0.4s ease-in-out;
 }
 
+/* --------------- Navbar End For Large Screen --------------------- */
+
 /* --------------- Home --------------------- */
 
 
@@ -368,7 +370,7 @@ a {
 
 .down-wheel {
     position: absolute;
-    z-index: 999;
+    z-index: 99;
     left: 49%;
     bottom: 7%;
     border-radius: 20px;
@@ -597,7 +599,8 @@ a {
     margin: 70px 100px;
     font-family: 'Poppins';
     color: #f5d41d;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
 .cell-right {
     text-align: center;
@@ -698,7 +701,7 @@ border: none;
 
 }
 
-.india-map{
+.india-map {
     height: 800px;
     line-height: 800px;
     display: flex;
@@ -718,7 +721,7 @@ border: none;
     margin: auto 0 auto 70px;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 100px);
@@ -843,10 +846,10 @@ border: none;
     color: #d2d2d5;
 }
 
-.footersocial-content span{
+.footersocial-content span {
     letter-spacing: 1.7px;
     color: #FED51B;
-    cursor:default;
+    cursor: default;
 }
 
 .footersocial-content a {
