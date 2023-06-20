@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gripking</title>
+    <title>Gripking Tapes India Pvt. Ltd.</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Gripking icon" type="png" href="../img/Gripking icon.png">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/sml_navbar.css">
     <link rel="stylesheet" href="../css/navbar_media.css">
+    <link rel="stylesheet" href="../css/cursor.css">
+    <link rel="stylesheet" href="../css/progress.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -42,6 +45,13 @@
     </div>
 
     <!-- *********************** Pre-loader End **************** -->
+
+    <!-- *********************** Cursor Start **************** -->
+
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+
+    <!-- *********************** Cursor End **************** -->
 
     <!-- *********************** Section One **************** -->
 
@@ -75,17 +85,18 @@
         <div class="layer">
             <div class="navbar container">
                 <div class="logo">
-                    <a href="../html/index.html"><img src="../img/Gripking side logo.png" alt="Gripking Logo"></a>
+                    <a class="hover-link" href="../html/index.html"><img src="../img/Gripking side logo.png"
+                            alt="Gripking Logo"></a>
                 </div>
                 <div class="nav-links">
                     <ul class="row jsc">
-                        <li><a id="home" href="../html/index.html">Home</a></li>
-                        <li id="about"><a href="../html/about.html">About</a></li>
-                        <li id="product"><a class="product" href="product.html">Products</a>
+                        <li><a class="hover-link" id="home" href="../html/index.html">Home</a></li>
+                        <li id="about"><a class="hover-link" href="../html/about.html">About</a></li>
+                        <li id="product"><a class="product hover-link" href="product.html">Products</a>
                         </li>
                         <!-- <li id="codeofconduct"><a href="code_of_conduct.html">Code of Conduct</a></li> -->
-                        <li id="FAQS"><a href="../html/FAQS.html">FAQs</a></li>
-                        <li id="contactus"><a href="./contact_us.html">Contact</a></li>
+                        <li id="FAQS"><a class="hover-link" href="../html/FAQS.html">FAQs</a></li>
+                        <li id="contactus"><a class="hover-link" href="./contact_us.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -101,30 +112,30 @@
                     </div>
                     <div class="dropdown-items">
                         <div class="product-type-one">
-                            <p><a href="">Masking Tape</a></p>
-                            <p><a href="">Duct Tape</a></p>
-                            <p><a href="">Aluminum Foil Tape</a></p>
-                            <p><a href="">Double Side Tissue Tape</a></p>
-                            <p><a href="">Self Adhesive Bopp Tape</a></p>
+                            <p><a class="hover-link" href="">Masking Tape</a></p>
+                            <p><a class="hover-link" href="">Duct Tape</a></p>
+                            <p><a class="hover-link" href="">Aluminum Foil Tape</a></p>
+                            <p><a class="hover-link" href="">Double Side Tissue Tape</a></p>
+                            <p><a class="hover-link" href="">Self Adhesive Bopp Tape</a></p>
                         </div>
                         <div class="borderline">
 
                         </div>
                         <div class="product-type-two">
-                            <p><a href="">PE Foam Tape</a></p>
-                            <p><a href="">Floor Marking Tape</a></p>
-                            <p><a href="">Cross Filament Tape</a></p>
-                            <p><a href="">P.T.F.E Thread Seal Tape</a></p>
-                            <p><a href="">Double Side Acrylic Tape</a></p>
+                            <p><a class="hover-link" href="">PE Foam Tape</a></p>
+                            <p><a class="hover-link" href="">Floor Marking Tape</a></p>
+                            <p><a class="hover-link" href="">Cross Filament Tape</a></p>
+                            <p><a class="hover-link" href="">P.T.F.E Thread Seal Tape</a></p>
+                            <p><a class="hover-link" href="">Double Side Acrylic Tape</a></p>
                         </div>
                         <div class="borderline">
 
                         </div>
                         <div class="product-type-three">
-                            <p><a href="">Craft Paper Tape</a></p>
-                            <p><a href="">Red Polyester Tape</a></p>
-                            <p><a href="">Single Sided Foam Tape</a></p>
-                            <p><a href="">Double Sided Foam Tape</a></p>
+                            <p><a class="hover-link" href="">Craft Paper Tape</a></p>
+                            <p><a class="hover-link" href="">Red Polyester Tape</a></p>
+                            <p><a class="hover-link" href="">Single Sided Foam Tape</a></p>
+                            <p><a class="hover-link" href="">Double Sided Foam Tape</a></p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +163,7 @@
         <!-- <button class="down-arrow" type="button">
             <a href="#section-two"><i class="fa-solid fa-angles-down"></i></a>
         </button> -->
-        <button class="down-wheel">
+        <button class="down-wheel hover-link">
             <a href="#section-two">
                 <span class="mouse">
                     <span class="mouse-wheel"></span>
@@ -184,7 +195,7 @@
                 approach, We have been able to acquire big clients across the country.
             </p>
             <div>
-                <a href="./about.html" class="button">Know more</a>
+                <a href="./about.html" class="button hover-link">Know more</a>
             </div>
         </div>
     </section>
@@ -238,9 +249,9 @@
                 <img class="slide-image" src="../img/Double sided foam tape.png" alt="">
             </div>
             <div class="slide-btn">
-                <button class="btn-left" id="up-btn" onclick="plusIndex(-1)"><a><i
+                <button class="btn-left hover-link" id="up-btn" onclick="plusIndex(-1)"><a><i
                             class="fa-solid fa-chevron-up"></i></a></button>
-                <button class="btn-right" id="down-btn" onclick="plusIndex(+1)"><a><i
+                <button class="btn-right hover-link" id="down-btn" onclick="plusIndex(+1)"><a><i
                             class="fa-solid fa-chevron-down"></i></a></button>
             </div>
         </div>
@@ -396,13 +407,15 @@
             <div class="footer-contact">
                 <h4>Contact</h4>
                 <div class="footer-num">
-                    <p id="footer-num"><a href="tel:9311669311">+91 93116 69311</a>
+                    <p id="footer-num"><a class="hover-link" href="tel:9311669311">+91 93116 69311</a>
                     <p id="footer-num">|</p>
-                    <p id="footer-num"><a href="tel:9311339311">+91 93113 39311</a></p>
+                    <p id="footer-num"><a class="hover-link" href="tel:9311339311">+91 93113 39311</a></p>
                     </p>
                 </div>
-                <p id="footer-mail"><a href="mailto:info@gripkingtapes.com">info@gripkingtapes.com</a></p>
-                <p id="web-address"><a href="https://www.gripkingtapes.com/">www.gripkingtapes.com</a>
+                <p id="footer-mail"><a class="hover-link"
+                        href="mailto:info@gripkingtapes.com">info@gripkingtapes.com</a></p>
+                <p id="web-address"><a class="hover-link"
+                        href="https://www.gripkingtapes.com/">www.gripkingtapes.com</a>
                 </p>
                 <p>Mon-Fri: 8am - 6pm</p>
                 <p>Sat-Sun: 8am - 4pm</p>
@@ -411,22 +424,27 @@
         </div>
         <div class="footer-social">
             <div class="footersocial-content container">
-                <p>&copy; 2020 All rights reserved.<span> Gripkingindia</span></p>
+                <p>&copy; 2020 All rights reserved.<span class="hover-link"> Gripkingindia</span></p>
                 <ul>
-                    <li><a target="_blank" href="https://www.facebook.com/gripkingindia/"><i class="fab fa-facebook"
-                                aria-hidden="true"></i></a></li>
-                    <li><a target="_blank" href="https://twitter.com/Gripking_Tape"><i class="fab fa-twitter"
-                                aria-hidden="true"></i></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/company/gripking-tapes/"><i
+                    <li><a class="hover-link" target="_blank" href="https://www.facebook.com/gripkingindia/"><i
+                                class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a class="hover-link" target="_blank" href="https://twitter.com/Gripking_Tape"><i
+                                class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="hover-link" target="_blank" href="https://www.linkedin.com/company/gripking-tapes/"><i
                                 class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/gripkingindia/"><i class="fab fa-instagram"
-                                aria-hidden="true"></i></a></li>
+                    <li><a class="hover-link" target="_blank" href="https://www.instagram.com/gripkingindia/"><i
+                                class="fab fa-instagram" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
     </section>
+
+    
+
     <script src="../js/app.js"></script>
     <script src="../js/slider.js"></script>
+    <script src="../js/cursor.js"></script>
+    <script src="../js/progress.js"></script>
     <script>
         ScrollReveal({
             reset: true,

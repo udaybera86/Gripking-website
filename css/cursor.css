@@ -1,0 +1,43 @@
+/* ------------------ Cursor ------------------------- */
+
+.cursor,
+.cursor2{
+	position: fixed;
+	border-radius: 50%;	
+	transform: translateX(-50%) translateY(-50%);
+	pointer-events: none;
+	left: -100px;
+	top: 50%
+}
+.cursor{
+	height: 0;
+	width: 0;
+	z-index: 99999;
+}
+.cursor2{
+	height: 36px;
+	width: 36px;
+	z-index:99998;
+	-webkit-transition:all 0.3s ease-out;
+	transition:all 0.3s ease-out
+}
+.cursor2{
+	border: 3px solid #FED51B;
+	box-shadow: 0 0 22px #FED51B;
+}
+.cursor2.hover{
+	-webkit-transform:scale(2) translateX(-25%) translateY(-25%);
+	transform:scale(2) translateX(-25%) translateY(-25%);
+	border:none;
+	background: rgba(255,255,255,.1);
+	box-shadow: 0 0 14px #FED51B;
+}
+@media screen and (max-width: 1200px){
+	.cursor,.cursor2{
+		display: none
+	}
+}	
+a {
+	cursor: pointer;
+	text-decoration: none;
+}

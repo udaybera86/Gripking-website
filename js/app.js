@@ -112,3 +112,6 @@ function popupBox(){
 // <--------------------------------- Home Section -------------------------------------------------------->
 
 document.querySelector('video').playbackRate = .95;
+
+
+
