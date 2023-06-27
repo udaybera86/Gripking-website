@@ -2,10 +2,12 @@
 
 // <------------------- Pre-loader Start ---------------------->
 
-let loader = document.getElementById("loader");
 window.onload = function () {
-    loader.style.display = 'none';
-}
+    let loader = document.getElementById("loader");
+    if (loader) {
+      loader.style.display = 'none';
+    }
+  };  
 
 // <------------------- Pre-loader End ---------------------->
 
@@ -79,8 +81,8 @@ $(window).scroll(function () {
 
 const serviceItems = document.querySelector(".service-items");
 const popup = document.querySelector(".popup-box")
-const popupCloseBtn = popup.getElementsByClassName(".popup-close-btn");
-const popupCloseIcon = popup.getElementsByClassName(".popup-close-icon");
+const popupCloseBtn = popup.querySelector(".popup-close-btn");
+const popupCloseIcon = popup.querySelector(".popup-close-icon");
 
 serviceItems.addEventListener("click",function(event){
     if(event.target.tagName.toLowerCase() == "button"){
@@ -111,7 +113,7 @@ function popupBox(){
 
 // <--------------------------------- Home Section -------------------------------------------------------->
 
-document.querySelector('video').playbackRate = .95;
+document.getElementsByTagName('video').playbackRate = .95;
 
 
 
