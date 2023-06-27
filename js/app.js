@@ -79,8 +79,8 @@ $(window).scroll(function () {
 
 const serviceItems = document.querySelector(".service-items");
 const popup = document.querySelector(".popup-box")
-const popupCloseBtn = popup.querySelector(".popup-close-btn");
-const popupCloseIcon = popup.querySelector(".popup-close-icon");
+const popupCloseBtn = popup.getElementsByClassName(".popup-close-btn");
+const popupCloseIcon = popup.getElementsByClassName(".popup-close-icon");
 
 serviceItems.addEventListener("click",function(event){
     if(event.target.tagName.toLowerCase() == "button"){
