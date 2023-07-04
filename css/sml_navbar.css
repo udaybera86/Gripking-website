@@ -293,7 +293,7 @@
     transition-delay: 1680ms;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (width < 992px) {
 
     .menu-icon:checked+label,
     .menu-icon:not(:checked)+label {

@@ -37,5 +37,11 @@
 }
 
 @media only screen and (768px <= width < 992px) {
-    
+    .layer {
+        display: none;
+    }
+
+    .sml_navbar {
+        display: block;
+    }
 }
