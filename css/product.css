@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------  Common CSS --------------------- */
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.row {
+    display: flex;
+}
+
+.jsc {
+    justify-content: space-between;
+}
+
+/* ---------------  Whatsapp Icon Start --------------------- */
+
+.whatsapp-icon {
+  position: fixed;
+  right: 30px;
+  bottom: 18px;
+  font-size: 70px;
+  z-index: 999;
+}
+
+/* ---------------  Whatsapp Icon End --------------------- */
+
+/* --------------- Navbar --------------------- */
+
+.sec-one {
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+    min-width: 100vw;
+    z-index: 100;
+}
+
+.navbar {
+    position: relative;
+    top: 36px;
+    z-index: 10;
+    width: 1000px;
+    padding: 0 20px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+    vertical-align: middle;
+    background: linear-gradient(90.37deg, rgba(239, 244, 253, 0.4) 0%, rgba(239, 244, 253, 0.2) 100%);
+    box-shadow: 0px 4px 24px -1px rgba(239, 244, 253, 0.2);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+}
+
+.navbar a {
+    font-size: 20px;
+    margin: 5px;
+    font-family: "syne";
+    transition: all .4s ease-in-out;
+}
+
+#product a {
+    color: #FED51B;
+}
+
+.navbar a:hover {
+    color: #FED51B;
+}
+
+.nav-links {
+    position: relative;
+}
+
+.logo img {
+    vertical-align: middle;
+    height: 40px;
+    width: 200px;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links ul li {
+    margin: 0 18px;
+}
+
+/* ---------------  Dropdown Menu --------------------- */
+
+.dropdown-container {
+    position: relative;
+    left: 29%;
+    top: 36px;
+    display: none;
+}
+
+.drop-down {
+    width: 900px;
+    background-color: rgb(56, 50, 50);
+    padding-bottom: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.horizontal-line {
+    height: 4px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), #FED51B, #FED51B, #FED51B, rgba(255, 255, 255, 0));
+}
+
+.dropdown-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    line-height: 40px;
+    color: #fff;
+    font-family: "syne";
+}
+
+.borderline {
+    width: 2px;
+    height: 190px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.dropdown-items p:hover a {
+    color: #FED51B;
+    transition: all 0.4s ease-in-out;
+}
+
+/* --------------- Home --------------------- */
+
+
+.product-banner {
+    width: 100%;
+    height: 430px;
+    background-image: url(../img/Packing-Tape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(200px);
+}
+
+.product-path {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+}
+
+.product-path h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    color: #FED51B;
+    line-height: 90px;
+    text-align: center;
+}
+
+.product-path p {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 22px;
+    color: #fff;
+}
+
+.product-path i {
+    margin: 0 10px;
+}
+
+.product-path span:hover a {
+    color: #FED51B;
+    transition: all 0.5s;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+body {
+    background: #E3E3D8;
+    /* font-family: sans-serif; */
+    /* padding: 25px; */
+  }
+  
+  .card-wrapper {
+    width: 300px;
+    height: 500px;
+    background: white;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0;
+    transform: scale(0.95);
+    transition: box-shadow 0.5s, transform 0.5s;
+    margin: 100px auto;
+  }
+  .card-wrapper:hover {
+    transform: scale(1);
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+  }
+  .card-wrapper .container {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+
+  }
+  .card-wrapper .container .top {
+    height: 80%;
+    width: 100%;
+    background-image: url(../img/Double\ sided\ foam\ tape.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 90%;
+  }
+  .card-wrapper .container .bottom {
+    width: 200%;
+    height: 20%;
+    transition: transform 0.5s;
+  }
+  .card-wrapper .container .bottom.clicked {
+    transform: translateX(-50%);
+  }
+  .card-wrapper .container .bottom h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .card-wrapper .container .bottom p {
+    margin: 0;
+    padding: 0;
+  }
+  .card-wrapper .container .bottom .left {
+    height: 100%;
+    width: 50%;
+    background: #f4f4f4;
+    position: relative;
+    float: left;
+  }
+  .card-wrapper .container .bottom .left .details {
+    padding: 20px;
+    float: left;
+    width: calc(70% - 40px);
+  }
+  .card-wrapper .container .bottom .left .buy {
+    float: right;
+    width: calc(30% - 2px);
+    height: 100%;
+    background: #f1f1f1;
+    transition: background 0.5s;
+    border-left: solid thin rgba(0, 0, 0, 0.1);
+  }
+  .card-wrapper .container .bottom .left .buy i {
+    font-size: 30px;
+    padding: 30px;
+    color: #254053;
+    transition: transform 0.5s;
+  }
+  .card-wrapper .container .bottom .left .buy:hover {
+    background: #A6CDDE;
+  }
+  .card-wrapper .container .bottom .left .buy:hover i {
+    transform: translateY(5px);
+    color: #00394B;
+  }
+  .card-wrapper .container .bottom .right {
+    width: 50%;
+    background: #A6CDDE;
+    color: white;
+    float: right;
+    height: 200%;
+    overflow: hidden;
+  }
+  .card-wrapper .container .bottom .right .details {
+    padding: 20px;
+    float: right;
+    width: calc(70% - 40px);
+  }
+  .card-wrapper .container .bottom .right .done {
+    width: calc(30% - 2px);
+    float: left;
+    transition: transform 0.5s;
+    border-right: solid thin rgba(255, 255, 255, 0.3);
+    height: 50%;
+  }
+  .card-wrapper .container .bottom .right .done i {
+    font-size: 30px;
+    padding: 30px;
+    color: white;
+  }
+  .card-wrapper .container .bottom .right .remove {
+    width: calc(30% - 1px);
+    clear: both;
+    border-right: solid thin rgba(255, 255, 255, 0.3);
+    height: 50%;
+    background: #BC3B59;
+    transition: transform 0.5s, background 0.5s;
+  }
+  .card-wrapper .container .bottom .right .remove:hover {
+    background: #9B2847;
+  }
+  .card-wrapper .container .bottom .right .remove:hover i {
+    transform: translateY(5px);
+  }
+  .card-wrapper .container .bottom .right .remove i {
+    transition: transform 0.5s;
+    font-size: 30px;
+    padding: 30px;
+    color: white;
+  }
+  .card-wrapper .container .bottom .right:hover .remove, .card-wrapper .container .bottom .right:hover .done {
+    transform: translateY(-100%);
+  }
+  .card-wrapper .inside {
+    z-index: 9;
+    background: #92879B;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -70px;
+    right: -70px;
+    border-radius: 0px 0px 200px 200px;
+    transition: all 0.5s, border-radius 2s, top 1s;
+    overflow: hidden;
+  }
+  .card-wrapper .inside .icon {
+    position: absolute;
+    right: 85px;
+    top: 85px;
+    color: white;
+    opacity: 1;
+  }
+  .card-wrapper .inside:hover {
+    width: 100%;
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    height: 80%;
+  }
+  .card-wrapper .inside:hover .icon {
+    opacity: 0;
+    right: 15px;
+    top: 15px;
+  }
+  .card-wrapper .inside:hover .contents {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateY(0);
+  }
+  .card-wrapper .inside .contents {
+    padding: 5%;
+    opacity: 0;
+    transform: scale(0.5);
+    transform: translateY(-200%);
+    transition: opacity 0.2s, transform 0.8s;
+  }
+  .card-wrapper .inside .contents table {
+    text-align: left;
+    width: 100%;
+  }
+  .card-wrapper .inside .contents h1, .card-wrapper .inside .contents p, .card-wrapper .inside .contents table {
+    color: white;
+  }
+  .card-wrapper .inside .contents p {
+    font-size: 13px;
+  }

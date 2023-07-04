@@ -67,6 +67,18 @@ a {
     justify-content: space-between;
 }
 
+/* ---------------  Whatsapp Icon Start --------------------- */
+
+.whatsapp-icon {
+    position: fixed;
+    right: 30px;
+    bottom: 18px;
+    font-size: 70px;
+    z-index: 999;
+}
+
+/* ---------------  Whatsapp Icon End --------------------- */
+
 /* --------------- Navbar --------------------- */
 
 .sec-one {
@@ -180,7 +192,7 @@ a {
 .about-banner {
     width: 100%;
     height: 430px;
-    background-image: url(../img/Tape\ Table.jpg);
+    background-image: url(../img/Packing-Tape.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(200px);
@@ -217,7 +229,6 @@ a {
     color: #FED51B;
     transition: all 0.5s;
 }
-
 
 /* --------------- Section Two Start --------------------- */
 .sec-two {

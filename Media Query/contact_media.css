@@ -1,0 +1,41 @@
+/* ------------- Navbar & Sec-one ------------------- */
+
+@media only screen and (992px <= width <=1200px) {
+
+    .logo img {
+        height: 35px;
+        width: 175px;
+    }
+
+    .navbar {
+        width: 80vw;
+        padding: 0 30px;
+        justify-content: space-between;
+    }
+
+    .nav-links ul li {
+        margin: 0 10px;
+    }
+
+    .drop-down {
+        width: 835px;
+    }
+
+    .dropdown-container {
+        left: 14%;
+        top: 36px;
+    }
+
+    .contact-path h4 {
+        font-size: 50px;
+    }
+
+    .contact-path p {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (768px <= width < 992px) {
+    
+}

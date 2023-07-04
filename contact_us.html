@@ -9,6 +9,8 @@
     <link rel="Gripking icon" type="png" href="./img/Gripking icon.png">
     <link rel="stylesheet" href="./css/contact_us.css">
     <link rel="stylesheet" href="./css/cursor.css">
+    <link rel="stylesheet" href="./css/preloader.css">
+    <link rel="stylesheet" href="./Media Query/contact_media.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Syne&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -20,12 +22,34 @@
 
 <body>
 
+    <!-- *********************** Pre-loader Start **************** -->
+
+    <div class="wrapper">
+        <div class="container-2" id="loader">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="loading">Gripking</div>
+        </div>
+    </div>
+
+    <!-- *********************** Pre-loader End **************** -->
+
     <!-- *********************** Cursor Start **************** -->
-    
+
     <div class='cursor' id="cursor"></div>
     <div class='cursor2' id="cursor2"></div>
-    
+
     <!-- *********************** Cursor End **************** -->
+
+    <!-- *********************** Whatsapp Icon Start **************** -->
+
+    <div class="whatsapp-icon hover-link">
+        <a href="https://wa.me/919311669311?text=Hey%20there!%20Can%20you%20help%20me%20with%20my%20inquiry?"
+            target="_blank"><i class="fa-brands fa-square-whatsapp fa-fade" style="color: #28d146;"></i></a>
+    </div>
+
+    <!-- *********************** Whatsapp Icon End **************** -->
 
     <section class="sec-one">
 
@@ -40,7 +64,7 @@
                     <ul class="row jsc">
                         <li><a class="hover-link" id="home" href="./index.html">Home</a></li>
                         <li id="about"><a class="hover-link" href="./about.html">About</a></li>
-                        <li id="product"><a class="product hover-link" href="product.html">Products</a>
+                        <li id="product"><a class="product hover-link" href="./product.html">Products</a>
                         </li>
                         <li id="FAQS"><a class="hover-link" href="./FAQS.html">FAQs</a></li>
                         <li id="contactus"><a class="hover-link" href="./contact_us.html">Contact</a></li>
@@ -160,11 +184,13 @@
                 <div class="form-content">
                     <form action="" method="post">
                         <div class="name-mail">
-                            <input class="hover-link" id="name" type="text" name="Name" placeholder="Name *" required>                            
-                            <input class="hover-link" id="email" type="email" name="Email Address" placeholder="Email address *" required>
+                            <input class="hover-link" id="name" type="text" name="Name" placeholder="Name *" required>
+                            <input class="hover-link" id="email" type="email" name="Email Address"
+                                placeholder="Email address *" required>
                         </div>
                         <div class="phone">
-                            <input class="hover-link" id="phonenum" type="tel" name="Phone Number" placeholder="Your Phone *" required>
+                            <input class="hover-link" id="phonenum" type="tel" name="Phone Number"
+                                placeholder="Your Phone *" required>
                         </div>
                         <div class="form-message">
                             <textarea class="hover-link" name="Message" id="textarea" cols="45" rows="8"
@@ -214,8 +240,10 @@
                     <p id="footer-num"><a class="hover-link" href="tel:9311339311">+91 93113 39311</a></p>
                     </p>
                 </div>
-                <p id="footer-mail"><a class="hover-link" href="mailto:info@gripkingtapes.com">info@gripkingtapes.com</a></p>
-                <p id="web-address"><a class="hover-link" href="https://www.gripkingtapes.com/">www.gripkingtapes.com</a>
+                <p id="footer-mail"><a class="hover-link"
+                        href="mailto:info@gripkingtapes.com">info@gripkingtapes.com</a></p>
+                <p id="web-address"><a class="hover-link"
+                        href="https://www.gripkingtapes.com/">www.gripkingtapes.com</a>
                 </p>
                 <p>Mon-Fri: 8am - 6pm</p>
                 <p>Sat-Sun: 8am - 4pm</p>
@@ -226,14 +254,14 @@
             <div class="footersocial-content container">
                 <p>&copy; 2020 All rights reserved.<span class="hover-link"> Gripkingindia</span></p>
                 <ul>
-                    <li><a class="hover-link" target="_blank" href="https://www.facebook.com/gripkingindia/"><i class="fab fa-facebook"
-                                aria-hidden="true"></i></a></li>
-                    <li><a class="hover-link" target="_blank" href="https://twitter.com/Gripking_Tape"><i class="fab fa-twitter"
-                                aria-hidden="true"></i></a></li>
+                    <li><a class="hover-link" target="_blank" href="https://www.facebook.com/gripkingindia/"><i
+                                class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a class="hover-link" target="_blank" href="https://twitter.com/Gripking_Tape"><i
+                                class="fab fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a class="hover-link" target="_blank" href="https://www.linkedin.com/company/gripking-tapes/"><i
                                 class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a class="hover-link" target="_blank" href="https://www.instagram.com/gripkingindia/"><i class="fab fa-instagram"
-                                aria-hidden="true"></i></a></li>
+                    <li><a class="hover-link" target="_blank" href="https://www.instagram.com/gripkingindia/"><i
+                                class="fab fa-instagram" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -241,6 +269,7 @@
 
     <script src="./js/navbar.js"></script>
     <script src="./js/cursor.js"></script>
+    <script src="./js/preloader.js"></script>
 </body>
 
-<>
+</html>

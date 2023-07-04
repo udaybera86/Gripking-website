@@ -65,12 +65,6 @@ a {
     justify-content: space-between;
 }
 
-@media (900px <=width<=1200px) {
-    .container {
-        width: 800px;
-    }
-}
-
 /* ---------button CSS Start---------- */
 
 .button {
@@ -113,6 +107,18 @@ a {
 }
 
 /* ---------button CSS End---------- */
+
+/* ---------------  Whatsapp Icon Start --------------------- */
+
+.whatsapp-icon {
+    position: fixed;
+    right: 30px;
+    bottom: 18px;
+    font-size: 70px;
+    z-index: 999;
+}
+
+/* ---------------  Whatsapp Icon End --------------------- */
 
 /* --------------- Section One Start --------------------- */
 
@@ -180,23 +186,6 @@ a {
     margin: 0 18px;
 }
 
-@media (900px <=width<=1200px) {
-    .navbar {
-        justify-content: start;
-        width: 90vw;
-        padding: 0;
-        justify-content: space-around;
-    }
-    .nav-links ul{
-        display: block;
-    }
-    .nav-links ul li {
-        margin: 0;
-        padding: 0 5px;
-    }
-
-}
-
 /* ---------------  Dropdown Menu --------------------- */
 
 .dropdown-container {
@@ -245,7 +234,7 @@ a {
 .contact-banner {
     width: 100%;
     height: 430px;
-    background-image: url(../img/Contact\ banner.jpg);
+    background-image: url(../img/Packing-Tape.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(150px);
@@ -254,7 +243,8 @@ a {
 .contact-path {
     position: absolute;
     top: 50%;
-    right: 40%;
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .contact-path h4 {
