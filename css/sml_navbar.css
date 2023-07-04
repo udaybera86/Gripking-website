@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+.sml_small_navbar{
+    position: fixed;
+    z-index: 999;
+    height: 100px;
+    width: 100%;
+    background-color: #353746;
+    display: none;
+}
+
+.sml_small_navbar .sml_logo img {
+    width: 50px;
+}
+
+.sml_small_navbar .sml_logo{
+    margin: 25px 0 0 30px;
+}
+
 .sml_navbar{
     position: fixed;
     z-index: 999;

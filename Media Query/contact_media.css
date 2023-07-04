@@ -58,3 +58,30 @@
         font-size: 18px;
     }
 }
+
+@media only screen and (576px <= width < 768px) {
+    .navbar {
+        display: none;
+    }
+
+    .sml_navbar {
+        display: none;
+    }
+
+    .sml_small_navbar {
+        display: block;
+    }
+
+    .contact-banner {
+        height: 320px;
+    }
+
+    .contact-path h4 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .contact-path p {
+        font-size: 13px;
+    }
+}
