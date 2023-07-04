@@ -68,9 +68,9 @@
         display: block;
     }
 
-    /* .sml_small_navbar {
-        display: block;
-    } */
+    .sml_small_navbar {
+        display: none;
+    }
 
     .contact-banner {
         height: 320px;
