@@ -65,12 +65,12 @@
     }
 
     .sml_navbar {
-        display: none;
-    }
-
-    .sml_small_navbar {
         display: block;
     }
+
+    /* .sml_small_navbar {
+        display: block;
+    } */
 
     .contact-banner {
         height: 320px;
