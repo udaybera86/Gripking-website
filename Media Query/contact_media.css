@@ -44,4 +44,17 @@
     .sml_navbar {
         display: block;
     }
+
+    .contact-banner {
+        height: 370px;
+    }
+
+    .contact-path h4 {
+        font-size: 45px;
+        line-height: normal;
+    }
+
+    .contact-path p {
+        font-size: 18px;
+    }
 }
