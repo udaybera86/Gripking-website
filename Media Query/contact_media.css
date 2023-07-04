@@ -1,6 +1,6 @@
 /* ------------- Navbar & Sec-one ------------------- */
 
-@media only screen and (992px <= width <=1200px) {
+@media only screen and (992px<= width <=1200px) {
 
     .logo img {
         height: 35px;
@@ -37,7 +37,7 @@
 }
 
 @media only screen and (768px <= width < 992px) {
-    .layer {
+    .navbar {
         display: none;
     }
 
