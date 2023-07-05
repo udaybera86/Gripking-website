@@ -232,7 +232,7 @@ a {
 /* --------------- Home --------------------- */
 
 .contact-banner {
-    width: 100%;
+    width: 100vw;
     height: 430px;
     background-image: url(../img/Packing-Tape.jpg);
     background-repeat: no-repeat;
