@@ -427,7 +427,7 @@ a {
 
 
 .contact-form {
-    width: 100%;
+    width: 100vw;
     height: 72vh;
     display: flex;
 }
@@ -551,7 +551,7 @@ a {
 /* --------------- Footer Section --------------------- */
 
 .footer {
-    width: 100%;
+    width: 100vw;
     height: 526px;
     background-color: #101010;
     background-image: url(../img//footer-bg-1.png);
