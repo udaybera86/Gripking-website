@@ -9,7 +9,7 @@
 
 .sml_medium_logo {
     display: none;
-    margin: 12px 0 12px 25px;
+    margin: 21px 0 0 21px;
 }
 
 .sml_medium_logo img{
@@ -299,11 +299,11 @@
 
     .menu-icon:checked+label,
     .menu-icon:not(:checked)+label {
-        right: 39px;
+        right: 14px;
     }
 
     .nav {
-        right: 25px;
+        right: 0;
     }
 
     h1 {
