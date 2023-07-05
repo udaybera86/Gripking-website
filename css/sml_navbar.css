@@ -9,6 +9,12 @@
 
 .sml_medium_logo {
     display: none;
+    margin: 25px 0 0 25px;
+}
+
+.sml_medium_logo img{
+    position: fixed !important;
+    width: 55px;
 }
 
 .sml_logo{
