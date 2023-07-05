@@ -1,7 +1,7 @@
 /* ------------- Navbar ------------------- */
 
 @media only screen and (width >1500px) {
-    
+
     .dropdown-container {
         left: 24%;
         top: 36px;
@@ -16,7 +16,7 @@
     }
 }
 
-@media only screen and (992px<=width <=1200px) {
+@media only screen and (992px<= width <=1200px) {
 
     .logo img {
         height: 35px;
@@ -56,19 +56,12 @@
         top: 20px;
     }
 
-    h1 {
-        font-size: 9vw;
-        -webkit-text-stroke: 2px transparent;
-        -webkit-text-fill-color: #ffeba7;
-        color: #ffeba7;
-    }
-
     .nav ul li a {
         font-size: 5vh;
     }
 }
 
-@media only screen and (768px <=width < 992px) {
+@media only screen and (768px <= width < 992px) {
     .layer {
         display: none;
     }
@@ -83,7 +76,7 @@
     }
 
     .menu-icon:checked~.nav {
-        height: 160%;
+        height: 170%;
     }
 
     .nav ul li a {
@@ -91,7 +84,7 @@
     }
 }
 
-@media only screen and (576px <=width < 768px) {
+@media only screen and (576px <= width < 768px) {
     .layer {
         display: none;
     }
@@ -106,7 +99,7 @@
     }
 
     .menu-icon:checked~.nav {
-        height: 160%;
+        height: 170%;
     }
 
     .nav ul li a {
@@ -129,6 +122,10 @@
 
     .sml_logo {
         display: none;
+    }
+
+    .menu-icon:checked~.nav {
+        height: 170%;
     }
 
     .nav ul li a {
