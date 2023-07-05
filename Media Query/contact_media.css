@@ -76,7 +76,7 @@
     }
 
     .menu-icon:checked~.nav {
-        height: 170%;
+        height: 200%;
     }
 
     .nav ul li a {
@@ -99,7 +99,7 @@
     }
 
     .menu-icon:checked~.nav {
-        height: 170%;
+        height: 200%;
     }
 
     .nav ul li a {
@@ -124,12 +124,8 @@
         display: none;
     }
 
-    /* .sml_navbar {
-        width: auto;
-    } */
-
     .menu-icon:checked~.nav {
-        height: 180%;
+        height: 200%;
     }
 
     .nav ul li a {
