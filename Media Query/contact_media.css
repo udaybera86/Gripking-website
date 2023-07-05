@@ -81,3 +81,34 @@
         font-size: 13px;
     }
 }
+
+@media only screen and (width < 576px) {
+    .layer {
+        display: none;
+    }
+
+    .sml_navbar {
+        display: block;
+    }
+
+    .sml_medium_logo {
+        display: block;
+    }
+
+    .sml_logo {
+        display: none;
+    }
+
+    .contact-banner {
+        height: 320px;
+    }
+
+    .contact-path h4 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .contact-path p {
+        font-size: 13px;
+    }
+}
