@@ -251,13 +251,13 @@
 .nav ul li a:after {
     display: block;
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
     content: '';
-    height: 2vh;
-    margin-top: -1vh;
+    height: 3px;
+    /* margin-top: -1vh; */
     width: 0;
     left: 0;
-    background-color: #353746;
+    background-color: #ffeba7;
     opacity: 0.8;
     transition: width 250ms linear;
 }
