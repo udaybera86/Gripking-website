@@ -41,6 +41,10 @@
         display: none;
     }
 
+    .sml_small_navbar {
+        display: none;
+    }
+
     .sml_navbar {
         display: block;
     }
