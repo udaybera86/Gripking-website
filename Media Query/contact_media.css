@@ -67,7 +67,7 @@
     }
 
     .menu-icon:checked~.nav {
-        height: 150%;
+        height: 160%;
     }
 
     .nav ul li a {
@@ -90,7 +90,7 @@
     }
 
     .menu-icon:checked~.nav {
-        height: 150%;
+        height: 160%;
     }
 
     .nav ul li a {
