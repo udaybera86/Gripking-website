@@ -124,9 +124,9 @@
         display: none;
     }
 
-    .sml_navbar {
+    /* .sml_navbar {
         width: auto;
-    }
+    } */
 
     .menu-icon:checked~.nav {
         height: 180%;
