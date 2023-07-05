@@ -1,6 +1,22 @@
 /* ------------- Navbar ------------------- */
 
-@media only screen and (992px<= width <=1200px) {
+@media only screen and (width >1500px) {
+    
+    .dropdown-container {
+        left: 24%;
+        top: 36px;
+    }
+}
+
+@media only screen and (1200px< width <=1500px) {
+
+    .dropdown-container {
+        left: 19%;
+        top: 36px;
+    }
+}
+
+@media only screen and (992px<=width <=1200px) {
 
     .logo img {
         height: 35px;
@@ -52,7 +68,7 @@
     }
 }
 
-@media only screen and (768px <= width < 992px) {
+@media only screen and (768px <=width < 992px) {
     .layer {
         display: none;
     }
@@ -75,7 +91,7 @@
     }
 }
 
-@media only screen and (576px <= width < 768px) {
+@media only screen and (576px <=width < 768px) {
     .layer {
         display: none;
     }
@@ -122,7 +138,7 @@
 
 /* ------------- Sec-one Start ------------------- */
 
-@media only screen and (992px<= width <=1200px) {
+@media only screen and (992px<=width <=1200px) {
 
     .contact-path h4 {
         font-size: 50px;
@@ -134,7 +150,7 @@
 
 }
 
-@media only screen and (768px <= width < 992px) {
+@media only screen and (768px <=width < 992px) {
 
     .contact-banner {
         height: 370px;
@@ -150,7 +166,7 @@
     }
 }
 
-@media only screen and (576px <= width < 768px) {
+@media only screen and (576px <=width < 768px) {
 
     .contact-banner {
         height: 320px;
