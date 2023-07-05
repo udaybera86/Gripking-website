@@ -60,6 +60,10 @@
     .sml_navbar {
         display: block;
     }
+
+    .nav ul li a {
+        font-size: 6vh;
+    }
 }
 
 @media only screen and (576px <= width < 768px) {
@@ -69,6 +73,10 @@
 
     .sml_navbar {
         display: block;
+    }
+
+    .nav ul li a {
+        font-size: 6vh;
     }
 }
 
@@ -87,6 +95,10 @@
 
     .sml_logo {
         display: none;
+    }
+
+    .nav ul li a {
+        font-size: 6vh;
     }
 }
 
