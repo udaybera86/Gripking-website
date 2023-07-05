@@ -41,40 +41,8 @@
         display: none;
     }
 
-    .sml_small_navbar {
-        display: none;
-    }
-
     .sml_navbar {
         display: block;
-    }
-
-    .checkbtn {
-        display: block;
-    }
-
-    .nav-links ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 80px;
-        right: -120%;
-        transition: .5s;
-    }
-
-    .nav-links ul li {
-        display: block;
-    }
-
-    .navbar {
-
-        padding: 0 20px 0 20px;
-        width: 500px;
-    }
-
-    .logo img {
-        height: 20px;
-        width: 180px;
     }
 
     .contact-banner {
@@ -98,38 +66,6 @@
 
     .sml_navbar {
         display: block;
-    }
-
-    .sml_small_navbar {
-        display: none;
-    }
-
-    .checkbtn {
-        display: block;
-    }
-
-    .nav-links ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 80px;
-        right: -120%;
-        transition: .5s;
-    }
-
-    .nav-links ul li {
-        display: block;
-    }
-
-    .navbar {
-
-        padding: 0 20px 0 20px;
-        width: 500px;
-    }
-
-    .logo img {
-        height: 20px;
-        width: 180px;
     }
 
     .contact-banner {
