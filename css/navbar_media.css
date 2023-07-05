@@ -1,4 +1,4 @@
-@media (992px <=width<=1200px) {
+@media (992px <= width <=1200px) {
     .navbar {
         justify-content: start;
         width: 90vw;
@@ -51,7 +51,7 @@
 
 }
 
-@media (400px <=width<=600px) {
+@media (400px <= width <=600px) {
 
     .layer {
         display: none;

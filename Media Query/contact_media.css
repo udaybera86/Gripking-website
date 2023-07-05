@@ -1,4 +1,4 @@
-/* ------------- Navbar & Sec-one ------------------- */
+/* ------------- Navbar ------------------- */
 
 @media only screen and (992px<= width <=1200px) {
 
@@ -25,15 +25,31 @@
         left: 14%;
         top: 36px;
     }
+}
 
-    .contact-path h4 {
-        font-size: 50px;
+@media screen and (width < 992px) {
+
+    .menu-icon:checked+label,
+    .menu-icon:not(:checked)+label {
+        right: 13px;
+        top: 40px;
     }
 
-    .contact-path p {
-        font-size: 20px;
+    .nav {
+        right: 0;
+        top: 20px;
     }
 
+    h1 {
+        font-size: 9vw;
+        -webkit-text-stroke: 2px transparent;
+        -webkit-text-fill-color: #ffeba7;
+        color: #ffeba7;
+    }
+
+    .nav ul li a {
+        font-size: 8vh;
+    }
 }
 
 @media only screen and (768px <= width < 992px) {
@@ -44,19 +60,6 @@
     .sml_navbar {
         display: block;
     }
-
-    .contact-banner {
-        height: 370px;
-    }
-
-    .contact-path h4 {
-        font-size: 45px;
-        line-height: normal;
-    }
-
-    .contact-path p {
-        font-size: 18px;
-    }
 }
 
 @media only screen and (576px <= width < 768px) {
@@ -66,19 +69,6 @@
 
     .sml_navbar {
         display: block;
-    }
-
-    .contact-banner {
-        height: 320px;
-    }
-
-    .contact-path h4 {
-        font-size: 35px;
-        line-height: normal;
-    }
-
-    .contact-path p {
-        font-size: 13px;
     }
 }
 
@@ -98,6 +88,55 @@
     .sml_logo {
         display: none;
     }
+}
+
+/* ------------- Sec-one Start ------------------- */
+
+@media only screen and (992px<= width <=1200px) {
+
+    .contact-path h4 {
+        font-size: 50px;
+    }
+
+    .contact-path p {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (768px <= width < 992px) {
+
+    .contact-banner {
+        height: 370px;
+    }
+
+    .contact-path h4 {
+        font-size: 45px;
+        line-height: normal;
+    }
+
+    .contact-path p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (576px <= width < 768px) {
+
+    .contact-banner {
+        height: 320px;
+    }
+
+    .contact-path h4 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .contact-path p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (width < 576px) {
 
     .contact-banner {
         height: 320px;

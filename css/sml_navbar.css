@@ -9,7 +9,7 @@
 
 .sml_medium_logo {
     display: none;
-    margin: 21px 0 0 21px;
+    margin: 21px 0 0 23px;
 }
 
 .sml_medium_logo img{
@@ -186,11 +186,11 @@
 .nav ul {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 2%;
     display: block;
     width: 100%;
     padding: 0;
-    margin: 70px 0 0 0;
+    margin: 0;
     z-index: 6;
     text-align: center;
     transform: translateY(-50%);
@@ -202,7 +202,7 @@
     display: block;
     width: 100%;
     padding: 0;
-    margin: 20px 0;
+    margin: 25px 0;
     text-align: center;
     list-style: none;
     pointer-events: none;
@@ -293,27 +293,4 @@
 }
 .menu-icon:checked~.nav ul li:nth-child(5) {
     transition-delay: 1680ms;
-}
-
-@media screen and (width < 992px) {
-
-    .menu-icon:checked+label,
-    .menu-icon:not(:checked)+label {
-        right: 14px;
-    }
-
-    .nav {
-        right: 0;
-    }
-
-    h1 {
-        font-size: 9vw;
-        -webkit-text-stroke: 2px transparent;
-        -webkit-text-fill-color: #ffeba7;
-        color: #ffeba7;
-    }
-
-    .nav ul li a {
-        font-size: 8vh;
-    }
 }
