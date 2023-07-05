@@ -66,6 +66,10 @@
         left: 1%;
     }
 
+    .menu-icon:checked~.nav {
+        height: 150%;
+    }
+
     .nav ul li a {
         font-size: 6vh;
     }
