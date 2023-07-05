@@ -125,7 +125,7 @@
     }
 
     .menu-icon:checked~.nav {
-        height: 170%;
+        height: 180%;
     }
 
     .nav ul li a {
