@@ -61,6 +61,11 @@
         display: block;
     }
 
+    .nav ul {
+        top: 58%;
+        left: 1%;
+    }
+
     .nav ul li a {
         font-size: 6vh;
     }
