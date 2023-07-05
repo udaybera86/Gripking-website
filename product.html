@@ -8,6 +8,8 @@
     <link rel="Gripking icon" type="png" href="./img/Gripking icon.png">
     <link rel="stylesheet" href="./css/product.css">
     <link rel="stylesheet" href="./css/preloader.css">
+    <link rel="stylesheet" href="./css/sml_navbar.css">
+    <link rel="stylesheet" href="./Media Query/navbar_media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Syne&display=swap" rel="stylesheet">
@@ -45,8 +47,33 @@
 
     <section class="sec-one">
 
-        <!-- *********************** Navbar **************** -->
+         <!-- *********************** Navbar Start For Small Screen **************** -->
+         <div class="sml_navbar">
+            <div class="sml_medium_logo">
+                <a href="./index.html"><img src="./img/Gripking icon.png" alt="Gripking Logo"></a>
+            </div>
+            <div class="sml_logo">
+                <a href="./index.html"><img src="./img/Gripking side logo.png" alt="Gripking Logo"></a>
+            </div>
+            <div class="hamburger-menu">
+                <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
+                <label for="menu-icon"></label>
+                <nav class="nav">
+                    <ul class="pt-5">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./product.html">Products</a></li>
+                        <li><a href="./FAQS.html">FAQs</a></li>
+                        <li><a href="./contact_us.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
+        <!-- *********************** Navbar End For Small Screen **************** -->
+
+        <!-- *********************** Navbar Start For Large Screen **************** -->
+        
         <div class="layer">
             <div class="navbar container">
                 <div class="logo">
@@ -63,13 +90,13 @@
                     </ul>
                 </div>
             </div>
-
+            
             <!-- *********************** Dropdown Menu **************** -->
-
+            
             <div id="dropdown-container" class="dropdown-container">
                 <div class="drop-down">
                     <div class="horizontal-line">
-
+                        
                     </div>
                     <div class="dropdown-items">
                         <div class="product-type-one">
@@ -80,7 +107,7 @@
                             <p><a class="hover-link" href="">Self Adhesive Bopp Tape</a></p>
                         </div>
                         <div class="borderline">
-
+                            
                         </div>
                         <div class="product-type-two">
                             <p><a class="hover-link" href="">PE Foam Tape</a></p>
@@ -90,7 +117,7 @@
                             <p><a class="hover-link" href="">Double Side Acrylic Tape</a></p>
                         </div>
                         <div class="borderline">
-
+                            
                         </div>
                         <div class="product-type-three">
                             <p><a class="hover-link" href="">Craft Paper Tape</a></p>
@@ -103,18 +130,20 @@
             </div>
         </div>
 
+        <!-- *********************** Navbar End For Large Screen **************** -->
+        
         <!-- *********************** Home **************** -->
         <div class="product-banner">
         </div>
         <div class="product-path">
             <h4>Products</h4>
             <p><span><a class="hover-link" href="./index.html">Gripking Tapes India Pvt. Ltd.</a></span> <i
-                    class="fa-solid fa-arrow-right-long"></i> Products</p>
-        </div>
-
-    </section>
-
-    <!-- *********************** Section One End **************** -->
+                class="fa-solid fa-arrow-right-long"></i> Products</p>
+            </div>
+            
+        </section>
+        
+        <!-- *********************** Section One End **************** -->
 
     <div class="card-wrapper">
         <div class="container">
