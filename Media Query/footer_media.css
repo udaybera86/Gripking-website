@@ -1,3 +1,9 @@
+@media only screen and (width >1200px) {
+    .sml_footer {
+        display: none;
+    }
+}
+
 @media only screen and (992px<= width <=1200px) {
 
     .sml_footer {
@@ -71,5 +77,39 @@
 
     .sml_footer {
         display: block;
+    }
+}
+
+@media only screen and (576px<= width <768px) {
+    
+    .footer {
+        display: none;
+    }
+
+    .sml_footer {
+        display: block;
+    }
+
+    .sml_footer-location {
+        width: 300px;
+    }
+}
+
+@media only screen and (width <576px) {
+    
+    .footer {
+        display: none;
+    }
+
+    .sml_footer {
+        display: block;
+    }
+
+    .sml_footer-content .col-60 {
+        display: none;
+    }
+
+    .sml_footersocial-content {
+        display: none;
     }
 }

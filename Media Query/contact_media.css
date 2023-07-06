@@ -36,7 +36,11 @@
     }
 }
 
-@media only screen and (576px <=width < 768px) {
+@media only screen and (576px <= width < 768px) {
+
+    .container {
+        width: 500px;
+    }
 
     .contact-banner {
         height: 320px;
@@ -65,5 +69,9 @@
 
     .contact-path p {
         font-size: 13px;
+    }
+
+    .whatsapp-icon {
+        font-size: 60px;
     }
 }
