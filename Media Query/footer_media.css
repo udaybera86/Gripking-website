@@ -1,4 +1,8 @@
 @media only screen and (992px<= width <=1200px) {
+
+    .sml_footer {
+        display: none;
+    }
     
     .footer-logo img {
         width: 230px;
@@ -64,7 +68,7 @@
     .footer {
         display: none;
     }
-    
+
     .sml_footer {
         display: block;
     }
