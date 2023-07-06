@@ -1,6 +1,10 @@
 /* ------------- Sec-one Start ------------------- */
 
-@media only screen and (992px<=width <=1200px) {
+@media only screen and (992px<= width <=1200px) {
+
+    .container {
+        width: 880px;
+    }
 
     .contact-path h4 {
         font-size: 50px;
@@ -12,7 +16,11 @@
 
 }
 
-@media only screen and (768px <=width < 992px) {
+@media only screen and (768px <= width < 992px) {
+
+    .container {
+        width: 680px;
+    }
 
     .contact-banner {
         height: 370px;

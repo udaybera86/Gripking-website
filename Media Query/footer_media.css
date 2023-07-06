@@ -1,0 +1,71 @@
+@media only screen and (992px<= width <=1200px) {
+    
+    .footer-logo img {
+        width: 230px;
+    }
+
+    .footer-location {
+        width: 330px;
+    }
+
+    .corporate-address, #factory-address, .footer-num {
+        display: block;
+    }
+
+    #corporate-office {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    #vertical-line-one, #vertical-line-two, .line {
+        display: none;
+    }
+
+    #address-one {
+        margin: 9px 0 20px 0;
+    }
+
+    #manufacturing-unit {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    #unit-address {
+        margin-top: 9px;
+    }
+
+    .footer-contact {
+        margin-top: -23px;
+    }
+    .footer-content p {
+        font-size: 14px;
+    }
+
+    .footer-contact h4 {
+        margin-bottom: 20px;
+    }
+
+    #footer-num {
+        margin: 0;
+    }
+
+    .footersocial-content p {
+        font-size: 15px;
+    }
+
+    .footersocial-content ul {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (768px<= width <992px) {
+    
+    .footer {
+        display: none;
+    }
+    
+    .sml_footer {
+        display: block;
+    }
+}

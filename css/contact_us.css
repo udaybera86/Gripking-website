@@ -36,7 +36,7 @@ a {
 }
 
 .container {
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -47,6 +47,9 @@ a {
 .col-30 {
     width: 30%;
 }
+.col-40 {
+    width: 40%;
+}
 
 .col-45 {
     width: 45%;
@@ -54,6 +57,14 @@ a {
 
 .col-55 {
     width: 55%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-60 {
+    width: 60%;
 }
 
 .row {
@@ -548,7 +559,7 @@ a {
     color: #fff;
 }
 
-/* --------------- Footer Section --------------------- */
+/* --------------- Footer Section Start For Large Screen --------------------- */
 
 .footer {
     width: 100vw;
@@ -743,3 +754,190 @@ a {
 .footersocial-content ul li:nth-child(4) a:hover .fab {
     color: #e4405f;
 }
+
+/* --------------- Footer Section End For Large Screen --------------------- */
+
+/* --------------- Footer Section Start For Small Screen --------------------- */
+
+.sml_footer {
+    width: 100vw;
+    height: 620px;
+    background-color: #101010;
+    background-image: url(../img//footer-bg-1.png);
+    background-size: cover;
+}
+
+.sml_footer-content {
+    height: 437px;
+    padding-top: 50px;
+}
+
+.sml_footer-content p {
+    color: #FFFFFF;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.sml_footer-content h4 {
+    color: #FED51B;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.sml_footer-logo img {
+    width: 80px;
+}
+
+.sml_footer-logo-two img {
+    width: 300px;
+}
+
+.sml_footer-contact p {
+    width: 180px;
+    line-height: 26px;
+}
+
+.sml_footer-contact h4 {
+    margin: 20px 0;
+}
+
+.sml_footer-contact a {
+    transition: all 0.4s ease-in-out;
+}
+
+.sml_footer-contact p:hover a {
+    color: #FED51B;
+}
+
+.sml_footer-num {
+    width: 125px;
+    margin-top: 20px;
+}
+
+#sml_footer-mail {
+    width: 225px;
+    margin-top: 20px;
+}
+
+#sml_web-address {
+    width: 225px;
+    margin-bottom: 20px;
+}
+
+.sml_footer-location {
+    width: 330px;
+}
+
+.sml_footer-location h4 {
+    margin-top: 38px;
+}
+
+.sml_footer-location p {
+    line-height: 26px;
+}
+
+#sml_address-one {
+    margin: 9px 0 20px 0;
+}
+
+#sml_corporate-office {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#sml_manufacturing-unit {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#sml_unit-address {
+    margin-top: 9px;
+}
+
+.sml_footersocial-content p {
+    font-family: 'sora';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 100;
+    color: #d2d2d5;
+    text-align: center;
+}
+
+.sml_footersocial-content span{
+    letter-spacing: 1.7px;
+    color: #FED51B;
+    cursor:default;
+}
+
+.sml_footersocial-content a {
+    transition: all 0.4s;
+}
+
+.sml_footersocial-content ul {
+    margin: 40px 0 30px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sml_footersocial-content ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sml_footersocial-content ul li a {
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.177);
+    background: linear-gradient(90.37deg, rgba(239, 244, 253, 0.4) 0%, rgba(239, 244, 253, 0.2) 100%);
+    transition: .5s;
+}
+
+.sml_footersocial-content ul li a:hover {
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0);
+    text-decoration: none;
+}
+
+.sml_footersocial-content ul li a .fab {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(90.37deg, rgba(239, 244, 253, 0.4) 0%, rgba(239, 244, 253, 0.2) 100%);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size: 24px;
+    color: #262626;
+    transition: .5s;
+}
+
+.sml_footersocial-content ul li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+}
+
+.sml_footersocial-content ul li:nth-child(2) a:hover .fab {
+    color: #00aced;
+}
+
+.sml_footersocial-content ul li:nth-child(3) a:hover .fab {
+    color: #007bb6;
+}
+
+.sml_footersocial-content ul li:nth-child(4) a:hover .fab {
+    color: #e4405f;
+}
+
+/* --------------- Footer Section End For Small Screen --------------------- */
