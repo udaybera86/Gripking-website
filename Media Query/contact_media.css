@@ -101,7 +101,192 @@
     .contact-form .col-45 {
         background-position: -100px;
     }
+}
 
+@media only screen and (768px <= width < 992px) {
+
+    .sec-two {
+        margin: 80px 0;
+    }
+
+    .contact-details {
+        width: 585px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact-map {
+        display: block;
+        margin-bottom: 70px;
+    }
+
+    .contact-map .col-45 {
+        width: 100vw;
+        margin-bottom: 70px;
+    }
+
+    .address-one p {
+        margin: 10px 0;
+    }
+
+    .address-two p {
+        margin: 10px 0;
+    }
+
+    .contact-map .col-55 {
+        width: 100vw;
+        height: 43vh;
+    }
+
+    .contact-form {
+        display: block;
+    }
+
+    .contact-form .col-45 {
+        display: none;
+    }
+
+    .contact-form .col-55 {
+        width: 585px;
+        margin: 0 auto;
+    }
+
+    .form-details {
+        margin: 0;
+    }
+
+    .form-content {
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+}
+
+@media only screen and (576px <= width < 768px) {
+
+    .sec-two {
+        margin: 80px 0;
+    }
+
+    .contact-details {
+        width: 480px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact-map {
+        display: block;
+        margin-bottom: 70px;
+    }
+
+    .contact-map .col-45 {
+        width: 100vw;
+        margin-bottom: 70px;
+    }
+
+    .address-one p {
+        margin: 10px 0;
+    }
+
+    .address-two p {
+        margin: 10px 0;
+    }
+
+    .contact-map .col-55 {
+        width: 100vw;
+        height: 43vh;
+    }
+
+    .contact-form {
+        display: block;
+    }
+
+    .contact-form .col-45 {
+        display: none;
+    }
+
+    .contact-form .col-55 {
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .form-details {
+        margin: 0;
+    }
+
+    .form-content {
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+}
+
+@media only screen and (width <576px) {
+
+    .sec-two {
+        margin: 70px 0;
+    }
+
+    .contact-details {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact-map {
+        display: block;
+        margin-bottom: 70px;
+    }
+
+    .contact-map .col-45 {
+        width: 100vw;
+        margin-bottom: 70px;
+    }
+
+    .address-one p {
+        margin: 10px 0;
+    }
+
+    .address-two p {
+        margin: 10px 0;
+    }
+
+    .contact-map .col-55 {
+        width: 100vw;
+        height: 43vh;
+    }
+
+    .contact-form {
+        display: block;
+    }
+
+    .contact-form .col-45 {
+        display: none;
+    }
+
+    .contact-form .col-55 {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .form-details {
+        margin: 0;
+    }
+
+    .form-content {
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .name-mail {
+        display: block;
+    }
+
+    .name-mail input {
+        width: 100%;
+    }
+
+    #email {
+        margin-top: 30px;
+    }
 }
 
 /* --------------- Section Two End ---------------- */
