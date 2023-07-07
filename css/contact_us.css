@@ -273,6 +273,7 @@ a {
     font-style: normal;
     font-size: 22px;
     color: #fff;
+    text-align: center;
 }
 
 .contact-path i {
@@ -294,17 +295,16 @@ a {
 }
 
 .contact-map {
-    height: 80vh;
     display: flex;
 }
 
 .contact-map .col-45 {
-    height: 80vh;
+    margin-bottom: 100px;
 }
 
-.conact-details {
+.contact-details {
     margin-left: 280px;
-    width: 55%;
+    margin-right: 70px;
 }
 
 #our_contact {
@@ -431,15 +431,8 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-
-/* --------------- Section Two End --------------------- */
-
-/* --------------- Section Three Start --------------------- */
-
-
 .contact-form {
     width: 100vw;
-    height: 72vh;
     display: flex;
 }
 
@@ -447,7 +440,10 @@ a {
     background-image: url(../img/Business_meeting.jpg);
     background-size: cover;
     width: 45%;
-    height: 72vh;
+}
+
+.contact-form .col-55 {
+    margin-bottom: 60px;
 }
 
 .form-details {
@@ -558,3 +554,5 @@ a {
 .button:hover input {
     color: #fff;
 }
+
+/* --------------- Section Two End --------------------- */

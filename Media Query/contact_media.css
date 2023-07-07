@@ -75,3 +75,33 @@
         font-size: 60px;
     }
 }
+
+/* --------------- Section One End ---------------- */
+
+/* --------------- Section Two Start ---------------- */
+
+@media only screen and (1200px< width <=1500px) {
+
+    .contact-details {
+        margin-left: 170px;
+    }
+
+}
+
+@media only screen and (992px<= width <=1200px) {
+
+    .contact-details {
+        margin-left: 100px;
+    }
+
+    .contact-map .col-45 {
+        margin-bottom: 55px;
+    }
+
+    .contact-form .col-45 {
+        background-position: -100px;
+    }
+
+}
+
+/* --------------- Section Two End ---------------- */
