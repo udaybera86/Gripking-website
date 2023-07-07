@@ -1,15 +1,28 @@
 @media only screen and (width >1200px) {
+
+    .container {
+        width: 1100px;
+    }
+
     .sml_footer {
+        display: none;
+    }
+
+    .sml_mobile-footer {
         display: none;
     }
 }
 
-@media only screen and (992px<= width <=1200px) {
+@media only screen and (992px<=width <=1200px) {
+
+    .sml_mobile-footer {
+        display: none;
+    }
 
     .sml_footer {
         display: none;
     }
-    
+
     .footer-logo img {
         width: 230px;
     }
@@ -18,7 +31,9 @@
         width: 330px;
     }
 
-    .corporate-address, #factory-address, .footer-num {
+    .corporate-address,
+    #factory-address,
+    .footer-num {
         display: block;
     }
 
@@ -28,7 +43,9 @@
         margin-top: 20px;
     }
 
-    #vertical-line-one, #vertical-line-two, .line {
+    #vertical-line-one,
+    #vertical-line-two,
+    .line {
         display: none;
     }
 
@@ -48,6 +65,7 @@
     .footer-contact {
         margin-top: -23px;
     }
+
     .footer-content p {
         font-size: 14px;
     }
@@ -69,9 +87,13 @@
     }
 }
 
-@media only screen and (768px<= width <992px) {
-    
+@media only screen and (768px<=width <992px) {
+
     .footer {
+        display: none;
+    }
+
+    .sml_mobile-footer {
         display: none;
     }
 
@@ -80,9 +102,13 @@
     }
 }
 
-@media only screen and (576px<= width <768px) {
-    
+@media only screen and (576px<=width <768px) {
+
     .footer {
+        display: none;
+    }
+
+    .sml_mobile-footer {
         display: none;
     }
 
@@ -96,20 +122,20 @@
 }
 
 @media only screen and (width <576px) {
-    
+
     .footer {
         display: none;
     }
 
     .sml_footer {
-        display: block;
-    }
-
-    .sml_footer-content .col-60 {
         display: none;
     }
 
-    .sml_footersocial-content {
+    .sml_mobile-footer {
+        display: block;
+    }
+
+    .sec-two {
         display: none;
     }
 }

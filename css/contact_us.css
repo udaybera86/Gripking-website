@@ -123,8 +123,8 @@ a {
 
 .whatsapp-icon {
     position: fixed;
-    right: 30px;
-    bottom: 18px;
+    right: 17px;
+    bottom: 8px;
     font-size: 70px;
     z-index: 999;
 }
@@ -827,6 +827,44 @@ a {
     margin-bottom: 20px;
 }
 
+.sml_quick-links {
+    display: none;
+}
+
+.sml_quick-links h4 {
+    color: #FED51B;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.sml_quick-links ul li {
+    display: block;
+    list-style: none;
+    color: #fff;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    letter-spacing: 0.7px;
+}
+
+.sml_quick-links ul li a {
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+.sml_quick-links ul a:hover{
+    color: #FED51B;
+}
+
+.sml_quick-links ul {
+    margin-top: 20px;
+}
+
 .sml_footer-location {
     width: 330px;
 }
@@ -940,3 +978,191 @@ a {
 }
 
 /* --------------- Footer Section End For Small Screen --------------------- */
+
+/* --------------- Footer Section Start For Mobile Device --------------------- */
+
+.sml_mobile-footer {
+    width: 100vw;
+    height: auto;
+    background-color: #101010;
+    background-image: url(../img//footer-bg-1.png);
+    background-size: cover;
+}
+
+.sml_mobile-footer-content p {
+    color: #FFFFFF;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.sml_mobile-footer-content h4 {
+    color: #FED51B;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.sml_mobile-footer-logo {
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.sml_mobile-footer-logo img {
+    width: 250px;
+}
+
+.sml_mobile-footer-location {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.sml_mobile-footer-location h4 {
+    margin-top: 30px;
+}
+
+.sml_mobile-footer-location p {
+    line-height: 26px;
+}
+
+#sml_mobile-footer-address-one {
+    margin: 9px 0 20px 0;
+}
+
+#sml_mobile-footer-corp-office {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#sml_mobile-footer-manufacturing {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#sml_mobile-unit-address {
+    margin-top: 9px;
+}
+
+.sml_mobile-footer-contact {
+    text-align: center;
+}
+
+.sml_mobile-footer-contact p {
+    line-height: 26px;
+}
+
+.sml_mobile-footer-contact h4 {
+    margin: 20px 0;
+}
+
+.sml_mobile-footer-contact a {
+    transition: all 0.4s ease-in-out;
+}
+
+.sml_mobile-footer-contact p:hover a {
+    color: #FED51B;
+}
+
+.sml_mobile-footer-num {
+    margin-top: 20px;
+}
+
+#sml_mobile-footer-mail {
+    margin-top: 20px;
+}
+
+#sml_mobile-web-address {
+    margin-bottom: 20px;
+}
+
+.sml_mobile-footer-social {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.sml_mobile-footer-social p {
+    font-family: 'sora';
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 100;
+    color: #d2d2d5;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+}
+
+.sml_mobile-footer-social span{
+    letter-spacing: 1.7px;
+    color: #FED51B;
+    cursor:default;
+}
+
+.sml_mobile-footer-social a {
+    transition: all 0.4s;
+}
+
+.sml_mobile-footer-social ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sml_mobile-footer-social ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sml_mobile-footer-social ul li a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.177);
+    background: linear-gradient(90.37deg, rgba(239, 244, 253, 0.4) 0%, rgba(239, 244, 253, 0.2) 100%);
+    transition: .5s;
+}
+
+.sml_mobile-footer-social ul li a:hover {
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0);
+    text-decoration: none;
+}
+
+.sml_mobile-footer-social ul li a .fab {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(90.37deg, rgba(239, 244, 253, 0.4) 0%, rgba(239, 244, 253, 0.2) 100%);
+    border-radius: 50%;
+    line-height: calc(57px - 12px);
+    font-size: 22px;
+    color: #262626;
+    transition: .5s;
+}
+
+.sml_mobile-footer-social ul li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+}
+
+.sml_mobile-footer-social ul li:nth-child(2) a:hover .fab {
+    color: #00aced;
+}
+
+.sml_mobile-footer-social ul li:nth-child(3) a:hover .fab {
+    color: #007bb6;
+}
+
+.sml_mobile-footer-social ul li:nth-child(4) a:hover .fab {
+    color: #e4405f;
+}
+
+/* --------------- Footer Section End For Mobile Device --------------------- */
