@@ -112,7 +112,6 @@
     .contact-details {
         width: 585px;
         margin: 0 auto;
-        text-align: center;
     }
 
     .contact-map {
@@ -170,7 +169,6 @@
     .contact-details {
         width: 480px;
         margin: 0 auto;
-        text-align: center;
     }
 
     .contact-map {
@@ -228,7 +226,6 @@
     .contact-details {
         width: 300px;
         margin: 0 auto;
-        text-align: center;
     }
 
     .contact-map {
@@ -286,6 +283,30 @@
 
     #email {
         margin-top: 30px;
+    }
+
+    #our_contact {
+        font-size: 14px;
+    }
+
+    #get-touch {
+        font-size: 41px;
+    }
+
+    #get-touch-des {
+        font-size: 12px;
+    }
+
+    .address-details i {
+        font-size: 16px;
+    }
+
+    .address-details span {
+        font-size: 16px;
+    }
+
+    .address-details p {
+        font-size: 13px;
     }
 }
 

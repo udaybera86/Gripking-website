@@ -331,62 +331,38 @@ a {
     margin-bottom: 30px;
 }
 
-.address-one i {
+.address-details i {
     color: #FED51B;
     padding-right: 15px;
     font-size: 18px;
 }
 
-.address-one span {
+.address-details span {
     font-size: 18px;
     font-family: 'Poppins';
     font-style: normal;
+}
+
+.address-details p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 15px;
 }
 
 .address-one p {
-    font-family: 'Poppins';
-    font-style: normal;
     margin: 10px 0 10px 40px;
-    font-size: 15px;
 }
 
 .address-two i {
-    color: #FED51B;
-    padding-right: 15px;
-    font-size: 18px;
     margin-top: 20px;
-}
-
-.address-two span {
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-style: normal;
 }
 
 .address-two p {
-    font-family: 'Poppins';
-    font-style: normal;
     margin: 10px 0 10px 40px;
-    font-size: 15px;
 }
 
 .contact-num i {
-    color: #FED51B;
-    padding-right: 15px;
-    font-size: 18px;
     margin-top: 20px;
-}
-
-.contact-num span {
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-style: normal;
-}
-
-.contact-num p {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 15px;
 }
 
 #number {
@@ -403,23 +379,11 @@ a {
 }
 
 .email-details i {
-    color: #FED51B;
-    padding-right: 15px;
-    font-size: 18px;
     margin-top: 20px;
 }
 
-.email-details span {
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-style: normal;
-}
-
 .email-details p {
-    font-family: 'Poppins';
-    font-style: normal;
     margin: 10px 0 10px 40px;
-    font-size: 15px;
 }
 
 .email-details a {
