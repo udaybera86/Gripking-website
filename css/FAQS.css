@@ -36,7 +36,7 @@ a {
 }
 
 .container {
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -247,8 +247,8 @@ a {
 .FAQ-path {
     position: absolute;
     top: 50%;
-    right: 40%;
-    /* z-index: 101; */
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .FAQ-path h4 {
@@ -330,7 +330,7 @@ a {
     margin: 38px 0;
 }
 
-.shipping{
+.shipping {
     font-family: 'Poppins';
     font-style: normal;
     width: 450px;

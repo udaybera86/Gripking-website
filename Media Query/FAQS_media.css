@@ -1,0 +1,219 @@
+/* ------------- Sec-one Start ------------------- */
+
+@media only screen and (992px<= width <=1200px) {
+
+    .container {
+        width: 880px;
+    }
+
+    .FAQ-path h4 {
+        font-size: 50px;
+    }
+
+    .FAQ-path p {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (768px <= width < 992px) {
+
+    .container {
+        width: 680px;
+    }
+
+    .FAQ-banner {
+        height: 370px;
+    }
+
+    .FAQ-path h4 {
+        font-size: 45px;
+        line-height: normal;
+    }
+
+    .FAQ-path p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (576px <= width < 768px) {
+
+    .container {
+        width: 500px;
+    }
+
+    .FAQ-banner {
+        height: 320px;
+    }
+
+    .FAQ-path h4 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .FAQ-path p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (width < 576px) {
+
+    .FAQ-banner {
+        height: 320px;
+    }
+
+    .FAQ-path h4 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .FAQ-path p {
+        font-size: 13px;
+    }
+
+    .whatsapp-icon {
+        font-size: 50px;
+    }
+}
+
+/* --------------- Section One End ---------------- */
+
+/* --------------- Section Two Start ---------------- */
+
+@media only screen and (992px<= width <=1200px) {
+
+    .col-50 {
+        width: 45%;
+    }
+
+    .two-img img {
+        margin: 0;
+    }
+}
+
+@media only screen and (768px <= width < 992px) {
+
+    .sec-two {
+        margin: 100px 0 100px 0;
+    }
+
+    .two-img {
+        display: none;
+    }
+
+    .sec-two .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .img_content h3, #short_des, .shipping, .quality, .payment {
+        width: 100%;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
+
+@media only screen and (576px <= width < 768px) {
+    .sec-two {
+        margin: 100px 0 100px 0;
+    }
+
+    .two-img {
+        display: none;
+    }
+
+    .sec-two .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sec-two .col-50 {
+        width: 100%;
+    }
+
+    .img_content h3, #short_des, .shipping, .quality, .payment {
+        width: 100%;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
+
+@media only screen and (width < 576px) {
+    .sec-two {
+        margin: 65px 30px;
+    }
+
+    .two-img {
+        display: none;
+    }
+
+    .sec-two .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sec-two .col-50 {
+        width: 100%;
+    }
+
+    .img_content h3, #short_des, .shipping, .quality, .payment {
+        width: 100%;
+    }
+
+    .title {
+        text-align: center;
+        font-size: clamp(22px, 5vw, 40px);
+    }
+
+    .accordion label {
+        font-size: 15px;
+    }
+
+    .accordion-answer {
+        font-size: 13px;
+    }
+
+    #popular_que {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .img_content h3 {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    #short_des {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .FAQ-left-content span {
+        font-size: 17px;
+    }
+
+    .FAQ-left-content i {
+        font-size: 19px;
+    }
+
+    .shipping p {
+        font-size: 14px;
+    }
+
+    .quality p {
+        font-size: 14px;
+    }
+
+    .payment p {
+        font-size: 14px;
+    }
+
+}

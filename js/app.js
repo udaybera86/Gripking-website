@@ -103,7 +103,7 @@ if (serviceItems && popup) {
 
 // <--------------------------------- Home Section -------------------------------------------------------->
 
-document.getElementsByTagName('video').playbackRate = .95;
+document.getElementsByTagName('video').playbackRate = 0.95;
 
 
 
