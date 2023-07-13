@@ -1,0 +1,5 @@
+@media only screen and (width >=1500px) {
+     .sec-two .container {
+        width: 1500px;
+    }
+}
