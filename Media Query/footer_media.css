@@ -4,7 +4,7 @@
         width: 1200px;
     }
 
-    .sml_footer {
+    .sml_footer {   
         display: none;
     }
 
@@ -14,6 +14,10 @@
 }
 
 @media only screen and (992px<= width <=1200px) {
+
+    .footer .container {
+        width: 880px;
+    }
 
     .sml_mobile-footer {
         display: none;
@@ -89,6 +93,10 @@
 
 @media only screen and (768px<= width <992px) {
 
+    .sml_footer .container {
+        width: 680px;
+    }
+
     .footer {
         display: none;
     }
@@ -103,6 +111,10 @@
 }
 
 @media only screen and (576px<= width <768px) {
+
+    .sml_footer .container {
+        width: 500px;
+    }
 
     .footer {
         display: none;

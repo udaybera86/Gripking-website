@@ -208,6 +208,7 @@
 
 .sml_footer-content {
     padding-top: 50px;
+    flex-wrap: wrap;
 }
 
 .sml_footer-content p {

@@ -1,5 +1,203 @@
+/* ------------------ Section One ------------------- */
+
+@media only screen and (992px<= width <=1200px) {
+
+    .product-path h4 {
+        font-size: 50px;
+    }
+
+    .product-path p {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (768px <= width < 992px) {
+
+    .product-banner {
+        height: 370px;
+    }
+
+    .product-path h4 {
+        font-size: 45px;
+        line-height: normal;
+    }
+
+    .product-path p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (576px <= width < 768px) {
+
+    .product-banner {
+        height: 320px;
+    }
+
+    .product-path h4 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .product-path p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (width < 576px) {
+
+    .product-banner {
+        height: 320px;
+    }
+
+    .product-path h4 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .product-path p {
+        font-size: 13px;
+    }
+
+    .whatsapp-icon {
+        font-size: 50px;
+    }
+}
+
+/* ------------------ Section Two ------------------- */
+
 @media only screen and (width >=1500px) {
-     .sec-two .container {
+    .sec-two .container {
         width: 1500px;
+    }
+}
+
+@media only screen and (1200px< width <1500px) {
+    .sec-two .container {
+        width: 1150px;
+    }
+}
+
+@media only screen and (992px<=width <=1200px) {
+    .sec-two .container {
+        width: 880px;
+    }
+
+    svg text {
+        font-size: 60px;
+    }
+
+    .E-brochure {
+        top: 61%;
+    }
+}
+
+@media only screen and (768px<=width <992px) {
+    .sec-two .container {
+        width: 700px;
+    }
+
+    .flip {
+        height: 570px;
+    }
+
+    .flip .front {
+        background-size: 260px !important;
+    }
+
+    .flip {
+        width: 300px;
+    }
+
+    .flip>.front,
+    .flip>.back {
+        background-position: 25px 160px !important;
+        height: 570px;
+    }
+
+    .flip .back h5 {
+        left: 18%;
+    }
+
+    svg text {
+        font-size: 75px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 8px 13px;
+    }
+
+    .E-brochure {
+        top: 47%;
+    }
+}
+
+@media only screen and (576px<=width <768px) {
+    .sec-two .container {
+        width: 500px;
+    }
+
+    svg text {
+        font-size: 75px;
+    }
+
+    .svg-text {
+        margin-top: 110px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 8px 13px;
+    }
+
+    .E-brochure {
+        top: 41%;
+    }
+}
+
+@media only screen and (width <576px) {
+    .sec-two .container {
+        width: 300px;
+    }
+
+    .flip {
+        height: 570px;
+    }
+
+    .flip .front {
+        background-size: 260px !important;
+    }
+
+    .flip {
+        width: 300px;
+    }
+
+    .flip>.front,
+    .flip>.back {
+        background-position: 25px 160px !important;
+        height: 570px;
+    }
+
+    .flip .back h5 {
+        left: 18%;
+    }
+
+    svg text {
+        font-size: 80px;
+    }
+
+    .svg-text {
+        margin-top: 34px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 8px 13px;
+    }
+
+    .E-brochure {
+        top: 47%;
+        right: 34%;
     }
 }

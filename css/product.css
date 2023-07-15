@@ -363,11 +363,6 @@ svg text {
   letter-spacing: 1.5px;
 }
 
-.flip {
-  position: relative;
-  height: 500px;
-}
-
 .flip>.front,
 .flip>.back {
   display: block;
@@ -422,6 +417,7 @@ svg text {
   margin-right: 2px;
   margin-bottom: 5em;
   width: 400px;
+  height: 500px;
 }
 
 .flip>.front,
