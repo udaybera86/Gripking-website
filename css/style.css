@@ -155,6 +155,7 @@
 
 .homeHero__title span:hover {
     color: #fff;
+    -webkit-text-stroke: #fff;
 }
 
 .homeHero__clips {
