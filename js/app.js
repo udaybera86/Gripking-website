@@ -10,7 +10,7 @@ window.onpointermove = event => {
     }, { duration: 3000, fill: "forwards" })
 }
 
-const elements = [...document.querySelectorAll("h2 div")]
+const elements = [...document.querySelectorAll("h2 span")]
 
 elements.map(element => {
     element.onmouseover = () => {
