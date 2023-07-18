@@ -8,7 +8,11 @@ $(".dropdown-container").mouseleave(function () {
     $(".dropdown-container").slideUp(800);
 });
 
-$("#codeofconduct").mouseover(function () {
+$("#product").mouseleave(function () {
+    $(".dropdown-container").slideUp(800);
+});
+
+$("#FAQS").mouseover(function () {
     $(".dropdown-container").slideUp(800);
 });
 
