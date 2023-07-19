@@ -91,7 +91,7 @@
     width: 100vw;
     height: 100vh;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 130px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,15 +131,14 @@
 }
 
 .hero-des {
-    position: absolute;
-    top: 62%;
-    width: 1700px;
-    padding: 0;
+    width: 100vw;
 }
 
 .hero-des p {
-    width: 320px;
-    font-size: 18px;
+    width: 480px;
+    padding-top: 25px;
+    margin: 0 auto;
+    font-size: 17px;
     font-family: 'Jost', sans-serif;
     font-weight: 200;
     line-height: 1.4;
@@ -219,8 +218,8 @@
 
 .hero-vector img:nth-child(1) {
     position: absolute;
-    bottom: 120px;
-    right: 150px;
+    bottom: 150px;
+    right: 70px;
     width: 70px;
 }
 

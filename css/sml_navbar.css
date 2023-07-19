@@ -3,7 +3,7 @@
     z-index: 999;
     height: 100px;
     width: 100vw;
-    background-color: #353746;
+    background-color: #1b1b1b;
     display: none;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .sml_logo{
-    margin: 25px 0 0 25px;
+    margin: 27px 0 0 40px;
 }
 
 .sml_logo img{
