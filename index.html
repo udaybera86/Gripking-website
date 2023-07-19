@@ -160,22 +160,24 @@
                 </span>
             </a>
         </button> -->
-        
+
         <div class="home-sec">
             <section class="homeHero">
                 <div class="homeHero--inner">
                     <h2 class="homeHero__title">
-                        <div>
+                        <div id="hero_text">
                             <span>GripKing's</span>
                             <span>Superior</span>
                         </div>
-                        <div>
+                        <div id="hero_text">
                             <span>Grip</span>
                             <span>Technology</span>
                         </div>
                     </h2>
                     <div class="hero-des">
-                        <p>We specialize in crafting high-performance tapes that provide unrivaled grip, reliability, and durability. Elevate your projects to new heights with <span>GripKing's</span> adhesive tape solutions</p>
+                        <p>We specialize in crafting high-performance tapes that provide unrivaled grip, reliability,
+                            and durability. Elevate your projects to new heights with <span>GripKing's</span> adhesive
+                            tape solutions</p>
                     </div>
                     <div class="hero-vector">
                         <img src="./img/tape-icon-3.png" alt="tape icon">
@@ -583,13 +585,18 @@
     </div>
 
     <!-- *********************** Footer Section End For Mobile Device **************** -->
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/home_gsap.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/cursor.js"></script>
     <script src="./js/preloader.js"></script>
-    <script>
+    <!-- <script>
         ScrollReveal({
             reset: true,
             distance: '60px',
@@ -610,5 +617,5 @@
         ScrollReveal().reveal('.footer-location h4, .footer-contact h4', { delay: 30, origin: 'top' });
         ScrollReveal().reveal('.footer-location .corporate-address, .footer-location #factory-address, .footer-contact p', { delay: 30, origin: 'bottom' });
         ScrollReveal().reveal('.footersocial-content li', { delay: 30, origin: 'left', interval: 200 });
-    </script>
+    </script> -->
 </body>

@@ -101,7 +101,8 @@
 .homeHero__title {
     color: #fff;
     width: 100vw;
-    max-width: 1700px;
+    padding: 0 110px;
+    /* max-width: 1700px; */
     margin: 0 auto;
     font-family: proxima-nova, sans-serif;
     font-weight: 700;

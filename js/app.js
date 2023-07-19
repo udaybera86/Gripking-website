@@ -1,4 +1,5 @@
 "use strict";
+// <----------------------------------- Hero Section Cursor Effect Start ----------------------------------------->
 
 const cursor = document.querySelector(".cb-cursor");
 window.onpointermove = event => {
@@ -20,6 +21,8 @@ elements.map(element => {
         cursor.classList.remove("-video")
     }
 })
+
+// <----------------------------------- Hero Section Cursor Effect End ----------------------------------------->
 
 // <----------------------------------- Dropdown menu hover Start ----------------------------------------->
 

@@ -1,0 +1,6 @@
+@media only screen and (width >=1750px) {
+    .homeHero__title {
+        font-size: 8.5rem;
+        line-height: 16rem;
+    }
+}
